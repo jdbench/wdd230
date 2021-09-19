@@ -22,7 +22,7 @@ header h1 {
     margin-left: 20%;
 }
 li{
-    color: gray;
+    color: darkblue;
 }
 footer {
     border-radius: 10px;
@@ -36,7 +36,7 @@ footer a{
     color: black;
 }
 #lastEdit{
-    color: yellow;
+    color: #F4A261;
     font-size: 11px;
     margin-bottom: 1%;
 }
