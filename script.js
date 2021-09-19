@@ -1,4 +1,9 @@
+function currentYear(){
+    let y = querySelector("footer p")
+    
+}
+    
 function lastEdit(){
-    let lastEdit=document.lastModified;
-    document.write(" "+lastEdit.substr(0,10));
+    var x= new Date(document.lastModified);
+    document.getElementById("lastEdit").innerHTML = x;
 }

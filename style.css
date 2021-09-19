@@ -1,0 +1,44 @@
+html, body {
+    z-index: 1;
+    background-color: #EDF0DA;
+    min-height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content {
+    height: auto;
+    max-width: 500px;
+    margin: auto;
+}
+header {
+    border-radius: 10px;
+    background: #AA4465;
+    padding: 20px;
+    height: 20%;
+    width: 100%;
+    text-align: center;
+}
+li{
+    color: gray;
+}
+footer {
+    background-color:#AA4465;
+}
+footer a{
+    color: black;
+}
+#lastEdit{
+    color: yellow;
+}
+img { 
+    z-index: 2;
+    border-radius: 5px;
+    box-shadow: 3px 3px #888888;
+    
+    position: absolute;
+    margin-left: 42%;
+    margin-top: -9%;
+    width: 15%;
+}
+h2 {
+    border-bottom: 1px solid gray;
+}
