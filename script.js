@@ -1,9 +1,8 @@
-function currentYear(){
-    let y = querySelector("footer p")
-    
-}
-    
-function lastEdit(){
-    var x= new Date(document.lastModified);
-    document.getElementById("lastEdit").innerHTML = x;
-}
+let x = new Date(document.lastModified);
+let date = new Date().getFullYear();
+let yearSpan = document.querySelector('#year');
+document.getElementById("lastEdit").innerHTML = "Last Updated: " + x;
+yearSpan.textContent = date;
+
+
+

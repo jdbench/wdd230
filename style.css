@@ -11,33 +11,43 @@ html, body {
 }
 header {
     border-radius: 10px;
-    background: #AA4465;
-    padding: 20px;
+    background: #2A9D8F;
+    padding: 1px;
     height: 20%;
     width: 100%;
-    text-align: center;
+    text-align: left;
+    margin:auto;
+}
+header h1 {
+    margin-left: 20%;
 }
 li{
     color: gray;
 }
 footer {
-    background-color:#AA4465;
+    border-radius: 10px;
+    background: #2A9D8F;
+    padding: 1px;
+    height: 20%;
+    width: 100%;
+    text-align: center;
 }
 footer a{
     color: black;
 }
 #lastEdit{
     color: yellow;
+    font-size: 11px;
+    margin-bottom: 1%;
 }
 img { 
     z-index: 2;
     border-radius: 5px;
     box-shadow: 3px 3px #888888;
-    
     position: absolute;
-    margin-left: 42%;
-    margin-top: -9%;
-    width: 15%;
+    margin-left: 40%;
+    margin-top: -8%;
+    width: 12%;
 }
 h2 {
     border-bottom: 1px solid gray;
