@@ -23,7 +23,7 @@
    */
   
   body {
-    margin: 0;
+    margin: auto;
   }
   
   /**
@@ -356,7 +356,6 @@
   [hidden] {
     display: none;
   }
-
   #visHeir {
       grid-column: 1/1;
   }
