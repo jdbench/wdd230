@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    display: flex;
+    width: 100%;
+}
+img {
+    float: left;
+}
+header {
+    display: inline-flex;
+    background-color: #36291F;
+}
+header ul {
+    text-align: center;
+}
+header ul li{
+    margin-left: 40px;
+    display: inline-block;
+    padding: 15px;
+}
+header ul li:hover {
+    background-color:blanchedalmond;
+}
+header ul li a{
+    font-size: 28px;
+    width: 20%;
+    color: #B89B7F;
+    text-decoration: none;
+    list-style: none;
+}
+header ul li a:hover{
+    color: gray;
+}
