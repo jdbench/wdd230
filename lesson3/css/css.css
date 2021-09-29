@@ -38,10 +38,18 @@ header ul li a{
 header ul li a:hover{
     color: gray;
 }
+main p {
+    color:#36291F;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size:larger;
+}
 footer {   
     padding: 5px;
     color:#B89B7F;
     background-color: #36291F;
+}
+footer p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 footer a{
     color: #B89B7F;
