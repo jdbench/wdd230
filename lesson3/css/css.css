@@ -1,12 +1,19 @@
 body {
+    width: 960px;
+    margin: auto;
     text-align: center;
-    display: flex;
-    width: 100%;
+    background-color:#94948C;
+    align-items: center;
+}
+#content {
+    margin:  auto;
+    background-color:#B89B7F;
 }
 img {
     float: left;
 }
 header {
+    width: 100%;
     display: inline-flex;
     background-color: #36291F;
 }
@@ -30,4 +37,18 @@ header ul li a{
 }
 header ul li a:hover{
     color: gray;
+}
+footer {   
+    padding: 5px;
+    color:#B89B7F;
+    background-color: #36291F;
+}
+footer a{
+    color: #B89B7F;
+}
+footer a:visited{
+    color:bisque;
+}
+footer a:hover{
+    color:aliceblue;
 }
