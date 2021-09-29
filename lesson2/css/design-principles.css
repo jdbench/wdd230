@@ -65,15 +65,29 @@
     color: bisque;
     background-color:#94948C;
 }
-@media  screen and (max-width: 700px) {
-  html {
-    max-width: 600px;
+@media screen and (max-width: 1700px) {
+  main {
+    grid-template-columns: 1fr 1fr;
   }
+  img{
+    max-width:500px;
+  }
+  #visHeir {
+    grid-column: 1/1;
+}
+#ruleOfThirds {
+  grid-column: 2/2;
+}
+#whiteSpaceCleanDesign {
+  grid-column: 1/1;
+}
+}
+@media  screen and (max-width: 1010px) {
   main {
     grid-template-columns: 1fr;
   }
   img {
-    max-width: 300px;
+    max-width: 450px;
   }
   #visHeir {
     grid-column: 1/1;
@@ -87,10 +101,7 @@
 }
 
 @media screen and (max-width: 480px){
-  html {
-    max-width: 400px;
-  }
-  img{
+  img {
     max-width: 350px;
   }
   main{
