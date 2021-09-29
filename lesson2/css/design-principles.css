@@ -82,7 +82,7 @@
   grid-column: 1/1;
 }
 }
-@media  screen and (max-width: 1010px) {
+@media  screen and (max-width: 1020px) {
   main {
     grid-template-columns: 1fr;
   }
