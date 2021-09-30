@@ -1,41 +1,48 @@
 body {
-    width: 960px;
     margin: auto;
     text-align: center;
     background-color:#94948C;
     align-items: center;
 }
 .content {
+    max-width:1400px;
     margin:  auto;
     background-color:#B89B7F;
 }
 img {
     float: left;
 }
-header {
+.topNav {
     width: 100%;
-    display: inline-flex;
     background-color: #36291F;
 }
-header ul {
+
+.topNav{
+    padding: 2px;
+}
+nav ul {
+    display: flex;
     text-align: center;
 }
-header ul li{
+.topNav ul li{
     margin-left: 40px;
     display: inline-block;
     padding: 15px;
 }
-header ul li:hover {
+.topNav ul li:hover {
     background-color:blanchedalmond;
 }
-header ul li a{
-    font-size: 28px;
-    width: 20%;
+h1 {
+    font-size: 60px;
+    color:#36291F;
+}
+.topNav ul li a{
+    font-size: 48px;
     color: #B89B7F;
     text-decoration: none;
     list-style: none;
 }
-header ul li a:hover{
+.topNav ul li a:hover{
     color: gray;
 }
 main p {
