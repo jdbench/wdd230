@@ -5,7 +5,7 @@ body {
     background-color:#94948C;
     align-items: center;
 }
-#content {
+.content {
     margin:  auto;
     background-color:#B89B7F;
 }
