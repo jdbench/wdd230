@@ -27,7 +27,7 @@ nav ul {
 .topNav ul li{
     margin-left: 40px;
     display: inline-block;
-    padding: 15px;
+    padding: 10px;
 }
 .topNav ul li:hover {
     background-color:blanchedalmond;
@@ -37,6 +37,7 @@ h1 {
     color:#36291F;
 }
 .topNav ul li a{
+    padding: 10px;
     font-size: 48px;
     color: #B89B7F;
     text-decoration: none;
