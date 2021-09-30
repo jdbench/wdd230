@@ -1,0 +1,29 @@
+body{
+    background-color:aquamarine;
+    text-align: center;
+}
+.content{
+    max-width:fit-content;
+    margin: auto;
+    background-color: bisque;
+    border-radius:25px;
+}
+header, .signature{
+    background-color:lightsalmon;
+    padding-top: 10px;
+    padding-bottom: 10px;    
+}
+header{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.signature{
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.signature a{
+    color:green;
+}
+.signature a:hover{
+    color:darkcyan;
+}

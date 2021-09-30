@@ -44,9 +44,7 @@ img {
     z-index: 2;
     border-radius: 5px;
     box-shadow: 3px 3px #888888;
-    position: absolute;
-    margin-left: 40%;
-    margin-top: -8%;
+    float: right;
 }
 h2 {
     border-bottom: 1px solid gray;

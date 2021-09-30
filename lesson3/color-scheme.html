@@ -3,18 +3,20 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Weather's a Bench Audience</title>
-        <meta name="description" content="Color scheme of the site">
+        <title>Weather's a Bench</title>
+        <meta name="description" content="Weather news website">
+        <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/css.css">
+        <link rel="icon" href="pictures/logo.png">
     </head>
     <body>
-        <header>
-            <h1>Weather's a Bench</h1>
-        </header>
         <div class="content">
         <main>
+            <div class="header">
+            <img class="logo" src="pictures/logo.png" alt="Site logo">  
+            <h1>Weather's a Bench</h1>
+            </div>
             <div class="topNav">
-                <img class="logo" src="pictures/1190768.jpg" width="70" desc="Website Logo">
                 <nav>
                     <ul>
                         <li><a href="index.html">Home</a></li>
@@ -26,10 +28,12 @@
             </div>
         </main>
         <footer>
-            <p>&copy; <span id="year"></span> | Justin D. Bench | Idaho | <a href="https://jdbench.github.io/wdd230/">Assignment Portal</a></p>
-            <div id="lastEdit"></div>
-         </footer>
-         </div>
-         <script src="js/script.js"></script>
-     </body>
+            <div class="signature">
+                <p>&copy; <span id="year"></span> | Justin D. Bench | Idaho | <a href="../index.html">Assignment Portal</a></p>
+                <div id="lastEdit"></div>
+            </div>
+        </footer>
+        </div>
+        <script src="js/script.js"></script>
+    </body>
 </html>
