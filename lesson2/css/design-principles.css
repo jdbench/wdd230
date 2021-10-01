@@ -8,7 +8,7 @@ main {
     text-align: center;
   }
   h1 {
-    color: greenyellow;
+    color: black;
     background-color: #70808E;
     padding: 12%;
     font-size: 2em;
@@ -29,13 +29,13 @@ main {
   footer {
       width: 100%;
       text-align: center;
-      color: greenyellow  ;
+      color: black  ;
       background-color: #70808E;
       padding: 2%;
   }
 
   footer a{
-      color:greenyellow;
+      color:black;
   }
   footer a:hover{
     color: aquamarine;
