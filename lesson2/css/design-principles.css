@@ -35,9 +35,11 @@ main {
   }
 
   footer a{
-      color:lightcoral;
+      color:greenyellow;
   }
-
+  footer a:hover{
+    color: aquamarine;
+  }
   p {
       font-family:Verdana, Geneva, Tahoma, sans-serif;
       font-size: 16px;
