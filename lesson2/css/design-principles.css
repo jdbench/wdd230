@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
- html {
-    background-color: #908E96;
-  }
-  main {
+body{
+  background-color: lightcoral;
+}
+main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
   }
   h1 {
-    color: white;
+    color: greenyellow;
     background-color: #70808E;
     padding: 12%;
     font-size: 2em;
@@ -29,13 +29,13 @@
   footer {
       width: 100%;
       text-align: center;
-      color: white;
+      color: greenyellow  ;
       background-color: #70808E;
       padding: 2%;
   }
 
   footer a{
-      color:aqua;
+      color:lightcoral;
   }
 
   p {
