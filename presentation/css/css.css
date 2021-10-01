@@ -22,7 +22,7 @@ header{
     border-bottom-right-radius: 25px;
 }
 .signature a{
-    color:aqua;
+    color:black;
 }
 .signature a:hover{
     color:darkcyan;
