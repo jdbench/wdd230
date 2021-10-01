@@ -1,16 +1,20 @@
 html, body {
     z-index: 1;
-    background-color: #EDF0DA;
+    
     min-height: 100%;
     font-family: Arial, Helvetica, sans-serif;
 }
 .content {
+    background-color: #EDF0DA;
     height: auto;
     max-width: 500px;
     margin: auto;
+    padding: 2px;
+    border-radius: 15px;
 }
 header {
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     background: #2A9D8F;
     padding: 1px;
     height: 20%;
@@ -20,12 +24,14 @@ header {
 }
 header h1 {
     margin-left: 20%;
+    font-size: 24px;
 }
 li{
     color: darkblue;
 }
 footer {
-    border-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     background: #2A9D8F;
     padding: 1px;
     height: 20%;
@@ -41,11 +47,10 @@ footer a{
     margin-bottom: 1%;
 }
 img { 
-    height: 100px;
     z-index: 2;
-    float: right;
     border-radius: 5px;
     box-shadow: 3px 3px #888888;
+    float: right;
 }
 h2 {
     border-bottom: 1px solid gray;
