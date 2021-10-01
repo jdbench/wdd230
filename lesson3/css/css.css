@@ -14,11 +14,6 @@ body {
     padding-top: 5px;
     text-align: center;
 }
-.logo {
-    float: left;
-    margin-left: 75px;
-    margin-right:-145px;
-}
 .topNav, footer{
     background-color:#518260;
 }
@@ -28,6 +23,7 @@ body {
 }
 .topNav nav ul {
     display: flex;
+    flex-direction:row;
     list-style: none;
     justify-content: space-around;
     border-left: 2px white;
