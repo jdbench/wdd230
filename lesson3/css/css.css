@@ -188,11 +188,13 @@ footer a:hover, #linkHover:hover{
 #headerFont, #footerFont, #navFont, #heading2Font, #heading3Font, #paragraphFont{
     display: flex;
     flex-direction: column;
-    border-style: groove;;
+    border-style: groove;
+
 }
-#headerFont p, #footerFont p, #navFont p, #navFont h2, #heading2Font p, #heading2Font h2, #heading3Font p, #paragraphFont p{
+#headerFont p, #headerFont h1, #footerFont p, #navFont p, #navFont h2, #heading2Font p, #heading2Font h2, #heading3Font h3, #heading3Font p, #paragraphFont p{
     color: black;
     text-align: left;
+    margin-left: 30px;
 }
 @media screen and (max-width: 750px){
     .topNav nav ul{
