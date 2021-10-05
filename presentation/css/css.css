@@ -46,3 +46,12 @@ header{
     margin-bottom: 15px;
     box-shadow: 50px;
 }
+#example{
+    color: black;
+    background-color: purple;
+    width: 340px;
+    height: 180px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: 50px;    
+}
