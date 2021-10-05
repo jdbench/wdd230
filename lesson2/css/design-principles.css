@@ -68,8 +68,11 @@ main {
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       padding: 12px;
   }
+  div a{
+    color: black;
+  }
   div a:visited{
-    color: lightcyan;
+    color: black;
   }
   div a:hover{
     color: bisque;
