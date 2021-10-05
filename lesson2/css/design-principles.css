@@ -1,18 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+html {
+background-color:bisque
+}
 body{
   background-color: rgb(248, 126, 126);
+  max-width: 1200px;
+  text-align: center;
+  margin: auto;
 }
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    text-align: center;
+    margin:auto;
   }
-  h1 {
+  h1, .footer{
     color: black;
     background-color: #70808E;
-    padding: 12%;
-    font-size: 2em;
-    margin: 0.67em 0;
+    padding: 15px;
+    margin: 0 auto;
+  }
+  h1{
+   font-size:20px; 
+  }
+  h2{
+    font-size: 18px;
+  }
+  .footer{
+    font-size:20px;
+    text-align: center;
+    grid-column: 1/4;
   }
   #visHeir {
       grid-column: 1/1;
@@ -26,18 +42,10 @@ main {
   #whiteSpaceCleanDesign {
       grid-column: 3/3;
   }
-  footer {
-      width: 100%;
-      text-align: center;
-      color: black  ;
-      background-color: #70808E;
-      padding: 2%;
-  }
-
-  footer a{
+  .footer a{
       color:black;
   }
-  footer a:hover{
+  .footer a:hover{
     color: aquamarine;
   }
   p {
@@ -45,7 +53,7 @@ main {
       font-size: 16px;
   }
 
-  main p{
+  .p1{
       border-radius: 30px;
       background-color:aliceblue;
       margin: auto;
@@ -58,7 +66,7 @@ main {
 
   h2 a{
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      padding: 20px;
+      padding: 12px;
   }
   div a:visited{
     color: lightcyan;
@@ -67,12 +75,18 @@ main {
     color: bisque;
     background-color:#94948C;
 }
-@media screen and (max-width: 1700px) {
-  main {
-    grid-template-columns: 1fr 1fr;
+@media screen and (max-width: 1300){
+  h1{
+    font-size: 24px;
   }
-  img{
-    max-width:500px;
+}
+@media  screen and (max-width: 1200px) {
+  main {
+    grid-template-columns: 450px 450px;
+    justify-content: center;
+  }
+  img {
+    max-width: 450px;
   }
   #visHeir {
     grid-column: 1/1;
@@ -84,30 +98,13 @@ main {
   grid-column: 1/1;
 }
 }
-@media  screen and (max-width: 1020px) {
-  main {
-    grid-template-columns: 1fr;
-  }
-  img {
-    max-width: 450px;
-  }
-  #visHeir {
-    grid-column: 1/1;
-}
-#ruleOfThirds {
-  grid-column: 1/1;
-}
-#whiteSpaceCleanDesign {
-  grid-column: 1/1;
-}
-}
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 600px){
   img {
     max-width: 350px;
   }
   main{
-    grid-template-columns: 1fr;
+    grid-template-columns: 400px;
   }
   #visHeir {
     grid-column: 1/1;
@@ -117,5 +114,10 @@ main {
 }
 #whiteSpaceCleanDesign {
   grid-column: 1/1;
+}
+.footer{
+  grid-column: 1/1;
+  font-size: 14px;
+  margin:auto;
 }
 }
