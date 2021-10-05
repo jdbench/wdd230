@@ -21,10 +21,13 @@ header{
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
 }
-.signature a{
+li{
+    list-style: none;
+}
+.a{
     color:black;
 }
-.signature a:hover{
+.a:hover{
     color:darkcyan;
 }
 #powerpoint li{
@@ -44,7 +47,6 @@ header{
     height: 180px;
     margin-top: 15px;
     margin-bottom: 15px;
-    box-shadow: 50px;
 }
 #example{
     color: black;
@@ -53,5 +55,4 @@ header{
     height: 180px;
     margin-top: 15px;
     margin-bottom: 15px;
-    box-shadow: 50px;    
 }
