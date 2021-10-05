@@ -1,3 +1,80 @@
-@media screen and (min-width: 1201){
-    
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap');
+@media screen and (max-width: 2100px){
+    header, footer, footer a, footer a:visited, .main-nav a{
+        color:black;
+    }
+    nav, footer {
+        background-color: #518260;
+    }
+    main, footer{
+        max-width: 960px;
+    }
+    header{
+        width: 100%;
+        background-color: lightgray;
+        padding: 20px;
+        margin-bottom:-18px;
+        box-sizing:border-box;
+    }
+    .header-logo{
+        margin-bottom:-6%;
+        margin-left: 31%;
+    }
+    .title{
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 50px;
+    }
+    .motto{
+        text-align: center;
+        margin-top: -2%;
+        margin-right: 10%;
+        opacity: 76%;
+    }
+    .main-nav{
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        padding: 2px;
+    }
+    .main-nav ul{
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        margin-left: -2%;
+    }
+    .main-nav li{
+        padding:25px;
+        font-size: 32px;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        font-family: 'Noto Sans', sans-serif;;
+    }
+    .main-nav a{
+        padding: 42px;
+        text-decoration: none;
+    }
+    .main-nav a:hover{
+        background-color: #2C2F2D;
+        color: gray;
+    }
+    footer {
+        margin: auto;
+        text-align: center;
+        font-size: 16px;
+        padding:5px;
+        color:Black;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+    footer a{
+        color: Black;
+    }
+    footer a:visited{
+        color:black;
+    }
+    footer a:hover, #linkHover:hover{
+        color:aliceblue;
+    }
 }
