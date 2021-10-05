@@ -2,8 +2,9 @@ body {
     margin: 0 auto;
     text-align: center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
 }
-.content,.header {
+.content,.header, footer{
     margin:  0 auto;
 }
 .content {
@@ -18,15 +19,27 @@ body {
 nav ul li a, footer{
     background-color:#518260;
 }
-nav ul {
+.navbar{
+    margin-left: -15px;
+    margin-right: 15px;
     display:flex;
-    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-links{
+    display:flex;
+}
+.nav-item{
+    background-color: #518260;
+    padding: 21px;
     list-style-type: none;
     justify-content: center;
+    margin-left:0;
 }
 nav ul li a{
-    padding:24px;
-    font-size: 36px;
+    margin-left:0;
+    padding: 20px;
+    font-size: 32px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: Black;
     text-decoration: none;
@@ -202,15 +215,21 @@ footer a:hover, #linkHover:hover{
     text-align: left;
     margin-left: 30px;
 }
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1000px) {
     #personas{
         display: flex;
         flex-direction: column;
     }
+    nav ul li a{
+        font-size:26px;
+    }
 }
-@media screen and (max-width: 750px){
+@media screen and (max-width: 875px){
     nav ul{
-        flex-direction: column;
+        justify-content: center;
+    }
+    nav ul li a{
+        font-size: 20px;
     }
     #typographyDiv{
         display: flex;
@@ -224,9 +243,29 @@ footer a:hover, #linkHover:hover{
         display: flex;
         flex-direction: column;
     }
-@media screen and (max-width: 444px){
+}
+@media screen and (max-width: 750px){
+    h1{
+        font-size: 36px;
+    }
+    main h2 {
+        font-size: 20px;
+    }
+    main p {
+        font-size: 16px;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    nav ul li a{
+        margin-top:30;
+    }
+}
+@media screen and (max-width: 550px){
+    h1{
+        font-size: 28px;
+    }
     .persona{
         width: 150px;
     }
-}
 }
