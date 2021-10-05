@@ -57,10 +57,15 @@ li{
     margin-bottom: 15px;
 }
 video, iframe{
-    width:460px;
+    width:600px;
 }
-@media screen and (max-width: 577px){
+@media screen and (max-width: 610px){
     video, iframe{
-        width: 300;
+        width: 450px;
+    }
+}
+@media screen and (max-width: 470px){
+    video, iframe{
+        width: 300px;
     }
 }
