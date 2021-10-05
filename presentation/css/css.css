@@ -3,7 +3,7 @@ body{
     text-align: center;
 }
 .content{
-    max-width:fit-content;
+    max-width:1300px;
     margin: auto;
     background-color: bisque;
     border-radius:25px;
@@ -55,4 +55,12 @@ li{
     height: 180px;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+video, iframe{
+    width:460px;
+}
+@media screen and (max-width: 577px){
+    video, iframe{
+        width: 300;
+    }
 }
