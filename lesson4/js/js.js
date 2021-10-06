@@ -44,10 +44,3 @@ function dropdownFunction() {
       x.style.display = "flex";
     }
 }
-function myMap(){
-    let mapProp = {
-        center:new google.maps.LatLng(42.103754, -111.882900),
-        zoom:5
-    };
-    let map = new google.maps.Map(document.getElementById("map"),mapProp);
-}
