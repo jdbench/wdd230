@@ -1,2 +1,122 @@
-@media screen and (max-width: 480px){
+.header, .footer, .footer a, .footer a:visited, .nav-item a{
+    color:black;
+}
+nav, .footer {
+    background-color: #518260;
+}
+.content{
+    max-width: 100%;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    background-color: lightgray;
+    padding: 15px;
+    box-sizing:border-box;
+}
+.header-logo{
+    position:absolute;
+    top: 8px;
+    bottom: 0px;
+    left: 0px;
+    right: 250px;
+    margin: 0 auto;
+    z-index: 2;
+    width: 60px;
+
+}
+.title{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: -5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.motto{
+    font-size: 16px;
+    text-align: center;
+    opacity: 76%;
+    margin: 0 auto;
+}
+nav{
+    text-align: center;
+}
+.navbar{
+    display:none;
+}
+.burger{
+    display:flex;
+    flex: auto;
+    box-sizing: border-box;
+    margin:0 auto;
+    background-color: #518260;
+    font-family: 'Noto Sans Display', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+}
+.burger a{
+    text-decoration: none;
+    padding:20px;
+    flex:1;
+}
+.burger a.icon{
+    color:black;
+    background-color: #518260;
+}
+.burger a:hover{
+    background-color:#2C2F2D;
+    color: gray;
+}
+#dropdown-links{
+    margin: 0 auto;
+    padding: 0;
+    display:none;
+    box-sizing: border-box;
+    background-color: gray;
+    flex-direction: column;
+    flex: auto;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.nav-links{
+    display:none;
+    box-sizing: border-box;
+    background-color: #518260;
+    flex-direction: column;
+    flex: auto;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+}
+.nav-item{
+    display: flex;
+    flex: 1;
+    list-style-type: none;
+}
+.nav-item a{
+    flex: auto;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    font-family: 'Noto Sans Display', sans-serif;
+    color: Black;
+    text-decoration: none;
+}
+.nav-item a:hover{
+    color: gray;
+    background-color: #2C2F2D;
+}
+.footer {
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+    padding:5px;
+    color:Black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.footer a:hover{
+    color:aliceblue;
 }

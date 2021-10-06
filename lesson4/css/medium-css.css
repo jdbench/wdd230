@@ -1,3 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap');
-@media screen and (max-width: 1200px){
+@media screen and (min-width: 480px) and (max-width: 1024px){
+    .title{
+        font-size: 30px;
+    }
+    .motto{
+        font-size: 20px;
+        margin-right: 28px;
+    }
+    .header-logo{
+        right: 365px;
+        top:3px;
+        width: 90px;
+    }
 }

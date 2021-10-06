@@ -35,3 +35,12 @@ let dow = weekDay[d.getDay()];
 let currentMonth = month[d.getMonth()];
 //turn into string
 document.getElementById('currentDate').innerHTML = dow+", "+dd+" "+currentMonth+" "+yyyy;
+
+function myFunction() {
+    let x = document.getElementById('dropdown-links');
+    if (x.style.display === "flex") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "flex";
+    }
+  }

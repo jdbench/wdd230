@@ -1,24 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap');
-@media screen and (max-width: 2100px){
-    header, footer, footer a, footer a:visited, .main-nav a{
+@media screen and (min-width: 1025px)
+{
+    .header, .footer, .footer a, .footer a:visited, .main-nav a{
         color:black;
     }
-    nav, footer {
+    nav, .footer {
         background-color: #518260;
     }
-    main, footer{
-        max-width: 960px;
+    .content{
+        max-width: 75%;
+        margin: 0 auto;
     }
-    header{
+    .header{
         width: 100%;
         background-color: lightgray;
         padding: 20px;
-        margin-bottom:-18px;
         box-sizing:border-box;
     }
     .header-logo{
-        margin-bottom:-6%;
-        margin-left: 31%;
+        width: auto;
+        right: 580px;
+        top: 5px;
     }
     .title{
         text-align: center;
@@ -26,41 +28,53 @@
         font-size: 50px;
     }
     .motto{
+        font-size: 24px;
         text-align: center;
-        margin-top: -2%;
-        margin-right: 10%;
+        margin-right: 120px;
         opacity: 76%;
     }
-    .main-nav{
-        box-sizing: border-box;
-        display: flex;
-        justify-content: center;
-        text-align: center;
+    .burger{
+        display:none;
+    }
+    .dropdown{
+        display:none;
+    }
+    .navbar{
+        display:flex;
+        background-color: #518260;
         width: 100%;
-        padding: 2px;
+        flex: auto;
     }
-    .main-nav ul{
+    .nav-links{
+        position: static;
+        flex-direction: row;
+        display:flex;
+        flex: auto;
+        align-items: stretch;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .nav-item{
         display: flex;
-        justify-content: space-around;
-        list-style: none;
-        margin-left: -2%;
+        flex: 1;
+        list-style-type: none;
     }
-    .main-nav li{
-        padding:25px;
-        font-size: 32px;
-        margin-left: 3rem;
-        margin-right: 3rem;
-        font-family: 'Noto Sans', sans-serif;;
-    }
-    .main-nav a{
-        padding: 42px;
+    .nav-item a{
+        flex: auto;
+        text-align: center;
+        padding: 20px;
+        font-size: 21px;
+        font-family: 'Noto Sans Display', sans-serif;
+        color: Black;
         text-decoration: none;
     }
-    .main-nav a:hover{
-        background-color: #2C2F2D;
+    .nav-item a:hover{
         color: gray;
+        background-color: #2C2F2D;
     }
-    footer {
+    .footer {
         margin: auto;
         text-align: center;
         font-size: 16px;
@@ -68,13 +82,7 @@
         color:Black;
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
     }
-    footer a{
-        color: Black;
-    }
-    footer a:visited{
-        color:black;
-    }
-    footer a:hover, #linkHover:hover{
+    .footer a:hover{
         color:aliceblue;
     }
 }

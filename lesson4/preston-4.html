@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Weather's a Bench</title>
         <meta name="description" content="Weather news website">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="/..css/normalize.css">
         <link rel="stylesheet" href="css/small-css.css">
         <link rel="stylesheet" href="css/medium-css.css">
@@ -12,31 +13,48 @@
         <link rel="icon" href="images/logo.png">
     </head>
     <body>
-        <header>
+        <header class="header">
             <img class="header-logo" src="images/logo.png">
             <h1 class="title">Weather's a Bench</h1>
             <h2 class="motto">Don't let it get you down</h2>
         </header>
-        <nav class="main-nav">
-            <ul>
-                <li>Home</li>
-                <li><a href="preston-4.html">Preston</a></li>
-                <li>Soda Springs</li>
-                <li>Fish Haven</li>
-                <li>Storm Center</li>
-                <li>Gallery</li>
-            </ul>
+        <nav>
+            <div class="navbar">
+                <ul class="nav-links">
+                    <li class="nav-item"><a>Home</a></li>
+                    <li class="nav-item"><a href="preston-4.html">Preston</a></li>
+                    <li class="nav-item"><a>Soda Springs</a></li>
+                    <li class="nav-item"><a>Fish Haven</a></li>
+                    <li class="nav-item"><a>Storm Center</a></li>
+                    <li class="nav-item"><a>Gallery</a></li>
+                </ul>
+            </div>
+            <div class="burger">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">Menu <i class="fa fa-bars"></i></a>
+            </div>
+            <div class="dropdown">
+                <ul id="dropdown-links">
+                    <li class="nav-item"><a>Home</a></li>
+                    <li class="nav-item"><a href="preston-4.html">Preston</a></li>
+                    <li class="nav-item"><a>Soda Springs</a></li>
+                    <li class="nav-item"><a>Fish Haven</a></li>
+                    <li class="nav-item"><a>Storm Center</a></li>
+                    <li class="nav-item"><a>Gallery</a></li>
+                </ul>
+            </div>            
         </nav>
+        <div class="content">
         <main>
             <div class="weather-summary"></div>
             <div class="5-day-forecast"></div>
             <div class="article"></div>
             <div class="contact-information"></div>
         </main>
-        <footer>
+        <footer class="footer">
             <p>&copy; <span id="year"></span> | Justin D. Bench | Idaho | <a href="../index.html">Assignment Portal</a></p>
             <div id="currentDate"></div>
         </footer>
+        </div>
         <script src="js/js.js"></script>
     </body>
 </html>
