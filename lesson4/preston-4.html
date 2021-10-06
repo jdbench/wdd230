@@ -30,7 +30,11 @@
                 </ul>
             </div>
             <div class="burger">
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">Menu <i class="fa fa-bars"></i></a>
+                <a href="javascript:void(0);" class="icon" onclick="dropdownFunction()">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>     
+                </a>
             </div>
             <div class="dropdown">
                 <ul id="dropdown-links">
@@ -45,16 +49,36 @@
         </nav>
         <div class="content">
         <main>
-            <div class="weather-summary"></div>
-            <div class="5-day-forecast"></div>
-            <div class="article"></div>
-            <div class="contact-information"></div>
+            
+            <div class="weather-summary">
+                <div id="hero-image">
+                    <h1>Preston Idaho</h1>
+                    <img src="http://via.placeholder.com/400x150" alt="hero box image">
+                </div>
+                <div class="hero-text">
+                    <h2>Weather Summary</h2>
+                    <div class="text-box-small">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Condimentum lacinia quis vel eros donec ac odio tempor orci. Fermentum iaculis eu non diam phasellus vestibulum lorem sed.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="five-day-forecast">
+                <h2 class="f-day-forecast">Five Day Forecast</h2>
+                <div class="article"></div>
+                <h3>Article Title</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Condimentum lacinia quis vel eros donec ac odio tempor orci. Fermentum iaculis eu non diam phasellus vestibulum lorem sed. Vel elit scelerisque mauris pellentesque. Velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus. Tempus urna et pharetra pharetra massa massa ultricies. Et malesuada fames ac turpis egestas integer eget aliquet nibh. Iaculis eu non diam phasellus vestibulum lorem. Iaculis nunc sed augue lacus viverra vitae congue. Tortor id aliquet lectus proin nibh nisl. Elit eget gravida cum sociis. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Amet luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor. Suscipit adipiscing bibendum est ultricies integer quis auctor elit sed. Morbi blandit cursus risus at ultrices mi tempus imperdiet nulla. Gravida neque convallis a cras semper auctor neque. Nulla posuere sollicitudin aliquam ultrices sagittis orci a. Amet venenatis urna cursus eget nunc scelerisque viverra mauris. Lectus urna duis convallis convallis tellus id.</p>
+                <img src="http://via.placeholder.com/350x125">
+            </div>
+            <div class="contact-information">
+            <div id="map"></div>
+            </div>
         </main>
-        <footer class="footer">
+        <footer class="footer"> 
             <p>&copy; <span id="year"></span> | Justin D. Bench | Idaho | <a href="../index.html">Assignment Portal</a></p>
             <div id="currentDate"></div>
         </footer>
         </div>
         <script src="js/js.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBykwQ1bP4f4u2gBZXbKuDIQ5C35n3dHpE&callback=myMap"></script>
     </body>
 </html>

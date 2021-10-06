@@ -1,18 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+/*header Styles*/
 .header, .footer, .footer a, .footer a:visited, .nav-item a{
     color:black;
 }
-nav, .footer {
+.footer {
     background-color: #518260;
 }
+body{
+    background-color: lightgray;
+}
 .content{
-    max-width: 100%;
-    margin: 0 auto;
+    max-width: 90%;
+    margin:0 auto;
+    text-align: center;
 }
 .header{
-    width: 100%;
+    max-width: 100%;
     background-color: lightgray;
     padding: 15px;
-    box-sizing:border-box;
 }
 .header-logo{
     position:absolute;
@@ -20,7 +29,6 @@ nav, .footer {
     bottom: 0px;
     left: 0px;
     right: 250px;
-    margin: 0 auto;
     z-index: 2;
     width: 60px;
 
@@ -36,7 +44,6 @@ nav, .footer {
     font-size: 16px;
     text-align: center;
     opacity: 76%;
-    margin: 0 auto;
 }
 nav{
     text-align: center;
@@ -45,45 +52,44 @@ nav{
     display:none;
 }
 .burger{
-    display:flex;
-    flex: auto;
-    box-sizing: border-box;
-    margin:0 auto;
-    background-color: #518260;
-    font-family: 'Noto Sans Display', sans-serif;
-    font-size: 18px;
-    text-align: center;
-    width: 100%;
+    display: inline-block;
+    cursor: pointer;
 }
 .burger a{
+    position: absolute;
+    top: 20px;
+    right: 40px;
     text-decoration: none;
-    padding:20px;
-    flex:1;
 }
 .burger a.icon{
     color:black;
-    background-color: #518260;
 }
 .burger a:hover{
-    background-color:#2C2F2D;
-    color: gray;
+    border-radius:10px;
+    color:black;
+}
+.bar1, .bar2, .bar3 {
+    width: 24px;
+    height: 5px;
+    background-color: #333;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+.dropdown{
+    display:flex;
 }
 #dropdown-links{
-    margin: 0 auto;
     padding: 0;
     display:none;
-    box-sizing: border-box;
-    background-color: gray;
+    background-color: #518260;
     flex-direction: column;
     flex: auto;
     align-items: stretch;
     justify-content: space-between;
-    width: 100%;
-
+    max-width: 100%;
 }
 .nav-links{
     display:none;
-    box-sizing: border-box;
     background-color: #518260;
     flex-direction: column;
     flex: auto;
@@ -93,7 +99,7 @@ nav{
 }
 .nav-item{
     display: flex;
-    flex: 1;
+    flex: 2;
     list-style-type: none;
 }
 .nav-item a{
@@ -109,7 +115,9 @@ nav{
     color: gray;
     background-color: #2C2F2D;
 }
+/*footer styles*/
 .footer {
+    border: 2px groove gray;
     margin: auto;
     text-align: center;
     font-size: 16px;
@@ -119,4 +127,81 @@ nav{
 }
 .footer a:hover{
     color:aliceblue;
+}
+/*body*/
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*weather summary styles*/
+.weather-summary{
+    padding:2px;
+}
+#hero-image h1{
+    text-align: left;
+    background-color: white;
+    width:100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.hero-text{
+    background-color: white;
+    border: 1px solid white;
+}
+.hero-text h2{
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 15px;
+
+}
+.hero-text p{
+    text-align: left;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+.text-box-small{
+    border-radius: 8px;
+    overflow: hidden;
+}
+#hero-image img{
+    max-width:100%;
+}
+/*5 day forecast styles*/
+.five-day-forecast{
+    border:1px solid #2C2F2D;
+    text-align: left;
+    background-color: white;
+}
+.five-day-forecast h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.five-day-forecast p, .five-day-forecast h3{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+.five-day-forecast img{
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.f-day-forecast{
+    border-bottom:1px solid #2C2F2D;
+    text-align: center;
+    background-color: #518260;
+    padding: 20px;
+}
+/*contact information*/
+#map{
+    width: 200px;
+    height: 100px;
 }

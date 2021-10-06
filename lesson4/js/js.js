@@ -35,12 +35,19 @@ let dow = weekDay[d.getDay()];
 let currentMonth = month[d.getMonth()];
 //turn into string
 document.getElementById('currentDate').innerHTML = dow+", "+dd+" "+currentMonth+" "+yyyy;
-
-function myFunction() {
+//Add a drop down funcionatlity
+function dropdownFunction() {
     let x = document.getElementById('dropdown-links');
     if (x.style.display === "flex") {
       x.style.display = "none";
     } else {
       x.style.display = "flex";
     }
-  }
+}
+function myMap(){
+    let mapProp = {
+        center:new google.maps.LatLng(42.103754, -111.882900),
+        zoom:5
+    };
+    let map = new google.maps.Map(document.getElementById("map"),mapProp);
+}

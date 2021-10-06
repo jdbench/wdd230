@@ -46,7 +46,6 @@
         flex: auto;
     }
     .nav-links{
-        position: static;
         flex-direction: row;
         display:flex;
         flex: auto;
@@ -73,6 +72,11 @@
     .nav-item a:hover{
         color: gray;
         background-color: #2C2F2D;
+    }
+    .hero-image{
+        background-image: url('http://placehold.jp/400x150.png');
+        width: 400px;
+        height: 150px;
     }
     .footer {
         margin: auto;
