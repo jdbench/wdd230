@@ -4,47 +4,57 @@ body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     align-items: center;
 }
-.content,.header, footer{
+.content,.header, .navbar, footer{
     margin:  0 auto;
 }
+.content, .header, .navbar{
+    box-sizing: border-box;
+}
 .content {
-    max-width: 1000px;
+    max-width: 75%;
+}
+footer{
+    width: 100%
 }
 .header {
     background-color:lightgray;
     padding:5px;
     text-align: center;
     margin: 0 auto;
+    width: 100%;
 }
-nav ul li a, footer{
+.nav-item a, footer{
     background-color:#518260;
 }
 .navbar{
-    margin-left: -15px;
-    margin-right: 15px;
+    background-color: #518260;
+    width: 100%;
     display:flex;
-    justify-content: space-around;
-    align-items: center;
+    flex: auto;
 }
 .nav-links{
     display:flex;
+    flex: auto;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 .nav-item{
-    background-color: #518260;
-    padding: 21px;
+    display: flex;
+    flex: 1;
     list-style-type: none;
-    justify-content: center;
-    margin-left:0;
 }
-nav ul li a{
-    margin-left:0;
+.nav-item a{
+    flex: auto;
     padding: 20px;
     font-size: 26px;
     font-family: 'Noto Sans Display', sans-serif;
     color: Black;
     text-decoration: none;
 }
-nav ul li a:hover{
+.nav-item a:hover{
     color: gray;
     background-color: #2C2F2D;
 }
@@ -110,7 +120,7 @@ footer a:hover, #linkHover:hover{
     padding: 15px;
 }
 #persona1, #persona2{
-    height:600px;
+    height:auto;
     margin-bottom: 3px;
 }
 #personas h2, #personas p{
@@ -220,15 +230,21 @@ footer a:hover, #linkHover:hover{
         display: flex;
         flex-direction: column;
     }
-    nav ul li a{
-        font-size:26px;
+    .nav-item a{
+        font-size:22px;
     }
 }
 @media screen and (max-width: 875px){
-    nav ul{
-        justify-content: center;
+    .header{
+        margin: 0 auto;
     }
-    nav ul li a{
+    .navbar{
+        padding: 0px;
+    }
+    .nav-links{
+        flex-direction: column;
+    }
+    .nav-item a{
         font-size: 20px;
     }
     #typographyDiv{
@@ -254,9 +270,6 @@ footer a:hover, #linkHover:hover{
     main p {
         font-size: 16px;
     }
-    nav ul{
-        flex-direction: column;
-    }
     nav ul li a{
         margin-top:30;
     }
@@ -265,7 +278,7 @@ footer a:hover, #linkHover:hover{
     h1{
         font-size: 28px;
     }
-    .persona{
-        width: 150px;
+    #persona1 p, #persona2 p{
+        font-size: 10px;
     }
 }
