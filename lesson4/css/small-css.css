@@ -117,6 +117,7 @@ nav{
 }
 /*footer styles*/
 .footer {
+    width: 90%;
     border: 2px groove gray;
     margin: auto;
     text-align: center;
@@ -173,7 +174,7 @@ p {
     overflow: hidden;
 }
 #hero-image img{
-    max-width:100%;
+    width:100%;
 }
 /*5 day forecast styles*/
 .five-day-forecast{
@@ -193,6 +194,8 @@ p {
 .five-day-forecast img{
     margin-left: 15px;
     margin-bottom: 15px;
+    width: 90%;
+    height: 90%;
 }
 .f-day-forecast{
     border-bottom:1px solid #2C2F2D;
@@ -201,7 +204,11 @@ p {
     padding: 20px;
 }
 /*contact information*/
+.contact-information{
+    text-align: left;
+    width:100%;
+}
 #map{
-    width: 200px;
-    height: 100px;
+    width: 100%;
+    height: 50%;
 }
