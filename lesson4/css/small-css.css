@@ -11,12 +11,16 @@
     background-color: #518260;
 }
 body{
-    background-color: lightgray;
+    background-color: gray;
 }
 .content{
     max-width: 90%;
     margin:0 auto;
     text-align: center;
+    padding-top:15px;
+    padding-left:10px;
+    padding-right:10px;
+    background-color: white;
 }
 .header{
     max-width: 100%;
@@ -45,6 +49,7 @@ body{
     text-align: center;
     opacity: 76%;
 }
+/*nav styles*/
 nav{
     text-align: center;
 }
@@ -80,6 +85,7 @@ nav{
 }
 #dropdown-links{
     padding: 0;
+    margin:0;
     display:none;
     background-color: #518260;
     flex-direction: column;
@@ -98,8 +104,10 @@ nav{
     width: 100%;
 }
 .nav-item{
+    padding:0;
+    margin:0;
     display: flex;
-    flex: 2;
+    flex: 1;
     list-style-type: none;
 }
 .nav-item a{
@@ -155,7 +163,7 @@ p {
 }
 .hero-text{
     background-color: white;
-    border: 1px solid white;
+    border: 3px inset gray;
 }
 .hero-text h2{
     text-align: left;
@@ -178,7 +186,7 @@ p {
 }
 /*5 day forecast styles*/
 .five-day-forecast{
-    border:1px solid #2C2F2D;
+    border:2px outset gray;
     text-align: left;
     background-color: white;
 }
@@ -211,4 +219,5 @@ p {
 #map{
     width: 100%;
     height: 50%;
+    border:2px outset lightgray;
 }
