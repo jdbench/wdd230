@@ -100,9 +100,15 @@
         justify-content: space-between;
     }
     .article-text{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        margin-right: 50px;
+    }
+    .article-text img{
+        float: right;
+        margin-left:15px;
+        max-width: 250px;
+    }
+    .article-text p{
+        text-align: justify;
     }
     .contact-information{
         display: grid;
