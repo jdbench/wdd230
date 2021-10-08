@@ -17,6 +17,7 @@ body{
 .content{
     max-width: 90%;
     margin:0 auto;
+    margin-top: -18px;
     text-align: center;
     padding-left:10px;
     padding-right:10px;
@@ -98,12 +99,6 @@ nav{
 }
 .nav-links{
     display:none;
-    background-color: #518260;
-    flex-direction: column;
-    flex: auto;
-    align-items: stretch;
-    justify-content: space-between;
-    width: 100%;
 }
 .nav-item{
     padding:0;
