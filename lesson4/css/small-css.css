@@ -196,6 +196,10 @@ p {
 .article {
     border: 2px inset rgb(88, 27, 27);
 }
+.article-text{
+    display:flex;
+    flex-direction: column-reverse;
+}
 .article p, .article h3{
     text-align: left;
     margin-top: 10px;
@@ -203,10 +207,13 @@ p {
     margin-right: 15px;
     margin-bottom: 5px;
 }
-.article img{
-    margin-bottom: 15px;
-    width: 90%;
-    height: 90%;
+#article-img1{
+    display: none;
+}
+#article-img2{
+    float: left;
+    margin-left: 15px;
+    width: 80%;
 }
 .f-subhead{
     text-align: center;
