@@ -10,6 +10,7 @@
 }
 .footer {
     background-color: #518260;
+    max-width: 90%;
 }
 body{
     background-color: gray;
@@ -80,7 +81,6 @@ nav{
     height: 5px;
     background-color: #333;
     margin: 4px 0;
-    transition: 0.4s;
 }
 .dropdown{
     display:flex;
@@ -122,7 +122,7 @@ nav{
 }
 /*footer styles*/
 .footer {
-    width: 90%;
+    max-width: 100%;
     border: 2px groove gray;
     margin: auto;
     text-align: center;
@@ -185,36 +185,62 @@ p {
 .five-day-forecast{
     border:2px outset gray;
     text-align: left;
-    background-color: white;
+    background-color: #518260;
+    padding: 20px;
 }
 .five-day-forecast h3{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.five-day-forecast p, .five-day-forecast h3{
+/*article styles*/
+.article {
+    border: 2px inset rgb(88, 27, 27);
+}
+.article p, .article h3{
+    text-align: left;
+    margin-top: 10px;
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 5px;
 }
-.five-day-forecast img{
-    margin-left: 15px;
+.article img{
     margin-bottom: 15px;
     width: 90%;
     height: 90%;
 }
-.f-day-forecast{
-    border-bottom:1px solid #2C2F2D;
+.f-subhead{
     text-align: center;
-    background-color: #518260;
-    padding: 20px;
 }
 /*contact information*/
 .contact-information{
     text-align: left;
     width:100%;
+    border:2px outset lightgray;
+}
+.ci-text{
+    margin-left: 35px;
+    margin-top: 10px;
+}
+.ci-p{
+    margin-top: 5px;
+}
+.ci-loc{
+    display:none;
+}
+#ci-p1{
+    margin-top:10px;
+}
+.map-container{
+    text-align: center;
 }
 #map{
-    width: 100%;
+    width: 90%;
     height: 50%;
-    border:2px outset lightgray;
+    border: none;
+}
+.social{
+    display: none;
+}
+.f-forecast{
+    display: none;
 }

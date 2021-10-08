@@ -71,19 +71,73 @@
         background-color: #2C2F2D;
     }
     .hero-image{
-        background-image: url('http://placehold.jp/400x150.png');
         width: 400px;
         height: 150px;
     }
-    .footer {
-        margin: auto;
-        text-align: center;
-        font-size: 16px;
-        padding:5px;
-        color:Black;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    .hero-text{
+        max-width: 250px;
+        position: relative;
+        bottom: 245px;
+        right: 220px;
     }
-    .footer a:hover{
-        color:aliceblue;
+    .f-subhead{
+        text-align: left;
+    }
+    .five-day-forecast{
+        border: none;
+        width: 100%;
+        margin-top: -213px;
+        background-color: white;
+    }
+    .f-forecast{
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        border:2px outset gray;
+        text-align: left;
+        background-color: #518260;
+        padding: 5px;
+        justify-content: space-between;
+    }
+    .article-text{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .contact-information{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: #518260;
+    }
+    .contact-information iframe{
+        grid-column: 1/2;
+        grid-row:1/3;
+        max-width: 70%;
+    }
+    .footer{
+        max-width: 100%;
+    }
+    #ci-loc{
+        display:block;
+    }
+    #ci-loc a{
+        text-decoration: none;
+        color: black;
+    }
+    #ci-lock a:visited{
+        color: black;
+    }
+    .social{
+        margin-top: 20px;
+        display:flex;
+    }
+    .ci-text{
+        grid-column: 2/3;
+        grid-row: 1/3;
+    }
+    #map{
+        height: 90%;
+        max-width: 90%;
+        margin-top: 9px;
     }
 }

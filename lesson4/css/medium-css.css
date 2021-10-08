@@ -74,15 +74,4 @@
             width: 400px;
             height: 150px;
         }
-        .footer {
-            margin: auto;
-            text-align: center;
-            font-size: 16px;
-            padding:5px;
-            color:Black;
-            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-        }
-        .footer a:hover{
-            color:aliceblue;
-        }
 }
