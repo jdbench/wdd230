@@ -90,6 +90,9 @@ nav{
     display: inline-block;
     cursor: pointer;
 }
+.burger:hover{
+    cursor: pointer;
+}
 .burger a{
     position: absolute;
     top: 20px;
