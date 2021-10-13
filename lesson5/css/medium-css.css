@@ -41,6 +41,9 @@
             margin: 0;
             padding: 0;
         }
+        .nav-links a{
+            font-size: 16px;
+        }
         .hero-image{
             background-image: url('../images/photo1.jpeg');
             width: 400px;
