@@ -5,7 +5,7 @@
     padding: 0;
 }
 /*header Styles*/
-.header, .footer, .footer a, .footer a:visited, .nav-item a{
+.header, .footer, a{
     color:black;
 }
 .footer {
@@ -117,6 +117,7 @@ nav{
 }
 .nav-item a:hover{
     background-color: #2C2F2D;
+    outline: #2C2F2D solid;
 }
 a{
     text-decoration: none;
@@ -136,6 +137,9 @@ a:hover{
     font-size: 16px;
     padding:5px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.footer a:hover{
+    background-color: #2C2F2D;
 }
 /*body*/
 h1{

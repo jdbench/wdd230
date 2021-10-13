@@ -41,6 +41,9 @@ footer {
 footer a{
     color: black;
 }
+footer a:hover{
+    color:aliceblue;
+}
 #lastEdit{
     color: black;
     font-size: 11px;

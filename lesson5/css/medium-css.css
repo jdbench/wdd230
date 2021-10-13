@@ -1,19 +1,10 @@
 @media screen and (min-width: 600px) and (max-width: 1024px){
-        .header, .footer, .footer a, .footer a:visited, .main-nav a{
-            color:black;
-        }
         nav, .footer {
             background-color: #518260;
         }
         .content{
             max-width: 75%;
             margin: 0 auto;
-        }
-        .header{
-            width: 100%;
-            background-color: lightgray;
-            padding: 20px;
-            box-sizing:border-box;
         }
         .header-logo{
             width: auto;
