@@ -53,8 +53,8 @@ body{
 }
 /*nav styles*/
 nav{
-    text-align: center;
     padding:0;
+    margin: 0 auto;
 }
 .navbar{
     display:none;
@@ -114,11 +114,18 @@ nav{
     font-size: 18px;
     font-family: 'Noto Sans Display', sans-serif;
     color: Black;
-    text-decoration: none;
 }
 .nav-item a:hover{
-    color: gray;
     background-color: #2C2F2D;
+}
+a{
+    text-decoration: none;
+}
+.active{
+    text-decoration: underline 10px;
+}
+a:hover{
+    color: gray;
 }
 /*footer styles*/
 .footer {
@@ -128,11 +135,7 @@ nav{
     text-align: center;
     font-size: 16px;
     padding:5px;
-    color:Black;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-}
-.footer a:hover{
-    color:aliceblue;
 }
 /*body*/
 h1{

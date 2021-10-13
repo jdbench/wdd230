@@ -27,7 +27,6 @@
             font-size: 18px;
             text-align: center;
             margin-right: 90px;
-            opacity: 76%;
         }
         .burger{
             display:none;
@@ -50,24 +49,6 @@
             width: 100%;
             margin: 0;
             padding: 0;
-        }
-        .nav-item{
-            display: flex;
-            flex: 1;
-            list-style-type: none;
-        }
-        .nav-item a{
-            flex: auto;
-            text-align: center;
-            padding: 20px;
-            font-size: 18px;
-            font-family: 'Noto Sans Display', sans-serif;
-            color: Black;
-            text-decoration: none;
-        }
-        .nav-item a:hover{
-            color: gray;
-            background-color: #2C2F2D;
         }
         .hero-image{
             background-image: url('http://placehold.jp/400x150.png');
