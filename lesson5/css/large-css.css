@@ -55,7 +55,6 @@
     .background-image{
         background-image: url("https://via.placeholder.com/400x150/FF5349/000000");
         padding: 30px;
-        align-items: left;
         text-align: left;
         height: 300px;
     }
