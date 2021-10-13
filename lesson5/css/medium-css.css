@@ -42,7 +42,7 @@
             padding: 0;
         }
         .hero-image{
-            background-image: url('http://placehold.jp/400x150.png');
+            background-image: url('../images/photo1.jpeg');
             width: 400px;
             height: 150px;
         }
