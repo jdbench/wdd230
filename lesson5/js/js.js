@@ -44,10 +44,12 @@ function dropdownFunction() {
       x.style.display = "flex";
     }
 }
-$(function(){
-  $('a').each(function(){
-  if ($(this).prop('href') == window.location.href) {
-    $(this).addClass('active'); $(this).parents('li').addClass('active');
-  }
+
+	//Add wayfinding
+  $(function(){
+    $('a').each(function(){
+    if ($(this).prop('href') == window.location.href) {
+      $(this).addClass('active'); $(this).parents('li').addClass('active');
+    }
   });
 });
