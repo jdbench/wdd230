@@ -64,34 +64,3 @@ if (banner.style.display === "flex") {
   banner.style.display = "none";
 }
 }
-
-//toggle days of the week
-let mon = document.getElementById("monday");
-let tue = document.getElementById("tuesday");
-let wed = document.getElementById("wednesday");
-let thur = document.getElementById("thursday");
-let fri = document.getElementById("friday");
-let sat = document.getElementById("saturday");
-let sun = document.getElementById("sunday");
-if (dow == "Monday"){
-  sat.style.display = "none";
-  sun.style.display = "none";
-} else if (dow == "Tuesday"){
-  sun.style.display="none";
-  mon.style.display="none";
-} else if (dow == "Wednesday"){
-  mon.style.display="none";
-  tue.style.display="none";
-} else if (dow == "Thursday"){
-  tue.style.display="none";
-  wed.style.display="none";
-} else if (dow == "Friday"){
-  wed.style.display="none";
-  thur.style.display="none";
-} else if (dow == "Saturday"){
-  thur.style.display="none";
-  fri.style.display="none";
-} else{
-  fri.style.display="none";
-  sat.style.displays="none";
-}
