@@ -199,6 +199,23 @@ p {
 .hero-text{
     border: 3px outset gray;
 }
+#medium-overlay, #large-overlay{
+    display: none;
+}
+#small-overlay{
+    color:red;
+    float:right;
+    margin-top:25px;
+    margin-right:25px;
+}
+#for-smalls{
+    height: 200px;
+    width: 100%;
+    background-image: url("../images/hero_image.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
 .hero-text h2{
     text-decoration: underline;
     text-align: left;

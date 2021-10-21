@@ -57,7 +57,7 @@
             margin-bottom: 8px;
             font-size: 24px;
         }
-        #hero-image img{
+        #for-smalls{
             display: none;
         }
         .background-image{
@@ -68,5 +68,16 @@
             padding: 30px;
             height: 400px;
             text-align: left;
+        }
+        #small-overlay, #large-overlay{
+            display: none;
+        }
+        #medium-overlay{
+            display: block;
+            float: right;
+            color: red;
+            font-size: 30px;
+            margin-right: 25px;
+            margin-top: 25px;
         }
 }

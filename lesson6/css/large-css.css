@@ -58,7 +58,7 @@
     .hero-text h2{
         margin-bottom: 8px;
     }
-    #hero-image img{
+    #for-smalls{
         display: none;
     }
     .background-image{
@@ -69,6 +69,17 @@
         padding: 30px;
         height: 400px;
         text-align: left;
+    }
+    #small-overlay, #medium-overlay{
+        display: none;
+    }
+    #large-overlay{
+        display: block;
+        float: right;
+        color: red;
+        margin-right: 25px;
+        margin-top: 25px;
+        font-size: 45px;
     }
     .f-subhead{
         text-align: left;
