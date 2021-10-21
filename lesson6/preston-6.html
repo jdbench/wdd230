@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather's a Bench</title>
+        <meta name="description" content="Weather news website">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small-css.css">
+        <link rel="stylesheet" href="css/medium-css.css">
+        <link rel="stylesheet" href="css/large-css.css">
+        <link rel="icon" href="images/logo.png">
+    </head>
+    <body>
+        <header>
+            <div id="banner">
+                <h1>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</h1>
+                <div onclick="exitBanner()">
+                    <a href="javascript:void(0);" class="close" onclick="exitBanner()">❌</a>
+                </div>
+
+            </div>
+            <div class="header">
+                <img class="header-logo" src="images/logo.png" alt="Website Logo">
+                <h1 class="title">Weather's a Bench</h1>
+                <h2 class="motto">Don't let it get you down</h2>
+            </div>
+        </header>
+        <nav>
+            <div class="navbar">
+                <ul class="nav-links">
+                    <li class="nav-item"><a>Home</a></li>
+                    <li class="nav-item"><a href="preston-5.html">Preston</a></li>
+                    <li class="nav-item"><a>Soda Springs</a></li>
+                    <li class="nav-item"><a>Fish Haven</a></li>
+                    <li class="nav-item"><a>Storm Center</a></li>
+                    <li class="nav-item"><a>Gallery</a></li>
+                </ul>
+            </div>
+            <div class="burger">
+                <a href="javascript:void(0);" class="icon" onclick="dropdownFunction()">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>     
+                </a>
+            </div>
+            <div class="dropdown">
+                <ul id="dropdown-links">
+                    <li class="nav-item"><a>Home</a></li>
+                    <li class="nav-item"><a href="preston-5.html">Preston</a></li>
+                    <li class="nav-item"><a>Soda Springs</a></li>
+                    <li class="nav-item"><a>Fish Haven</a></li>
+                    <li class="nav-item"><a>Storm Center</a></li>
+                    <li class="nav-item"><a>Gallery</a></li>
+                </ul>
+            </div>            
+        </nav>
+        <div class="content">
+        <main>
+            <div class="weather-summary">
+                <div id="hero-image">
+                    <h1>Preston Idaho</h1>
+                    <img src="images/hero_image.jpg" alt="Franklin Country Image">
+                </div>
+                <div class="background-image">
+                    <div class="hero-text">
+                        <h2>Weather Summary</h2>
+                        <div class="text-box-small">
+                            <p>Currently: Rainy</p>
+                            <p id="temp">High: 54</p>
+                            <p id="wind-chill"></p>
+                            <p>Humidity: 95%</p>
+                            <p id="wind">Wind Speed: 12 mph</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="five-day-forecast">
+                <h2 class="f-subhead">Five Day Forecast</h2>
+                    <div class="f-forecast">
+                        <div id="wednesday">
+                            <h3 id="w">Wednesday</h3>
+                            <img src="images/sun.png" alt="sun stock image">
+                            <span>85&#8457;</span>
+                        </div>
+                        <div id="thursday">
+                            <h3 id="th">Thursday</h3>
+                            <img src="images/sun.png" alt="sun stock image">
+                            <span>56&#8457;</span>
+                        </div>
+                        <div id="friday">
+                            <h3 id="f">Friday</h3>
+                            <img src="images/sun.png" alt="sun stock image">
+                            <span>53&#8457;</span>
+                        </div>
+                        <div id="saturday">
+                            <h3 id="s">Saturday</h3>
+                            <img src="images/sun.png" alt="sun stock image">
+                            <span>67&#8457;</span>
+                        </div>
+                        <div id="sunday">
+                            <h3 id="su">Sunday</h3>
+                            <img src="images/sun.png" alt="sun stock image">
+                            <span>59&#8457;</span>
+                        </div>
+            </div>
+            </div>
+            <div class="article">
+                <h3>Article Title</h3>
+                <div class="article-text">
+                    <img id="article-img1" src="images/photo2.jpeg" alt="stock image">
+                    <img id="article-img2" src="images/photo2.jpeg" alt="stock image">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Condimentum lacinia quis vel eros donec ac odio tempor orci. Fermentum iaculis eu non diam phasellus vestibulum lorem sed. Vel elit scelerisque mauris pellentesque. Velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus. Tempus urna et pharetra pharetra massa massa ultricies. Et malesuada fames ac turpis egestas integer eget aliquet nibh. Iaculis eu non diam phasellus vestibulum lorem. Iaculis nunc sed augue lacus viverra vitae congue. Tortor id aliquet lectus proin nibh nisl. Elit eget gravida cum sociis. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Amet luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor. Suscipit adipiscing bibendum est ultricies integer quis auctor elit sed. Morbi blandit cursus risus at ultrices mi tempus imperdiet nulla. Gravida neque convallis a cras semper auctor neque. Nulla posuere sollicitudin aliquam ultrices sagittis orci a. Amet venenatis urna cursus eget nunc scelerisque viverra mauris. Lectus urna duis convallis convallis tellus id.</p>
+                </div>
+            </div>
+            <div class="contact-information">
+                <div class="ci-text">
+                    <h3 class="ci-head">Contact Information</h3>
+                    <p class="ci-p" id="ci-p1"><i class="fa fa-envelope"></i> email@weathersabench.com</p>
+                    <p class="ci-p"><i class="fa fa-phone"></i>+1(234)567-8910</p>
+                    <p class="ci-p" id="ci-loc"><i class="fa fa-map-marker"></i> <a href="https://www.google.com/maps/place/55+E+1st+S,+Preston,+ID+83263/@42.094727,-111.874838,15z/data=!4m5!3m4!1s0x8754f7ea26e3c6e7:0x61e0703e64fb92f4!8m2!3d42.0947268!4d-111.8748376?hl=en">Location</a></p>
+                    <div class="social">
+                        <a href="http://www.facebook.com"><img src="https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=29&h=29" alt="facebook logo"></a>
+                        <a href="http://www.instagram.com"><img src="https://facebookbrand.com/wp-content/uploads/2021/03/glyph-logo_May2016.png?w=29" alt="instagram logo"></a>
+                        <a href="http://www.twitter.com"><img src="images/twitter.png" width="29" height="29" alt="twitter logo"></a>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2960.5947880132935!2d-111.87702628426091!3d42.09473075980795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f7ea26e3c6e7%3A0x61e0703e64fb92f4!2s55%20E%201st%20S%2C%20Preston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1633563356469!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </main>
+        <footer class="footer"> 
+            <p>&copy; <span id="year"></span> | Justin D. Bench | Idaho | <a href="../index.html">Assignment Portal</a></p>
+            <div id="currentDate"></div>
+        </footer>
+        </div>
+        <script src="js/js.js"></script>
+        <script src="js/windchill.js"></script>
+    </body>
+</html>
