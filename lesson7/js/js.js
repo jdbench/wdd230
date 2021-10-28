@@ -1,3 +1,12 @@
+//get current date and split into parts
+let d = new Date();
+let dd = String(d.getDate()).padStart(2, '0');
+let m = String(d.getMonth() + 1);
+let yyyy = d.getFullYear();
+//find span
+let yearSpan = document.querySelector('#year');
+//place current year in span
+yearSpan.textContent = yyyy;
 //create week day array
 let weekDay = new Array(7);
 weekDay[0] = "Sunday";
@@ -35,7 +44,8 @@ function dropdownFunction() {
       x.style.display = "flex";
     }
 }
-//Add wayfinding
+
+	//Add wayfinding
   $(function(){
     $('a').each(function(){
     if ($(this).prop('href') == window.location.href) {
@@ -43,3 +53,14 @@ function dropdownFunction() {
     }
   });
 });
+
+//Display Banner and close banners
+let banner = document.getElementById("banner");
+if (dow=="Saturday"){
+  banner.style.display = "flex";
+}
+function exitBanner(){
+if (banner.style.display === "flex") {
+  banner.style.display = "none";
+}
+}
