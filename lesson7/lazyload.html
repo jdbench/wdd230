@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <script src="../js/jquery-3.6.0.min.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lazyload Images</title>
+        <meta name="description" content="Lazy load assignment webpage">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="css/lazyload.css">
+    </head>
+    <body>
+        <header>
+            <h1>Lazyload Images</h1>
+        </header>
+        <main>
+            <picture>
+                <img src="images/placeholder.jpg" data-src="http://placeimg.com/300/400/any" alt="lazyload image">
+            </picture>
+            <picture>
+                <img src="images/placeholder.jpg" data-src="http://placekitten.com/g/300/400" alt="lazyload image">
+            </picture>
+            <picture>
+                <img src="images/placeholder.jpg" data-src="http://placeimg.com/300/400/animals" alt="lazyload image">
+            </picture>
+            <picture>
+                <img src="images/placeholder.jpg" data-src="http://placeimg.com/300/400/architecture" alt="lazyload image">
+            </picture>
+            <picture>
+                <img src="images/placeholder.jpg" data-src="http://placeimg.com/300/400/nature" alt="lazyload image">
+            </picture>
+            <picture>
+                <img src="images/placeholder.jpg" data-src="http://placeimg.com/300/400/tech" alt="lazyload image">
+            </picture>
+        </main>
+        <footer class="footer"> 
+            <p>&copy; <span id="year"></span> | Justin D. Bench | Idaho | <a href="../index.html">Assignment Portal</a></p>
+            <div id="currentDate"></div>
+        </footer>
+        <script src="../js/footer.js"></script>
+        <script src="js/lazyload.js"></script>
+    </body>
+</html>
