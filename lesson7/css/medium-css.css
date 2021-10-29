@@ -3,7 +3,6 @@
             background-color: #518260;
         }
         .content{
-            max-width: 75%;
             margin: 0 auto;
         }
         .header-logo{
@@ -80,5 +79,15 @@
             font-size: 30px;
             margin-right: 25px;
             margin-top: 25px;
+        }
+        #weather-gallery{
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        picture label{
+            font-size: 20px;
+        }
+        main h2{
+            font-size: 30px;
         }
 }

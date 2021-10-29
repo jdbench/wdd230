@@ -52,6 +52,61 @@
         </nav>
         <div class="content">
         <main>
+            <h2 style="text-align: center;">Weather Gallery</h2>
+            <div id="weather-gallery">
+                <picture>
+                    <img src="images/cloudy.jpg" width="300" height="200" alt="cloudy">
+                    <label>Cloudy weather</label>
+                </picture>
+                <picture>
+                    <img src="images/fall.jpg" width="300" height="200" alt="fall road">
+                    <label>Fallen leaves covering path</label>
+                </picture>
+                <picture>
+                    <img src="images/foggy.jpg"width="300" height="200" alt="foggy landscape">
+                    <label>Foggy landscape</label>
+                </picture>
+                <picture>
+                    <img src="images/icy.jpg"width="300" height="200" alt="icy road">
+                    <label>Icy road</label>
+                </picture>
+                <picture>
+                    <img src="images/mountains.jpg"width="300" height="200" alt="sun behind mountains">
+                    <label>The Sun behind mountains</label>
+                </picture>
+                <picture>
+                    <img src="images/rainy.jpg"width="300" height="200" alt="rainy weather">
+                    <label>Rainy weather</label>
+                </picture>
+                <picture>
+                    <img src="images/snowing.jpg"width="300" height="200" alt="snowing">
+                    <label>Snowy weather</label>
+                </picture>
+                <picture>
+                    <img src="images/stormy.jpg"width="300" height="200" alt="stormy weather">
+                    <label>Lightning strikes during storm</label>
+                </picture>
+                <picture>
+                    <img src="images/sunny.jpg"width="300" height="200" alt="sunny field">
+                    <label>Sunny field</label>
+                </picture>
+            </div>
+                <div class="contact-information">
+                <div class="ci-text">
+                    <h3 class="ci-head">Contact Information</h3>
+                    <p class="ci-p" id="ci-p1"><i class="fa fa-envelope"></i> <a href="mailto: email@weathersabench.com">contact@weathersabench.com</a></p>
+                    <p class="ci-p"><i class="fa fa-phone"></i><a href="tel: +1(234)567-8910">+1(234)567-8910</a></p>
+                    <p class="ci-p" id="ci-loc"><i class="fa fa-map-marker"></i> <a href="https://www.google.com/maps/place/55+E+1st+S,+Preston,+ID+83263/@42.094727,-111.874838,15z/data=!4m5!3m4!1s0x8754f7ea26e3c6e7:0x61e0703e64fb92f4!8m2!3d42.0947268!4d-111.8748376?hl=en">Location</a></p>
+                    <div class="social">
+                        <a href="http://www.facebook.com"><img src="https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=29&h=29" alt="facebook logo"></a>
+                        <a href="http://www.instagram.com"><img src="https://facebookbrand.com/wp-content/uploads/2021/03/glyph-logo_May2016.png?w=29" alt="instagram logo"></a>
+                        <a href="http://www.twitter.com"><img src="images/twitter.png" width="29" height="29" alt="twitter logo"></a>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2960.5947880132935!2d-111.87702628426091!3d42.09473075980795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f7ea26e3c6e7%3A0x61e0703e64fb92f4!2s55%20E%201st%20S%2C%20Preston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1633563356469!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
         </main>
         <footer class="footer"> 
             <p>&copy; <span id="year"></span> | Justin D. Bench | Idaho | <a href="../index.html">Assignment Portal</a></p>
@@ -59,5 +114,6 @@
         </footer>
         </div>
         <script src="js/js.js"></script>
+        <script src="js/lazyload.js"></script>
     </body>
 </html>
