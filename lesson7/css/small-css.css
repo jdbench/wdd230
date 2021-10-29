@@ -212,7 +212,7 @@ p {
     margin-right:25px;
 }
 #for-smalls{
-    height: 200px;
+    min-height: 200px;
     width: 100%;
     background-image: url("../images/hero_image.jpg");
     background-repeat: no-repeat;
@@ -271,6 +271,7 @@ p {
     float: left;
     margin-left: 15px;
     width: 80%;
+    max-width: 350px;
     margin-bottom: 5px;
 }
 .f-subhead{

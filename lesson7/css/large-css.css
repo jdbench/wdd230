@@ -67,7 +67,7 @@
         background-size:cover;
         background-position: center;
         padding: 30px;
-        height: 400px;
+        height: 600px;
         text-align: left;
     }
     #small-overlay, #medium-overlay{
@@ -124,10 +124,11 @@
         font-size: 28px;
     }
     #article-img1{
-        display:block;
+        display: block;
         float: right;
         margin-left:15px;
         width:25%;
+        max-width: 250px;
     }
     #article-img2{
         display:none;
