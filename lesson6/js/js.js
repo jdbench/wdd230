@@ -33,8 +33,9 @@ month[11] = "December";
 //turn getday and currentMonth number into string
 let dow = weekDay[d.getDay()];
 let currentMonth = month[d.getMonth()];
+let dateString = dow+", "+dd+" "+currentMonth+" "+yyyy;
 //turn into string
-document.getElementById('currentDate').innerHTML = dow+", "+dd+" "+currentMonth+" "+yyyy;
+document.getElementById('currentDate').innerHTML = dateString;
 //Add a drop down funcionatlity
 function dropdownFunction() {
     let x = document.getElementById('dropdown-links');
