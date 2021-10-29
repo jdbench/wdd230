@@ -7,3 +7,6 @@ body{
 picture{
     display: flex;
 }
+img{
+    background-image: url("../images/placeholder.jpg");
+}
