@@ -87,7 +87,7 @@
         display:grid;
         grid-template-columns: 1fr 1fr;
     }
-    picture label{
+    .label{
         font-size: 20px;
     }
     main h2{

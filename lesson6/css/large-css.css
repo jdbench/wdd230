@@ -177,7 +177,7 @@
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
-    picture label{
+    .label{
         font-size: 24px;
     }
     main h2{
