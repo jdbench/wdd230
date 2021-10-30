@@ -7,6 +7,7 @@
     }
     .header-logo{
         width: auto;
+        max-width: none;
         right: 400px;
         top: 5px;
     }

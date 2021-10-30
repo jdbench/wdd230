@@ -10,6 +10,7 @@
     .header-logo{
         z-index: 0;
         width: auto;
+        max-width: none;
         right: 580px;
     }
     .title{
