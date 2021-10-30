@@ -11,15 +11,16 @@
         z-index: 0;
         width: auto;
         max-width: none;
+        top: 0px;
         right: 580px;
     }
     .title{
         font-size: 50px;
     }
     .motto{
+        width:100%;
         font-size: 24px;
-        text-align: center;
-        margin-right: 120px;
+        text-align: left;
         opacity: 76%;
     }
     .burger{

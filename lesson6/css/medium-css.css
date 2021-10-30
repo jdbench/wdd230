@@ -10,8 +10,8 @@
     .header-logo{
         width: auto;
         max-width: none;
+        top: -5px;
         right: 400px;
-        top: 5px;
     }
     .title{
         font-size: 32px;
