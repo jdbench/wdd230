@@ -55,9 +55,10 @@ function dropdownFunction() {
   });
 });
 
+console.log(window.location.href);
 //Display Banner and close banners
 let banner = document.getElementById("banner");
-if (dow=="Saturday"){
+if (dow=="Saturday" && 'https://jdbench.github.io/wdd230/lesson6/preston-6.html' == window.location.href){
   banner.style.display = "flex";
 }
 function exitBanner(){
