@@ -4,6 +4,8 @@
     }
     .content{
         margin: 0 auto;
+        width:80%;
+        min-width: 600px;
     }
     .header-logo{
         width: auto;
