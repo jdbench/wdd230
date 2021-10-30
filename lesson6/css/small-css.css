@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap');
+@import url('../../css/noto-sans.css');
 *{
     box-sizing: border-box;
     margin: 0 auto;
