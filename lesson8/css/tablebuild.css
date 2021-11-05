@@ -25,18 +25,18 @@ th, td{
 thead th, td{
     border: 1px solid #bbbbbb;
 }
-thead tr:first-of-type th{
+thead tr:first-child th{
     border: none;
 }
 td{
     font-weight: 500;
     font-size: 18px;
 }
-thead tr:nth-of-type(1){
+thead tr:first-child{
     font-size: 25px;
     background-color:#7fb9c2;
 }
-thead tr:nth-of-type(2){
+thead tr:nth-child(2){
     background-color: #628ca6;
     font-size: 18px;
     color: #fffff3;
@@ -47,7 +47,7 @@ caption, tfoot tr{
 tbody tr{
     background-color: #e7f0ed;
 }
-tbody tr:nth-of-type(2n){
+tbody tr:nth-child(2n){
     background-color: #e7ffed;
 }
 tfoot th{
