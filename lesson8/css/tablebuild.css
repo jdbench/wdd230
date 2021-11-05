@@ -30,6 +30,7 @@ thead tr:first-of-type th{
 }
 td{
     font-weight: 500;
+    font-size: 18px;
 }
 thead tr:nth-of-type(1){
     font-size: 25px;
