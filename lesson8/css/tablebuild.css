@@ -6,7 +6,7 @@ body{
     display: grid;
     text-align: center;
     margin: 0 auto;
-    background-color: lightgray;
+    background-color: #bbbbbb;
     width: fit-content;
 }
 table{
