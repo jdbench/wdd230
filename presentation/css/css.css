@@ -1,0 +1,75 @@
+body{
+    background-color:aquamarine;
+    text-align: center;
+}
+.content{
+    max-width:fit-content;
+    margin: auto;
+    background-color: bisque;
+    border-radius:25px;
+}
+header, .signature{
+    background-color:lightsalmon;
+    padding-top: 10px;
+    padding-bottom: 10px;    
+}
+header{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.signature{
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+li{
+    list-style: none;
+}
+.a{
+    color:black;
+}
+.a:hover{
+    color:darkcyan;
+}
+#powerpoint li{
+    list-style: none;
+}
+#powerpoint a{
+    text-decoration: none;
+    color: black;
+}
+#powerpoint a:hover{
+    color:rgb(37, 6, 151);
+}
+.example{
+    color: white;
+    background-color: black;
+    width: 340px;
+    height: 180px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#example{
+    color: white;
+    background-color: purple;
+    width: 340px;
+    height: 180px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+video, iframe{
+    width:650px;
+    height: 300px;
+    margin-top: 3px;
+}
+@media screen and (max-width: 700px){
+    video, iframe{
+        width: 450px;
+        height: 250px;
+    }
+}
+@media screen and (max-width: 500px){
+    video, iframe{
+        width: 300px;
+        height: 250px;
+    }
+}

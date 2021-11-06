@@ -1,0 +1,77 @@
+@media screen and (min-width: 600px) and (max-width: 1024px){
+        .header, .footer, .footer a, .footer a:visited, .main-nav a{
+            color:black;
+        }
+        nav, .footer {
+            background-color: #518260;
+        }
+        .content{
+            max-width: 75%;
+            margin: 0 auto;
+        }
+        .header{
+            width: 100%;
+            background-color: lightgray;
+            padding: 20px;
+            box-sizing:border-box;
+        }
+        .header-logo{
+            width: auto;
+            right: 400px;
+            top: 5px;
+        }
+        .title{
+            font-size: 32px;
+        }
+        .motto{
+            font-size: 18px;
+            text-align: center;
+            margin-right: 90px;
+            opacity: 76%;
+        }
+        .burger{
+            display:none;
+        }
+        .dropdown{
+            display:none;
+        }
+        .navbar{
+            display:flex;
+            background-color: #518260;
+            width: 100%;
+            flex: auto;
+        }
+        .nav-links{
+            flex-direction: row;
+            display:flex;
+            flex: auto;
+            align-items: stretch;
+            justify-content: space-between;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .nav-item{
+            display: flex;
+            flex: 1;
+            list-style-type: none;
+        }
+        .nav-item a{
+            flex: auto;
+            text-align: center;
+            padding: 20px;
+            font-size: 18px;
+            font-family: 'Noto Sans Display', sans-serif;
+            color: Black;
+            text-decoration: none;
+        }
+        .nav-item a:hover{
+            color: gray;
+            background-color: #2C2F2D;
+        }
+        .hero-image{
+            background-image: url('http://placehold.jp/400x150.png');
+            width: 400px;
+            height: 150px;
+        }
+}

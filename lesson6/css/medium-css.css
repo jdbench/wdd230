@@ -1,0 +1,96 @@
+@media screen and (min-width: 600px) and (max-width: 1024px){
+    nav, .footer {
+        background-color: #518260;
+    }
+    .content{
+        margin: 0 auto;
+        width:80%;
+        min-width: 600px;
+    }
+    .header-logo{
+        width: auto;
+        max-width: none;
+        top: -5px;
+        right: 400px;
+    }
+    .title{
+        font-size: 32px;
+    }
+    .motto{
+        font-size: 18px;
+        text-align: center;
+        margin-right: 90px;
+    }
+    .burger{
+        display:none;
+    }
+    .dropdown{
+        display:none;
+    }
+    .navbar{
+        display:flex;
+        background-color: #518260;
+        width: 100%;
+        flex: auto;
+    }
+    .nav-links{
+        flex-direction: row;
+        display:flex;
+        flex: auto;
+        align-items: stretch;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .nav-links a{
+        font-size: 16px;
+    }
+
+    .hero-text{
+        float:left;
+        max-width: 350px;
+        color: white;
+        background-color: #05569d;
+        opacity: 65%;
+        font-size: 24px;
+        box-shadow: 1px 2px 4px 1px white;
+    }
+    .hero-text h2{
+        margin-bottom: 8px;
+        font-size: 24px;
+    }
+    #for-smalls{
+        display: none;
+    }
+    .background-image{
+        background-image: url("../images/hero_image.jpg");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+        padding: 30px;
+        height: 400px;
+        text-align: left;
+    }
+    #small-overlay, #large-overlay{
+        display: none;
+    }
+    #medium-overlay{
+        display: block;
+        float: right;
+        color: red;
+        font-size: 30px;
+        margin-right: 25px;
+        margin-top: 25px;
+    }
+    #weather-gallery{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .label{
+        font-size: 20px;
+    }
+    main h2{
+        font-size: 30px;
+    }
+}

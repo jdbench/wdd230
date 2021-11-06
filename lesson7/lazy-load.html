@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <script src="../js/jquery-3.6.0.min.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lazyload Images</title>
+        <meta name="description" content="Lazy load assignment webpage">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="css/lazyload.css">
+    </head>
+    <body>
+        <header>
+            <h1>Lazyload Images</h1>
+        </header>
+        <main>
+            <picture>
+                <img src="images/placeholder.jpg" data-src="https://placeimg.com/300/400/any" width="300" height="400" alt="random image">
+            </picture>
+            <picture>
+                <img src="images/placeholder.jpg" data-src="https://placekitten.com/g/300/400" width="300" height="400" alt="kitten">
+            </picture>
+            <picture>
+                <img src="images/placeholder.jpg" data-src="https://placeimg.com/300/400/animals" width="300" height="400" alt="an animal">
+            </picture>
+            <picture>
+                <img src="images/placeholder.jpg" data-src="https://placeimg.com/300/400/architecture" width="300" height="400" alt="architecture">
+            </picture>
+            <picture>
+                <img src="images/placeholder.jpg" data-src="https://placeimg.com/300/400/nature" width="300" height="400" alt="nature">
+            </picture>
+            <picture>
+                <img src="images/placeholder.jpg" data-src="https://placeimg.com/300/400/tech" width="300" height="400" alt="tech">
+            </picture>
+        </main>
+        <footer class="footer" style="text-align: center;"> 
+            <p>&copy; <span id="year"></span> | Justin D. Bench | Idaho | <a href="../index.html">Assignment Portal</a></p>
+            <div id="currentDate"></div>
+        </footer>
+        <script src="../lesson6/js/js.js"></script>
+        <script src="js/lazy-load.js"></script>
+    </body>
+</html>
