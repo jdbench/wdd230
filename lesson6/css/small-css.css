@@ -254,7 +254,6 @@ p {
     border:2px outset gray;
     text-align: left;
     background-color: #518260;
-    padding: 20px;
 }
 .five-day-forecast h2{
     font-size: calc(16px + 1.5vw);

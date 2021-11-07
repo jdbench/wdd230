@@ -103,8 +103,22 @@
         border:2px outset gray;
         text-align: left;
         background-color: #518260;
-        padding: 5px;
+        padding: 15px;
         justify-content: space-between;
+    }
+    .f-forecast div:first-child{
+        margin-left: 70px;
+    }
+    .f-forecast div:first-child span{
+        text-align: left;
+        margin-left: 15px
+    }
+    #w{
+        text-align: left;
+        margin-left: -15px;
+    }
+    .f-forecast div:last-child{
+        margin-right: 70px;
     }
     .f-forecast img{
         width:65px;
