@@ -153,6 +153,8 @@
     .social{
         margin-top: 20px;
         display:flex;
+        width: 250px;
+        justify-content: space-between;
     }
     .ci-text{
         grid-column: 2/3;

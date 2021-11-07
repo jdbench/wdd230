@@ -5,4 +5,7 @@
     legend{
         font-size: 22px;
     }
+    #submit-storm{
+        width: 250px;
+    }
 }

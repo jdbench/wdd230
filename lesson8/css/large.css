@@ -2,7 +2,13 @@
     label, input, select{
         font-size: 24px;
     }
+    form{
+        width: 100%;
+    }
     legend{
         font-size: 32px;
+    }
+    #submit-storm{
+        width: 300px;
     }
 }
