@@ -2,16 +2,16 @@ label, input, select{
     display:block;
     padding: 15px;
     width: fit-content;
-    margin-right: 100%;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 500;
 }
 legend{
-    font-size: 32px;
+    font-size: 18px;
     font-weight: 700;
 }
 .content{
-    width: 50%;
+    min-width: 350px;
+    width: fit-content;
 }
 fieldset{
     padding: 15px;
@@ -22,7 +22,7 @@ fieldset:first-child, fieldset:nth-child(2){
 }
 form{
     margin: 0 auto;
-    width: 90%;
+    width: fit-content;
     text-align: left;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: lightgray;
@@ -31,26 +31,22 @@ form{
     border-top-right-radius: 15px;
 }
 textarea{
-    width: 300px;
+    display: block;
+    width: 100%;
     height: 150px;
 }
 .severity-div{
     display: flex;
     align-items: center;
 }
-#severity{
-    margin-left: -65px;
-}
 #submit-storm{
-    margin-left: 25px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     padding: 15px;
     width: 300px;
 }
 .in-danger label{
-    margin-right:100%;
-    width:fit-content;
     display:flex;
     justify-content: space-between;
 }

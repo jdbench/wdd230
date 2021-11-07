@@ -1,0 +1,8 @@
+@media screen and (min-width: 600px) and (max-width: 1024px){
+    label, input, select{
+        font-size: 18px;
+    }
+    legend{
+        font-size: 22px;
+    }
+}
