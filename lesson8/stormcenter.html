@@ -71,11 +71,22 @@
                         <label for="storm-date">Storm Date
                             <input id="storm-date" type="date" name="date">
                         </label>
-                        <label for="storm-type">
 
+                        <label for="storm-type">Storm Type
+                            <input id="storm-type" list="storm-types">
                         </label>
-                        <label for="storm-severity" >Storm Severity: <input id="storm-severity" type="range" value="1" min="1" max="10" step="1" oninput="changeRating(this.value)" onchange="changeRating(this.value)">
-                        <span id="severity">1</span></label>
+                        <datalist id="storm-types">
+                            <option value="Flash Flood"></option>
+                            <option value="Hail"></option>
+                            <option value="Hurricane"></option>
+                            <option value="Thunderstorms"></option>
+                            <option value="Tornado"></option>
+                        </datalist>
+
+                        <label for="storm-severity">Severity 
+                            <div class="severity-div"><input id="storm-severity" type="range" value="1" min="1" max="10" step="1" oninput="changeRating(this.value)" onchange="changeRating(this.value)">
+                            <span id="severity">1</span></div>
+                        </label>
                         <datalist>
                             <option value="0">
                             <option value="1">
@@ -90,7 +101,7 @@
                             <option value="10">
                         </datalist>
 
-                        <label for="storm-region">Storm
+                        <label for="storm-region">Storm Region
                             <select name="region" id="storm-region">
                                 <option value="select-region" selected disabled>Select Region...</option>
                                 <option value="preston">Preston</option>
@@ -98,11 +109,19 @@
                                 <option value="fish-haven">Fish Haven</option>
                             </select>
                         </label>
+                        <div class="in-danger">
+                            User In-Danger Level
+                            <label for="yes"><input id="yes" name="in-danger" type="radio" value="yes">Yes</label>
+                            <label for="maybe"><input id="maybe" name="in-danger" type="radio" value="maybe">Maybe</label>
+                            <label for="no"><input id="no" name="in-danger" type="radio" value="no">No</label>
+                        </div>
                     </fieldset>
+
                     <fieldset>
                         <legend>Additional Information or Comments</legend>
-                        <textarea id="other-info" type="type"></textarea>
+                        <textarea id="other-info" type="type" placeholder="If you have any more questions or comments, please enter them here..."></textarea>
                     </fieldset>
+                    <input id="submit-storm" type="submit" value="Submit">
                 </form>
             </div>
                 <div class="contact-information">

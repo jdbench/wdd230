@@ -1,7 +1,6 @@
 @import url('../../css/noto-sans.css');
 *{
     box-sizing: border-box;
-    margin: 0 auto;
     padding: 0;
 }
 /*banner styles*/
@@ -53,6 +52,7 @@ body{
     background-color: white;
 }
 .header{
+    margin: 0 auto;
     display: flex;
     width: 100%;
     background-color: lightgray;
@@ -60,22 +60,24 @@ body{
 }
 .header-logo{
     position: absolute;
-    right: 280px;
-    bottom:0;
-    top:-5px;
-    left:0;
+    margin: 0 auto;
+    top: 0px;
+    right: 300px;
+    left:0px;
     width: 18%;
+    min-width: 60px;
     max-width: 80px;
 
 }
 #title-box{
+    margin: 0 auto;
     display:flex;
     flex-direction: column;
     margin-top: -13px;
 }
 .title{
     text-shadow: none;
-    margin-bottom: -5px;
+    margin-bottom: -15px;
     text-align: center;
     margin-top: -5px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -96,7 +98,8 @@ nav{
 }
 .burger{
     position:absolute;
-    left: 220px;
+    margin: 0 auto;
+    left: 240px;
     right: 0;
     cursor: pointer;
     width: fit-content;
