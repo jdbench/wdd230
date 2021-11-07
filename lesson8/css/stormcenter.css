@@ -17,6 +17,7 @@ form{
     background-color: lightgray;
     padding: 5px;
     border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 textarea{
     width: 50%;
