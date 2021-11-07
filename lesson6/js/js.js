@@ -46,15 +46,6 @@ function dropdownFunction() {
     }
 }
 
-	//Add wayfinding
-  $(function(){
-    $('a').each(function(){
-    if ($(this).prop('href') == window.location.href) {
-      $(this).addClass('active'); $(this).parents('li').addClass('active');
-    }
-  });
-});
-
 console.log(window.location.href);
 //Display Banner and close banners
 let banner = document.getElementById("banner");
