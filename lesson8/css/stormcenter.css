@@ -1,0 +1,6 @@
+label, input, select{
+    display:block;
+}
+form{
+    text-align: left;
+}
