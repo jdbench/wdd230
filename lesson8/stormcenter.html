@@ -62,7 +62,7 @@
                         <label for="user-name">Full Name *<input id="user-name" type="text" name="name" pattern="[A-Za-z].{5,}" placeholder="Required" required></label>
                         <label for="user-email">Email<input id="user-email" type="email" name="email" placeholder="Johndoe@email.com"></label>
                         <label for="phone-number">Phone Number *<input id="phone-number" type="tel" name="phone" placeholder="Required" required></label>
-                        <label for="zip-code">Zip Code *<input id="zip-code" type="number" name="zip" placeholder="Required" recuired></label>
+                        <label for="zip-code">Zip Code *<input id="zip-code" type="number" name="zip" placeholder="Required" required></label>
                     </fieldset>
                     <fieldset>
                         <legend>Storm Details</legend>
@@ -83,8 +83,8 @@
                         </datalist>
 
                         <label for="storm-severity">Severity 
-                            <div class="severity-div"><input id="storm-severity" type="range" value="1" min="1" max="10" step="1" oninput="changeRating(this.value)" onchange="changeRating(this.value)">
-                            <span id="severity">1</span></div>
+                            <span class="severity-div"><input id="storm-severity" type="range" value="1" min="1" max="10" step="1" oninput="changeRating(this.value)" onchange="changeRating(this.value)">
+                            <span id="severity">1</span></span>
                         </label>
                         <datalist>
                             <option value="0">
@@ -108,8 +108,8 @@
                                 <option value="fish-haven">Fish Haven</option>
                             </select>
                         </label>
-                        <div class="in-danger">
-                            <label for="in-danger">User In-Danger</label>
+                        <div id="in-danger-div">
+                            User In-Danger
                             <label for="yes"><input id="yes" name="in-danger" type="radio" value="yes">Yes</label>
                             <label for="maybe"><input id="maybe" name="in-danger" type="radio" value="maybe">Maybe</label>
                             <label for="no"><input id="no" name="in-danger" type="radio" value="no">No</label>
@@ -118,7 +118,7 @@
 
                     <fieldset class="other-information">
                         <legend>Additional Information or Comments</legend>
-                        <label for="other-info">Other Information<textarea id="other-info" type="type" placeholder="If you have any more questions or comments, please enter them here..."></textarea></label>
+                        <label for="other-info">Other Information<textarea id="other-info" placeholder="If you have any more questions or comments, please enter them here..."></textarea></label>
                     </fieldset>
                     <input id="submit-storm" type="submit" value="Submit">
                 </form>

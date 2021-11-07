@@ -94,7 +94,7 @@
         font-size: 30px;
     }
 /*Storm Center*/
-    label, input, select{
+    label, input, select, #in-danger-div{
         font-size: 18px;
     }
     legend{
