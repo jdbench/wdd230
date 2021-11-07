@@ -20,7 +20,7 @@ form{
     border-top-right-radius: 15px;
 }
 textarea{
-    width: 50%;
+    width: 300px;
     height: 150px;
 }
 .severity-div{
