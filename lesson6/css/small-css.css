@@ -44,17 +44,19 @@ body{
 }
 .content{
     width:100%;
+    min-width: fit-content;
     margin:0 auto;
     text-align: center;
     padding-top:10px;
-    padding-left:10px;
-    padding-right:10px;
+    margin-left:10px;
+    margin-right:10px;
     background-color: white;
 }
 .header{
     margin: 0 auto;
     display: flex;
     width: 100%;
+    min-width: fit-content;
     background-color: lightgray;
     padding: 15px;
 }
@@ -343,4 +345,74 @@ figure img{
     margin: 0 auto;
     width: 100%;
     height: 100%;
+}
+/*Storm Center*/
+label, input, select{
+    display:block;
+    padding: 15px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+}
+legend{
+    font-size: 18px;
+    font-weight: 700;
+}
+fieldset{
+    padding: 15px;
+    border: 3px solid #518260;
+}
+fieldset:first-child, fieldset:nth-child(2){
+    margin-bottom: 15px;
+}
+form{
+    margin: 0 auto;
+    width: 100%;
+    text-align: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: lightgray;
+    padding: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+textarea{
+    display: block;
+    width: 100%;
+    height: 150px;
+}
+.severity-div{
+    display: flex;
+    align-items: center;
+}
+#submit-storm{
+    margin-left: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+    width: 200px;
+}
+.in-danger label{
+    display:flex;
+    width: fit-content;
+    justify-content: space-between;
+}
+.in-danger label input{
+    width: fit-content;
+    margin-right: 4px;
+    margin-top: 2px;
+}
+input:hover, [list]:hover, select:hover, textarea:hover, textarea:focus, input:focus, select:focus{
+    outline:none;
+    border: 2px solid rgb(38, 117, 206);
+    box-shadow:1px 1px 5px rgb(38, 117, 206);
+}
+[type="range"]{
+    color: #518260;
+}
+[type="range"]:hover,[type="radio"]:hover,[type="radio"]:focus, [type="range"]:focus{
+    border: none;
+    box-shadow: none;
+}
+[type="radio"], [type="range"], [type="date"]:hover, select, #submit-storm:hover{
+    cursor: pointer;
 }

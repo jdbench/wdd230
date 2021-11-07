@@ -4,7 +4,7 @@
     }
     .content{
         margin: 0 auto;
-        width:80%;
+        max-width:750px;
         min-width: 600px;
     }
     .header-logo{
@@ -92,5 +92,15 @@
     }
     main h2{
         font-size: 30px;
+    }
+/*Storm Center*/
+    label, input, select{
+        font-size: 18px;
+    }
+    legend{
+        font-size: 22px;
+    }
+    #submit-storm{
+        width: 250px;
     }
 }
