@@ -64,13 +64,9 @@ input:hover, [list]:hover, select:hover, textarea:hover, textarea:focus, input:f
 [type="range"]{
     color: #518260;
 }
-[type="range"]:hover, [type="range"]:focus{
+[type="range"]:hover,[type="radio"]:hover,[type="radio"]:focus, [type="range"]:focus{
     border: none;
     box-shadow: none;
-}
-[type="radio"]:hover{
-    box-shadow: none;
-    cursor:pointer;
 }
 [type="radio"], [type="range"], [type="date"]:hover, select, #submit-storm:hover{
     cursor: pointer;
