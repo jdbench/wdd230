@@ -15,17 +15,17 @@ fetch(requestURL)
             let birthday = document.createElement('p');
             let birthPlace = document.createElement('p');
 
-            h2.textContent = `${prophet.name} ${prophet.lastname}`
-            birthday.textContent = `Date of Birth: ${prophet.birthdate}`
-            birthPlace.textContent = `Place of Birth: ${prophet.birthplace}`
+            h2.textContent = `${prophet.name} ${prophet.lastname}`;
+            birthday.textContent = `Date of Birth: ${prophet.birthdate}`;
+            birthPlace.textContent = `Place of Birth: ${prophet.birthplace}`;
 
-            image.setAttribute('src', prophet.imageurl)
-            image.setAttribute('alt', `${prophet.name} ${prophet.lastname} - ${prophet.order}`)
+            image.setAttribute('src', prophet.imageurl);
+            image.setAttribute('alt', `${prophet.name} ${prophet.lastname} - ${prophet.order}`);
 
-            card.appendChild(h2)
-            card.appendChild(image)
-            card.appendChild(birthday)
-            card.appendChild(birthPlace)
-            document.querySelector('div.cards').appendChild(card)
+            card.appendChild(h2);
+            card.appendChild(image);
+            card.appendChild(birthday);
+            card.appendChild(birthPlace);
+            document.querySelector('div.cards').appendChild(card);
         });
     })
