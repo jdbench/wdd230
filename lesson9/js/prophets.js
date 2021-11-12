@@ -25,9 +25,9 @@ fetch(requestURL)
             image.setAttribute('alt', `${prophet.name} ${prophet.lastname} - ${prophet.order}`);
 
             card.appendChild(h2);
-            card.appendChild(image);
             card.appendChild(birthday);
             card.appendChild(birthPlace);
+            card.appendChild(image);
             document.querySelector('div.cards').appendChild(card);
         });
     })
