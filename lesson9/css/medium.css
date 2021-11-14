@@ -1,0 +1,52 @@
+@media screen and (min-width: 600px) and (max-width: 1024px){
+    nav, .footer {
+        background-color: #518260;
+    }
+    .content{
+        margin: 0 auto;
+        max-width:750px;
+        min-width: 600px;
+    }
+    .header-logo{
+        width: auto;
+        max-width: none;
+        top: -5px;
+        right: 400px;
+    }
+    .title{
+        font-size: 32px;
+    }
+    .motto{
+        font-size: 18px;
+        text-align: center;
+        margin-right: 90px;
+    }
+    .burger{
+        display:none;
+    }
+    .dropdown{
+        display:none;
+    }
+    .navbar{
+        display:flex;
+        background-color: #518260;
+        width: 100%;
+        flex: auto;
+    }
+    .nav-links{
+        flex-direction: row;
+        display:flex;
+        flex: auto;
+        align-items: stretch;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .nav-links a{
+        font-size: 16px;
+    }
+    main h2{
+        font-size: 30px;
+    }
+}
