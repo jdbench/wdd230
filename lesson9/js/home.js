@@ -17,28 +17,21 @@ fetch(requestURL)
                 let h2 = document.createElement('h2');
                 let h3 = document.createElement('h3');
                 let image = document.createElement('img');
-                let founded = document.createElement('p');
-                let population = document.createElement('p');
-                let rainfall = document.createElement('p');
+                let townInformation = document.createElement('p');
 
                 h2.textContent = `${town.name}`;
                 h3.textContent = `${town.motto}`
-                founded.textContent = `Year Founded: ${town.yearFounded}`;
-                population.textContent = `Place of Birth: ${town.currentPopulation}`;
-                rainfall.textContent = `Average Rainfall: ${town.averageRainfall}`;
+                townInformation.innerHTML = `Year Founded: ${town.yearFounded}<br>Current Population: ${town.currentPopulation}<br>Average Rainfall: ${town.averageRainfall}`;
 
                 image.setAttribute('src', `../lesson9/images/${town.photo}`);
                 image.setAttribute('width', '500');
                 image.setAttribute('height', '300');
-                image.setAttribute('data-src', `../lesson9/images/${town.photo}`);
                 image.setAttribute('alt', `${town.name}`);
 
                 card.appendChild(h2);
                 card.appendChild(h3);
-                card.appendChild(founded);
+                card.appendChild(townInformation);
                 card.appendChild(image);
-                card.appendChild(population);
-                card.appendChild(rainfall);
                 document.querySelector('div.towns').appendChild(card);
             }
         });

@@ -141,6 +141,7 @@ a{
     font-weight: bold;
 }
 a:hover{
+    background-color:#2C2F2D;
     color: gray;
 }
 /*footer styles*/
@@ -175,34 +176,58 @@ p {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 /*contact information*/
+.social{
+    margin-top: 20px;
+    display:flex;
+    width: 250px;
+    justify-content: space-around;
+}
+.social img:hover{
+    box-shadow: 0 1px 3px #2C2F2D;
+}
+.fa-map-marker{
+    margin-right: 10px;
+}
+.fa-phone{
+    margin-right: 13px;
+}
 .contact-information{
+    display: grid;
     text-align: left;
+    grid-template-columns: 1fr;
     width:100%;
     border:2px lightgray;
+    background-color: lightgray;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .ci-text{
-    margin-left: 35px;
-    margin-top: 10px;
+    margin: 0 auto;
+    width: fit-content;
 }
 .ci-p{
     margin-top: 5px;
-}
-.ci-loc{
-    display:none;
 }
 #ci-p1{
     margin-top:10px;
 }
 .map-container{
+    height: 100%;
+    width: 100%;
     text-align: center;
 }
 #map{
-    width: 90%;
-    height: 50%;
-    border: none;
+    margin-top: 18px;
+    width:80%;
+    height: 80%;
+    box-shadow: 0 1px 2px  #2C2F2D;
+    min-width:300px/300;
+    min-height: 200px/200;
+    max-width: 300px;
+    max-height: 200px;
 }
-.social{
-    display: none;
+#map:hover{
+    box-shadow: 0px 2px 5px #333;
 }
 /*Home page*/
 .towns{
@@ -218,9 +243,6 @@ p {
     grid-column-gap: 10px;
     padding-bottom: 25px;
 }
-.towns section:last-child{
-    margin-bottom: 22px;
-}
 .towns section:nth-child(odd) img, .towns section:nth-child(even) p, .towns section:nth-child(even) h2, .towns section:nth-child(even) h3{
     grid-column: 2/2;
 }
@@ -231,8 +253,9 @@ p {
     width: fit-content;
     margin: 0 auto;
 }
-.towns p:first-of-type{
-    margin-top: 10px;
+.towns p{
+    margin-top: 40px;
+    line-height: 3em;
 }
 .towns h2{
     padding-top: 15px;

@@ -282,39 +282,10 @@ p {
 .f-subhead{
     text-align: center;
 }
-/*contact information*/
-.contact-information{
-    text-align: left;
-    width:100%;
-    border:2px lightgray;
-}
-.ci-text{
-    margin-left: 35px;
-    margin-top: 10px;
-}
-.ci-p{
-    margin-top: 5px;
-}
-.ci-loc{
-    display:none;
-}
-#ci-p1{
-    margin-top:10px;
-}
-.map-container{
-    text-align: center;
-}
-#map{
-    width: 90%;
-    height: 50%;
-    border: none;
-}
-.social{
-    display: none;
-}
 .f-forecast{
     display: none;
 }
+/*Weather Gallery*/
 #weather-gallery{
     display:flex;
     flex-direction: column;
@@ -340,6 +311,60 @@ figure img{
     margin: 0 auto;
     width: 100%;
     height: 100%;
+}
+/*contact information*/
+.social{
+    margin-top: 20px;
+    display:flex;
+    width: 250px;
+    justify-content: space-around;
+}
+.social img:hover{
+    box-shadow: 0 1px 3px #2C2F2D;
+}
+.fa-map-marker{
+    margin-right: 10px;
+}
+.fa-phone{
+    margin-right: 13px;
+}
+.contact-information{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: left;
+    width:100%;
+    border:2px lightgray;
+    background-color: lightgray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.ci-text{
+    margin-left: 35px;
+    margin-top: 10px;
+}
+.ci-p{
+    margin-top: 5px;
+}
+#ci-p1{
+    margin-top:10px;
+}
+.map-container{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+#map{
+    margin-top: 18px;
+    width:80%;
+    height: 80%;
+    box-shadow: 0 1px 2px  #2C2F2D;
+    min-width:300px/300;
+    min-height: 200px/200;
+    max-width: 300px;
+    max-height: 200px;
+}
+#map:hover{
+    box-shadow: 0px 2px 5px #333;
 }
 /*Storm Center*/
 label, input, select{

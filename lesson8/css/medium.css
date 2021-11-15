@@ -103,4 +103,19 @@
     #submit-storm{
         width: 250px;
     }
+    /*Contact Information*/
+    .contact-information{
+        grid-template-columns: 1fr 1fr;
+    }
+    .social{
+        justify-content: space-between;
+    }
+    .ci-text{
+        grid-column: 2/3;
+        grid-row: 1/3;
+    }
+    .map-container{
+        grid-column: 1/2;
+        grid-row:1/4;
+    }
 }
