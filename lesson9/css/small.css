@@ -213,7 +213,6 @@ p {
 }
 .towns section{
     background-color: #518260;
-    width:fit-content;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 10px;
