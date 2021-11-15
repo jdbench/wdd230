@@ -32,6 +32,13 @@ td{
     font-weight: 500;
     font-size: 18px;
 }
+#blue-background{
+    background-color: #628ca6; 
+    color:#fffff3
+}
+#italics{
+    font-style:italic;
+}
 thead tr:first-child{
     font-size: 25px;
     background-color:#7fb9c2;
