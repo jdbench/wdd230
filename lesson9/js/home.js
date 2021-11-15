@@ -26,7 +26,7 @@ fetch(requestURL)
             rainfall.textContent = `Average Rainfall: ${town.averageRainfall}`;
 
             image.setAttribute('src', '../lesson9/images/150x150.png')
-            image.setAttribute('data-src', town.photo);
+            image.setAttribute('data-src', `images/${town.photo}`);
             image.setAttribute('alt', `${town.name}`);
 
             card.appendChild(h2);
