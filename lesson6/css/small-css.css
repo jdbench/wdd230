@@ -130,8 +130,6 @@ nav{
 #dropdown-links{
     padding: 0;
     margin:0;
-    margin-top: -18px;
-    margin-bottom: 15px;
     display:none;
     background-color: #518260;
     flex-direction: column;
@@ -249,7 +247,7 @@ p {
 }
 /*5 day forecast styles*/
 .five-day-forecast{
-    border:2px outset gray;
+    border: 2px solid gray;
     text-align: left;
     background-color: #518260;
 }
