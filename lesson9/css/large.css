@@ -18,6 +18,7 @@
         font-size: 50px;
     }
     .motto{
+        margin-top: -5px;
         width:100%;
         font-size: 24px;
         text-align: left;
@@ -67,5 +68,36 @@
     }
     main h2{
         font-size: 35px;
+    }
+    .towns{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 15px;
+    }
+    .towns h3{
+        font-size: 18px;
+    }
+    .towns section p{
+        font-size: 24px;
+    }
+    .towns section:first-child{
+        grid-column:1/1;
+    }
+    .towns section:nth-child(2){
+        grid-column:2/2;
+    }
+    .towns section:nth-child(3){
+        grid-column:3/3;
+    }
+    .towns section{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .towns section:nth-child(even){
+        padding: 0;
+    }
+    .towns section:nth-child(odd){
+        padding: 0;
     }
 }

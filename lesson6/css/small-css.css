@@ -84,6 +84,8 @@ body{
     font-size: 20px;
 }
 .motto{
+    margin-top: 2px;
+    font-style: italic;
     font-size: 16px;
     text-align: center;
     opacity: 76%;
