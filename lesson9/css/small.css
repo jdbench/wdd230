@@ -310,6 +310,7 @@ p {
 .wireframe img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 .wireframe:nth-child(2){
     max-width: 800px;
