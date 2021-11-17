@@ -251,8 +251,8 @@ p {
     width:80%;
     height: 80%;
     box-shadow: 0 1px 2px  #2C2F2D;
-    min-width:300px/300;
-    min-height: 200px/200;
+    min-width:3px;
+    min-height: 1px;
     max-width: 300px;
     max-height: 200px;
 }
@@ -311,10 +311,10 @@ p {
 .towns img{
     grid-row: 2/5;
     margin: 0 auto;
-    min-height: 300px/100;
+    min-height: 3px;
     height: 100%;
     max-height: 300px;
-    min-width: 500px/100;
+    min-width: 5px;
     width: 100%;
     max-width: 500px;
 }
