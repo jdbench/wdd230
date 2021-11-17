@@ -392,6 +392,9 @@ p {
     margin-top: 15px;
 
 }
+#desc{
+    text-transform: capitalize;
+}
 .hero-text p{
     text-align: left;
     margin-left: 15px;

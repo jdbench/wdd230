@@ -7,9 +7,9 @@
         <meta name="description" content="Weather news website">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/small-css.css">
-        <link rel="stylesheet" href="css/medium-css.css">
-        <link rel="stylesheet" href="css/large-css.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
         <link rel="icon" href="images/logo.png">
     </head>
     <body>
@@ -72,50 +72,52 @@
                         <div id="overlay"></div>
                         <h2>Weather Summary</h2>
                         <div class="text-box-small">
-                            <p>Currently: Rainy</p>
-                            <p id="temp">High: 54</p>
+                            <p id="desc"></p>
+                            <p id="temp"></p>
+                            <p><span id="temp-low"></span> | <span id="temp-high"></span></p>
+                            <p id="wind"></p>
                             <p id="wind-chill"></p>
-                            <p>Humidity: 95%</p>
-                            <p id="wind">Wind Speed: 12 mph</p>
+                            <p id="humidity"></p>
+                            <p id="real-feel"></p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="five-day-forecast">
                 <h2 class="f-subhead">Five Day Forecast</h2>
-                    <div class="f-forecast">
-                        <div id="wednesday">
-                            <h3 id="w">Wednesday</h3>
-                            <img src="images/sun.png" alt="sun stock image">
-                            <span>85&#8457;</span>
+                    <div class="f-forecast days">
+                        <div class="day" id="wednesday">
+                            <h3 class="five-day-name"id="w">WED</h3>
+                            <img class="five-day-image" src="images/150x150.png" width="65" height="65" alt="Image depicting weather">
+                            <span class="five-day-temp"></span>
                         </div>
-                        <div id="thursday">
-                            <h3 id="th">Thursday</h3>
-                            <img src="images/sun.png" alt="sun stock image">
-                            <span>56&#8457;</span>
+                        <div class="day" id="thursday">
+                            <h3 class="five-day-name" id="th">THUR</h3>
+                            <img class="five-day-image" src="images/150x150.png" width="65" height="65" alt="Image depicting weather">
+                            <span class="five-day-temp"></span>
                         </div>
-                        <div id="friday">
-                            <h3 id="f">Friday</h3>
-                            <img src="images/sun.png" alt="sun stock image">
-                            <span>53&#8457;</span>
+                        <div class="day" id="friday">
+                            <h3 class="five-day-name" id="f">FRI</h3>
+                            <img class="five-day-image" src="images/150x150.png"  width="65" height="65" alt="Image depicting weather">
+                            <span class="five-day-temp"></span>
                         </div>
-                        <div id="saturday">
-                            <h3 id="s">Saturday</h3>
-                            <img src="images/sun.png" alt="sun stock image">
-                            <span>67&#8457;</span>
+                        <div class="day" id="saturday">
+                            <h3 class="five-day-name" id="s">SAT</h3>
+                            <img class="five-day-image" src="images/150x150.png"  width="65" height="65" alt="Image depicting weather">
+                            <span class="five-day-temp"></span>
                         </div>
-                        <div id="sunday">
-                            <h3 id="su">Sunday</h3>
-                            <img src="images/sun.png" alt="sun stock image">
-                            <span>59&#8457;</span>
+                        <div class="day" id="sunday">
+                            <h3 class="five-day-name" id="su">SUN</h3>
+                            <img class="five-day-image" src="images/150x150.png"  width="65" height="65" alt="Image depicting weather">
+                            <span class="five-day-temp"></span>
                         </div>
                     </div>
             </div>
             <div class="article">
                 <h3>Article Title</h3>
                 <div class="article-text">
-                    <img id="article-img1" src="images/photo2.jpeg" alt="stock image">
-                    <img id="article-img2" src="images/photo2.jpeg" alt="stock image">
+                    <img id="article-img1" src="images/150x150.png" data-src="images/photo2.jpeg" width="500" height="333" alt="stock image">
+                    <img id="article-img2" src="images/150x150.png" data-src="images/photo2.jpeg" width="500" height="333" alt="stock image">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Condimentum lacinia quis vel eros donec ac odio tempor orci. Fermentum iaculis eu non diam phasellus vestibulum lorem sed. Vel elit scelerisque mauris pellentesque. Velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus. Tempus urna et pharetra pharetra massa massa ultricies. Et malesuada fames ac turpis egestas integer eget aliquet nibh. Iaculis eu non diam phasellus vestibulum lorem. Iaculis nunc sed augue lacus viverra vitae congue. Tortor id aliquet lectus proin nibh nisl. Elit eget gravida cum sociis. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Amet luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor. Suscipit adipiscing bibendum est ultricies integer quis auctor elit sed. Morbi blandit cursus risus at ultrices mi tempus imperdiet nulla. Gravida neque convallis a cras semper auctor neque. Nulla posuere sollicitudin aliquam ultrices sagittis orci a. Amet venenatis urna cursus eget nunc scelerisque viverra mauris. Lectus urna duis convallis convallis tellus id.</p>
                 </div>
             </div>
@@ -126,22 +128,25 @@
                     <p class="ci-p"><i class="fa fa-phone"></i><a href="tel:+1(234)567-8910">+1(234)567-8910</a></p>
                     <p class="ci-p" id="ci-loc"><i class="fa fa-map-marker"></i> <a href="https://www.google.com/maps/place/55+E+1st+S,+Preston,+ID+83263/@42.094727,-111.874838,15z/data=!4m5!3m4!1s0x8754f7ea26e3c6e7:0x61e0703e64fb92f4!8m2!3d42.0947268!4d-111.8748376?hl=en">55 E 1st S, Preston, ID, 83221</a></p>
                     <div class="social">
-                        <a href="http://www.facebook.com"><img src="https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=29&h=29" alt="facebook logo"></a>
-                        <a href="http://www.instagram.com"><img src="https://facebookbrand.com/wp-content/uploads/2021/03/glyph-logo_May2016.png?w=29" alt="instagram logo"></a>
+                        <a href="http://www.facebook.com"><img src="https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=29&h=29" width="29" height="29" alt="facebook logo"></a>
+                        <a href="http://www.instagram.com"><img src="https://facebookbrand.com/wp-content/uploads/2021/03/glyph-logo_May2016.png?w=29" width="29" height="29" alt="instagram logo"></a>
                         <a href="http://www.twitter.com"><img src="../lesson6/images/twitter.png" width="29" height="29" alt="twitter logo"></a>
                     </div>
                 </div>
                 <div class="map-container">
-                    <a href="https://www.google.com/maps/place/55+E+1st+S,+Preston,+ID+83263/@42.0931161,-111.87596,15.89z/data=!4m5!3m4!1s0x8754f7ea26e3c6e7:0x61e0703e64fb92f4!8m2!3d42.0947268!4d-111.8748376?hl=en"><img id="map" src="../lesson9/images/location.png" loading="lazy" alt="location" width=300 height=200></a>
+                    <a href="https://www.google.com/maps/place/55+E+1st+S,+Preston,+ID+83263/@42.0931161,-111.87596,15.89z/data=!4m5!3m4!1s0x8754f7ea26e3c6e7:0x61e0703e64fb92f4!8m2!3d42.0947268!4d-111.8748376?hl=en"><img id="map" src="images/location.png" loading="lazy" alt="location" width=300 height=200></a>
                 </div>
             </div>
         </main>
         <footer class="footer"> 
-            <p>&copy; <span id="year"></span> | Justin D. Bench | Idaho | <a href="../index.html">Assignment Portal</a></p>
-            <div id="currentDate"></div>
+            <p>&copy; <span id="year"></span> | Justin D. Bench | Idaho<br><span id="currentDate"></span> | <span id="lastVisit"></span><br><a href="../index.html">Assignment Portal</a></p>
         </footer>
         </div>
         <script src="js/js.js"></script>
-        <script src="js/windchill.js"></script>
+        <script src="js/weatherapi.js"></script>
+        <script src="js/banner.js"></script>
+        <script src="js/dropdown.js"></script>
+        <script src="js/lastVisit.js"></script>
+        <script src="js/lazy-load.js"></script>
     </body>
 </html>

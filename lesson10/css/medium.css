@@ -48,8 +48,7 @@
         font-size: 16px;
     }
     .hero-text{
-        float:left;
-        max-width: 350px;
+        width: 350px;
         color: white;
         background-color: #05569d;
         opacity: 65%;
@@ -69,7 +68,7 @@
         background-size:cover;
         background-position: center;
         padding: 30px;
-        height: 400px;
+        height: 500px;
         text-align: left;
     }
     #small-overlay, #large-overlay{
