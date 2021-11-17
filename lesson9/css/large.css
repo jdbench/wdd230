@@ -52,6 +52,92 @@
     a:hover{
         background-color:#2C2F2D;
     }
+    .hero-text{
+        float:left;
+        max-width: 350px;
+        color: white;
+        background-color: #05569d;
+        opacity: 75%;
+        box-shadow: 1px 2px 4px 1px white;
+    }
+    .hero-text h2{
+        margin-bottom: 8px;
+    }
+    #for-smalls{
+        display: none;
+    }
+    .background-image{
+        background-image: url("../images/hero_image.jpg");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+        padding: 30px;
+        height: 600px;
+        text-align: left;
+    }
+    #small-overlay, #medium-overlay{
+        display: none;
+    }
+    #large-overlay{
+        display: block;
+        float: right;
+        color: red;
+        margin-right: 25px;
+        margin-top: 25px;
+        font-size: 45px;
+    }
+    .f-subhead{
+        text-align: left;
+    }
+    .five-day-forecast{
+        border: none;
+        width: 100%;
+        background-color: white;
+    }
+    .five-day-forecast h2{
+        text-align: center;
+    }
+    .f-forecast{
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        border:2px outset gray;
+        text-align: left;
+        background-color: #518260;
+        padding: 5px;
+        justify-content: space-between;
+    }
+    .f-forecast img{
+        width:65px;
+    }
+    .f-forecast div{
+        text-align: center;
+        display:flex;
+        flex-direction: column;
+    }
+    .f-forecast div span{
+        margin-top: 5px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 18px;
+    }
+    .article-text{
+        display: block;
+        margin-right: 50px;
+        text-align: justify;
+    }
+    .article h3{
+        font-size: 28px;
+    }
+    #article-img1{
+        display: block;
+        float: right;
+        margin-left:15px;
+        width:25%;
+        max-width: 250px;
+    }
+    #article-img2{
+        display:none;
+    }
     .contact-information{
         grid-template-columns: 1fr 1fr;
     }
@@ -66,8 +152,28 @@
         grid-column: 1/2;
         grid-row:1/3;
     }
+    #weather-gallery{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .label{
+        font-size: 24px;
+    }
     main h2{
         font-size: 35px;
+    }
+    /*Storm Center*/
+    label, input, select, #in-danger-div{
+        font-size: 24px;
+    }
+    form{
+        width: 100%;
+    }
+    legend{
+        font-size: 32px;
+    }
+    #submit-storm{
+        width: 300px;
     }
     .towns{
         display: grid;
