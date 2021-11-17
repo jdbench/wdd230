@@ -300,7 +300,10 @@ p {
     align-items: center;
 }
 .wireframe{
-    box-shadow: 0px 2px 5px;
+    box-shadow: 0 2px 5px;
+}
+.wireframe:hover{
+    box-shadow: 0 2px 5px 2px;
 }
 .wireframe h2{
     background-color: #518260;
