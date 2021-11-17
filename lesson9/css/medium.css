@@ -67,4 +67,23 @@
     .towns p{
         font-size: 20px;
     }
+    .home-hero{
+        background:url("../images/home-hero-image.jpeg") no-repeat;
+        background-size: 100%;
+        width: 100%;
+        height: 400px;
+        aspect-ratio: 5/3.3;
+        background-size: cover;
+        background-position: center;
+        margin: 0 auto;
+        margin-top: -20px;
+        margin-bottom: 20px;
+        box-shadow: 0 2px 5px #2C2F2D;
+    }
+    .home-hero:hover{
+        box-shadow:0 2px 5px 3px#2C2F2D;
+    }
+    .home-hero img{
+        display: none;
+    }
 }
