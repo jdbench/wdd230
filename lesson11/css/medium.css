@@ -53,14 +53,23 @@
         padding-left: 50px;
         padding-top: 50px;
     }
-    .preston-background-image{
-        background-image: url("../images/preston-hero-image.jpg");
+    .background-image{
         background-repeat: no-repeat;
         background-size:cover;
         background-position: center;
         padding: 30px;
         height: 500px;
-        text-align: left;
+        text-align: left;   
+    }
+    .preston-background-image{
+        background-image: url("../images/preston-hero-image.jpg");
+        
+    }
+    .sodasprings-background-image{
+        background-image: url("../images/sodasprings-hero-image.png");
+    }
+    .fishhaven-background-image{
+        background-image: url("../images/fishhaven-hero-image.png")
     }
     #small-overlay, #large-overlay{
         display: none;
