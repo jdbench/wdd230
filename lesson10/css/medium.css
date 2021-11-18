@@ -1,4 +1,7 @@
 @media screen and (min-width: 600px) and (max-width: 1024px){
+    body{
+        font-size: 20px;
+    }
     nav{
         background-color: #518260;
     }
@@ -6,21 +9,6 @@
         margin: 0 auto;
         max-width:1024px;
         min-width: 600px;
-    }
-    .header-logo{
-        width: auto;
-        max-width: none;
-        top: -5px;
-        right: 400px;
-    }
-    .title{
-        font-size: 32px;
-    }
-    .motto{
-        margin-top: 2px;
-        font-size: 18px;
-        text-align: center;
-        margin-right: 90px;
     }
     .burger{
         display:none;
@@ -44,20 +32,19 @@
         margin: 0;
         padding: 0;
     }
-    .nav-links a{
-        font-size: 16px;
-    }
     .hero-text{
         width: 350px;
         color: white;
         background-color: #05569d;
-        opacity: 65%;
-        font-size: 20px;
-        box-shadow: 1px 2px 4px 1px white;
+        opacity: 85%;
+        box-shadow: 1px 2px 4px white;
+    }
+    .hero-text:hover{
+        box-shadow: 2px 3px 5px white;
+        opacity: 100%;
     }
     .hero-text h2{
         margin-bottom: 8px;
-        font-size: 24px;
     }
     #for-smalls{
         display: none;
@@ -78,16 +65,13 @@
         display: block;
         float: right;
         color: red;
-        font-size: 30px;
+        font-size: 1.8em;
         margin-right: 25px;
         margin-top: 25px;
     }
     #weather-gallery{
         display:grid;
         grid-template-columns: 1fr 1fr;
-    }
-    .label{
-        font-size: 20px;
     }
     .contact-information{
         grid-template-columns: 1fr 1fr;
@@ -103,21 +87,9 @@
         grid-column: 1/2;
         grid-row:1/4;
     }
-    main h2{
-        font-size: 30px;
-    }
     /*Storm Center*/
-    label, input, select, #in-danger-div{
-        font-size: 18px;
-    }
-    legend{
-        font-size: 22px;
-    }
     #submit-storm{
         width: 250px;
-    }
-    .towns p{
-        font-size: 20px;
     }
     .home-hero{
         background:url("../images/home-hero-image.jpeg") no-repeat;

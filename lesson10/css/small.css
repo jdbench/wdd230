@@ -35,10 +35,6 @@
 .header, .footer, a{
     color:black;
 }
-.footer {
-    background-color: #518260;
-    width: 100%;
-}
 body{
     background-color: gray;
 }
@@ -81,11 +77,11 @@ body{
     text-align: center;
     margin-top: -5px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 20px;
+    font-size: 1.2em;
 }
 .motto{
     margin-top: 2px;
-    font-size: 16px;
+    font-size: .9em;
     font-style: italic;
     text-align: center;
     opacity: 76%;
@@ -155,7 +151,7 @@ nav{
     flex: auto;
     text-align: center;
     padding: 20px;
-    font-size: 18px;
+    font-size: 1em;
     font-family: 'Noto Sans Display', sans-serif;
     color: Black;
 }
@@ -176,11 +172,12 @@ a:hover{
 }
 /*footer styles*/
 .footer {
-    max-width: 100%;
-    border: 2px groove gray;
+    width: 100%;
+    background-color: lightgray;
+    box-shadow: 0 2px 5px 1px #2C2F2D;
     margin: auto;
     text-align: center;
-    font-size: 16px;
+    font-size: .9em;
     padding:5px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
@@ -188,22 +185,31 @@ a:hover{
     background-color: #2C2F2D;
 }
 /*body*/
+body{
+    font-size: 18px;
+}
 h1{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width:100%;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: calc(18px + 1.75vw);
+    font-size: 2em;
     text-shadow: 3px 3px 7px #2C2F2D;
 }
 h2{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.8em;
 }
 h3{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
 }
 p {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+}
+.background-image:hover, .five-day-forecast:hover, .article:hover{
+    box-shadow: 1px 2px 5px 1px #2C2F2D;
 }
 /*contact information*/
 .social{
@@ -216,7 +222,7 @@ p {
     box-shadow: 0 1px 3px #2C2F2D;
 }
 .fa{
-    font-size: .8em;
+    font-size: .9em;
     margin-right: 10px;
 }
 .contact-information{
@@ -224,14 +230,14 @@ p {
     text-align: left;
     grid-template-columns: 1fr;
     width:100%;
-    border:2px lightgray;
-    background-color: lightgray;
+    box-shadow: 0 2px 5px 2px #2C2F2D;
+    background-color: #518260;
     padding-top: 15px;
     padding-bottom: 15px;
 }
 .ci-text{
-    margin: 0 auto;
     width: fit-content;
+    padding-left: 15px;
 }
 .ci-p{
     margin-top: 5px;
@@ -242,7 +248,8 @@ p {
 .map-container{
     height: 100%;
     width: 100%;
-    text-align: center;
+    text-align: left;
+    padding-left: 15px;
 }
 #map{
     margin-top: 18px;
@@ -364,8 +371,10 @@ p {
     padding:2px;
 }
 .hero-text{
-    border: 3px outset gray;
-    font-size: 18px;
+    box-shadow: 1px 1px 5px 1px #2C2F2D;
+    font-size: 1em;
+    background: lightgray;
+    color: black;
 }
 #medium-overlay, #large-overlay{
     display: none;
@@ -386,11 +395,8 @@ p {
 }
 .hero-text h2{
     text-align: left;
-    text-decoration: underline;
-    font-size: 1.5em;
-    padding-right: 15px;
-    margin-left: 15px;
-    margin-top: 15px;
+    background-color: #518260;
+    padding: 15px;
 
 }
 #desc{
@@ -412,45 +418,71 @@ p {
 }
 /*5 day forecast styles*/
 .five-day-forecast{
-    border: 2px solid gray;
+    box-shadow: 0 1px 5px 1px #2C2F2D;
     text-align: left;
-    background-color: #518260;
+    background-color: lightgray;
 }
 .five-day-forecast h2{
-    font-size: calc(16px + 1.5vw);
+    font-size: 1.8em;
+}
+.five-day-forecast h2{
+    background-color: #518260;
+    padding: 15px;
+}
+.f-forecast{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1em;
+}
+.day{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.day span{
+    font-weight: 600;
+    font-size: 1em;
 }
 /*article styles*/
 .article {
-    border: 2px inset rgb(88, 27, 27);
+    box-shadow: 0 1px 5px 1px #2C2F2D;
+    background-color: lightgray;
+    margin-top: 45px;
+    margin-bottom: 45px;
 }
 .article-text{
     display:flex;
-    flex-direction: column-reverse;
+    flex-direction:column-reverse;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
 }
 .article p, .article h3{
     text-align: left;
-    margin-top: 10px;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-bottom: 5px;
+}
+.article h2{
+    text-align: left;
+    font-size: 1.8em;
+    background: #518260;
+    padding: 15px;
+}
+.article h3{
+    padding-left: 15px;
+    width:fit-content;
+}
+.article a{
+    text-decoration: underline;
 }
 #article-img1{
     display: none;
 }
 #article-img2{
     float: left;
-    margin-left: 15px;
     width: 80%;
     height: 100%;
     aspect-ratio: 5/3;
     max-width: 350px;
-    margin-bottom: 5px;
-}
-.f-subhead{
-    text-align: center;
-}
-.f-forecast{
-    display: none;
 }
 /*Weather Gallery*/
 #weather-gallery{
@@ -471,7 +503,7 @@ figure:hover{
 }
 .label{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 16px;
+    font-size: .9em;
     margin: 15px 5px 0px 5px;
 }
 figure img{
@@ -484,11 +516,11 @@ label, input, select{
     display:block;
     padding: 15px;
     width: 100%;
-    font-size: 16px;
+    font-size: .9em;
     font-weight: 500;
 }
 legend{
-    font-size: 18px;
+    font-size: 1em;
     font-weight: 700;
 }
 fieldset{
