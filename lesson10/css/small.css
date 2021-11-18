@@ -365,6 +365,7 @@ p {
 }
 .hero-text{
     border: 3px outset gray;
+    font-size: 18px;
 }
 #medium-overlay, #large-overlay{
     display: none;
@@ -386,6 +387,8 @@ p {
 .hero-text h2{
     text-align: left;
     text-decoration: underline;
+    font-size: 1.5em;
+    padding-right: 15px;
     margin-left: 15px;
     margin-top: 15px;
 
@@ -393,8 +396,9 @@ p {
 #desc{
     text-transform: capitalize;
 }
-.hero-text p{
+.hero-text h3{
     text-align: left;
+    font-size: 1em;
     margin-left: 15px;
     margin-right: 15px;
 }
