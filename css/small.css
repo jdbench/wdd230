@@ -56,17 +56,17 @@ li{
     margin-top: 15px;
     width: fit-content;
     list-style-type: none;
-    box-shadow: 1px 1px 2px  1px#a6a6a6;
     padding: 3px;
 }
 .content li a{
     text-decoration: none;
+    box-shadow: 1px 1px 2px 1px#a6a6a6;
     color: darkblue;
     padding: 1px;
 }
 .content li a:hover{
     background-color: lightgray;
-    box-shadow: 1px 1px 3px darkblue;
+    box-shadow: 1px 1px 2px 1px darkblue;
 }
 .content li a:visited{
     color:darkblue;
