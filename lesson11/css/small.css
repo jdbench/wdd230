@@ -318,6 +318,9 @@ p {
     width: 100%;
     max-width: 500px;
 }
+.towns section:last-child{
+    margin-bottom: 20px;
+}
 .towns section:hover{
     box-shadow: 5px 5px 8px #2C2F2D;
 }
@@ -462,7 +465,7 @@ p {
     background: #518260;
     padding: 15px;
 }
-.article h3{
+.article h3, .article h4{
     padding-left: 15px;
     width:fit-content;
 }

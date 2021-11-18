@@ -66,10 +66,10 @@
         
     }
     .sodasprings-background-image{
-        background-image: url("../images/sodasprings-hero-image.png");
+        background-image: url("../images/sodasprings-hero-image.jpg");
     }
     .fishhaven-background-image{
-        background-image: url("../images/fishhaven-hero-image.png")
+        background-image: url("../images/fishhaven-hero-image.jpg")
     }
     #small-overlay, #large-overlay{
         display: none;

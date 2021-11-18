@@ -62,6 +62,9 @@
     #for-smalls{
         display: none;
     }
+    .towns section:last-child{
+        margin-bottom: 0;
+    }
     .background-image{
         background-repeat: no-repeat;
         background-size:cover;
@@ -74,10 +77,10 @@
         background-image: url("../images/preston-hero-image.jpg");
     }
     .sodasprings-background-image{
-        background-image: url("../images/sodasprings-hero-image.png");
+        background-image: url("../images/sodasprings-hero-image.jpg");
     }
     .fishhaven-background-image{
-        background-image: url("../images/fishhaven-hero-image.png")
+        background-image: url("../images/fishhaven-hero-image.jpg")
     }
     #small-overlay, #medium-overlay{
         display: none;
