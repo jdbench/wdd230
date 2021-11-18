@@ -215,11 +215,9 @@ p {
 .social img:hover{
     box-shadow: 0 1px 3px #2C2F2D;
 }
-.fa-map-marker{
+.fa{
+    font-size: .8em;
     margin-right: 10px;
-}
-.fa-phone{
-    margin-right: 13px;
 }
 .contact-information{
     display: grid;
