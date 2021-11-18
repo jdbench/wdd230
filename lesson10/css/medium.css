@@ -49,6 +49,10 @@
     #for-smalls{
         display: none;
     }
+    .map-container{
+        padding-left: 50px;
+        padding-top: 50px;
+    }
     .background-image{
         background-image: url("../images/hero_image.jpg");
         background-repeat: no-repeat;

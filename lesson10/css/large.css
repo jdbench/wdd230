@@ -86,6 +86,10 @@
         display: block;
         text-align: justify;
     }
+    .map-container{
+        padding-left: 50px;
+        padding-top: 50px;
+    }
     #article-img1{
         display: block;
         float: right;
