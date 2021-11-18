@@ -63,13 +63,15 @@
         display: none;
     }
     .background-image{
-        background-image: url("../images/hero_image.jpg");
         background-repeat: no-repeat;
         background-size:cover;
         background-position: center;
         padding: 30px;
         height: 600px;
         text-align: left;
+    }
+    .preston-background-image{
+        background-image: url("../images/preston-hero-image.jpg");
     }
     #small-overlay, #medium-overlay{
         display: none;

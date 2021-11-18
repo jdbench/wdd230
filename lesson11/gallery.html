@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather's a Bench</title>
+        <meta name="description" content="Weather news website">
+        <script src="https://kit.fontawesome.com/4472a98fb0.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/noto-sans.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <link rel="icon" href="images/logo.png">
+    <body>
+        <header>
+            <div class="header">
+                <img class="header-logo" src="../lesson6/images/logo.png" alt="Website Logo">
+                    <div id=title-box>
+                        <h1 class="title">Weather's a Bench</h1>
+                        <h2 class="motto">Don't let it get you down</h2>
+                    </div>
+                    <div class="burger icon">
+                        <a href="javascript:void(0)" onclick="dropdownFunction()">☰</a>
+                    </div>
+                </div>
+            </header>
+            </div>
+        </header>
+        <nav>
+            <div class="navbar">
+                <ul class="nav-links">
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a href="preston.html">Preston</a></li>
+                    <li class="nav-item"><a href="sodasprings.html">Soda Springs</a></li>
+                    <li class="nav-item"><a href="fishhaven.html">Fish Haven</a></li>
+                    <li class="nav-item"><a href="stormcenter.html">Storm Center</a></li>
+                    <li class="nav-item"><a class="active" href="gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <ul id="dropdown-links">
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a href="preston.html">Preston</a></li>
+                    <li class="nav-item"><a href="sodasprings.html">Soda Springs</a></li>
+                    <li class="nav-item"><a href="fishhaven.html">Fish Haven</a></li>
+                    <li class="nav-item"><a href="stormcenter.html">Storm Center</a></li>
+                    <li class="nav-item"><a class="active" href="gallery.html">Gallery</a></li>
+                </ul>
+            </div>            
+        </nav>
+        <div class="content">
+        <main>
+            <h1 style="text-align: center;">Weather Gallery</h1>
+            <div id="weather-gallery">
+                <figure>
+                    <img src="images/300x200.png" data-src="images/cloudy.jpg" width="300" height="200" alt="cloudy">
+                    <figcaption class="label">Cloudy weather</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/300x200.png" data-src="images/fall.jpg" width="300" height="200" alt="fall road">
+                    <figcaption class="label">Fallen leaves covering path</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/300x200.png" data-src="images/foggy.jpg" width="300" height="200" alt="foggy landscape">
+                    <figcaption class="label">Foggy landscape</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/300x200.png" data-src="images/icy.jpg" width="300" height="200" alt="icy road">
+                    <figcaption class="label">Icy road</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/300x200.png" data-src="images/mountains.jpg" width="300" height="200" alt="sun behind mountains">
+                    <figcaption class="label">The Sun behind mountains</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/300x200.png" data-src="images/rainy.jpg" width="300" height="200" alt="rainy weather">
+                    <figcaption class="label">Rainy weather</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/300x200.png" data-src="images/snowing.jpg" width="300" height="200" alt="snowing">
+                    <figcaption class="label">Snowy weather</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/300x200.png" data-src="images/stormy.jpg" width="300" height="200" alt="stormy weather">
+                    <figcaption class="label">Stormy weather</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/300x200.png" data-src="images/sunny.jpg" width="300" height="200" alt="sunny field">
+                    <figcaption class="label">Sunny field</figcaption>
+                </figure>
+            </div>
+            <div class="contact-information">
+                <div class="ci-text">
+                    <h3 class="ci-head">Contact Information</h3>
+                    <p class="ci-p" id="ci-p1"><i class="fa fa-envelope"></i> <a href="mailto:email@weathersabench.com">contact@weathersabench.com</a></p>
+                    <p class="ci-p"><i class="fa fa-phone"></i><a href="tel:+1(234)567-8910">+1(234)567-8910</a></p>
+                    <p class="ci-p" id="ci-loc"><i class="fa fa-map-marker"></i> <a href="https://www.google.com/maps/place/55+E+1st+S,+Preston,+ID+83263/@42.094727,-111.874838,15z/data=!4m5!3m4!1s0x8754f7ea26e3c6e7:0x61e0703e64fb92f4!8m2!3d42.0947268!4d-111.8748376?hl=en">55 E 1st S, Preston, ID, 83221</a></p>
+                    <div class="social">
+                        <a href="http://www.facebook.com"><img src="https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=29&h=29" width="29" height="29" alt="facebook logo"></a>
+                        <a href="http://www.instagram.com"><img src="https://facebookbrand.com/wp-content/uploads/2021/03/glyph-logo_May2016.png?w=29" width="29" height="29" alt="instagram logo"></a>
+                        <a href="http://www.twitter.com"><img src="../lesson10/images/twitter.png" width="29" height="29" alt="twitter logo"></a>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <a href="https://www.google.com/maps/place/55+E+1st+S,+Preston,+ID+83263/@42.0931161,-111.87596,15.89z/data=!4m5!3m4!1s0x8754f7ea26e3c6e7:0x61e0703e64fb92f4!8m2!3d42.0947268!4d-111.8748376?hl=en"><img id="map" src="../lesson9/images/location.png" loading="lazy" alt="location" width=300 height=200></a>
+                </div>
+            </div>
+        </main>
+        <footer class="footer"> 
+            <p>&copy; <span id="year"></span> | Justin D. Bench | Idaho<br><a href="../index.html">Assignment Portal</a><br><span id="currentDate"></span> | <span id="lastVisit"></span></p>
+        </footer>
+        </div>
+        <script src="../lesson9/js/js.js"></script>
+        <script src="js/dropdown.js"></script>
+        <script src="js/lazy-load.js"></script>
+        <script src="js/lastVisit.js"></script>
+    </body>
+</html>

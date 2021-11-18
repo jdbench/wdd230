@@ -53,8 +53,8 @@
         padding-left: 50px;
         padding-top: 50px;
     }
-    .background-image{
-        background-image: url("../images/hero_image.jpg");
+    .preston-background-image{
+        background-image: url("../images/preston-hero-image.jpg");
         background-repeat: no-repeat;
         background-size:cover;
         background-position: center;

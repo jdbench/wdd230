@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather's a Bench</title>
+        <meta name="description" content="Weather news website">
+        <script src="https://kit.fontawesome.com/4472a98fb0.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/noto-sans.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <link rel="icon" href="images/logo.png">
+    </head>
+    <body>
+        <header>
+            <div id="banner">
+                <h1>Friday = Preston Pancakes in the Park!  9:00 a.m. Friday at the city park pavilion.</h1>
+                <div>
+                    <a href="javascript:void(0);" class="close" onclick="exitBanner()">❌</a>
+                </div>
+
+            </div>
+            <div class="header">
+                <img class="header-logo" src="images/logo.png" alt="Website Logo">
+                    <div id=title-box>
+                        <h1 class="title">Weather's a Bench</h1>
+                        <h2 class="motto">Don't let it get you down</h2>
+                    </div>
+                <div class="burger icon">
+                    <a href="javascript:void(0)" onclick="dropdownFunction()">☰</a>
+                </div>
+            </div>
+        </header>
+        <nav>
+            <div class="navbar">
+                <ul class="nav-links">
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="active" href="preston.html">Preston</a></li>
+                    <li class="nav-item"><a href="sodasprings.html">Soda Springs</a></li>
+                    <li class="nav-item"><a href="fishhaven.html">Fish Haven</a></li>
+                    <li class="nav-item"><a href="stormcenter.html">Storm Center</a></li>
+                    <li class="nav-item"><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <ul id="dropdown-links">
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="active" href="preston.html">Preston</a></li>
+                    <li class="nav-item"><a href="sodasprings.html">Soda Springs</a></li>
+                    <li class="nav-item"><a href="fishhaven.html">Fish Haven</a></li>
+                    <li class="nav-item"><a href="stormcenter.html">Storm Center</a></li>
+                    <li class="nav-item"><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </div>            
+        </nav>
+        <div class="content">
+        <main>
+            <div class="weather-summary">
+                <div id="hero-image">
+                    <h1>Preston Idaho</h1>
+                </div>
+                <div class="preston-background-image background-image">
+                    <div class="hero-text">
+                        <div id="overlay"></div>
+                        <h2>Weather Summary</h2>
+                        <div class="text-box-small">
+                            <h3 id="desc">Weather Description: </h3>
+                            <h3 id="temp">Current Temperature: </h3>
+                            <h3><span id="temp-low">High Temperature</span> | <span id="temp-high">Low Temperature</span></h3>
+                            <h3 id="wind">Wind Speed</h3>
+                            <h3 id="wind-chill">Wind Chill</h3>
+                            <h3 id="humidity">Humidity</h3>
+                            <h3 id="real-feel">Real Feel</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="five-day-forecast">
+                <h2 class="f-subhead">Five Day Forecast</h2>
+                    <div class="f-forecast days">
+                        <div class="day" id="wednesday">
+                            <h3 class="five-day-name" id="w">WED</h3>
+                            <img class="five-day-image" src="images/150x150.png" width="65" height="65" alt="Image depicting weather">
+                            <span class="five-day-temp"></span>
+                        </div>
+                        <div class="day" id="thursday">
+                            <h3 class="five-day-name" id="th">THUR</h3>
+                            <img class="five-day-image" src="images/150x150.png" width="65" height="65" alt="Image depicting weather">
+                            <span class="five-day-temp"></span>
+                        </div>
+                        <div class="day" id="friday">
+                            <h3 class="five-day-name" id="f">FRI</h3>
+                            <img class="five-day-image" src="images/150x150.png"  width="65" height="65" alt="Image depicting weather">
+                            <span class="five-day-temp"></span>
+                        </div>
+                        <div class="day" id="saturday">
+                            <h3 class="five-day-name" id="s">SAT</h3>
+                            <img class="five-day-image" src="images/150x150.png"  width="65" height="65" alt="Image depicting weather">
+                            <span class="five-day-temp"></span>
+                        </div>
+                        <div class="day" id="sunday">
+                            <h3 class="five-day-name" id="su">SUN</h3>
+                            <img class="five-day-image" src="images/150x150.png"  width="65" height="65" alt="Image depicting weather">
+                            <span class="five-day-temp"></span>
+                        </div>
+                    </div>
+            </div>
+            <div class="article">
+                <h2>Local Article</h2>
+                <h3>Christmas tree cutting permits now available</h3>
+                <div class="article-text">
+                    <img id="article-img1" src="images/150x150.png" data-src="images/photo2.jpeg" width="500" height="333" alt="A path through the mountains">
+                    <img id="article-img2" src="images/150x150.png" data-src="images/photo2.jpeg" width="500" height="333" alt="A path through the mountains">
+                    <p>
+                        Christmas tree permits are now available to purchase online through recreation.gov until December 31. Details regarding designated cutting areas, 
+                        dates and height restrictions may be found at recreation.gov. Last year, the Forest sold 8,732 permits and over 30% were from online sales.
+                        <br><br>
+                        “For every tree that is found, cut and carried home as a holiday fixture, a new story is created,” said USDA Forest Service Chief Randy Moore. 
+                        “These stories become the precious memories that create traditions worth carrying on for generations and further connect families with their local forests.”
+                        <br><br><a href="https://www.hjnews.com/preston/christmas-tree-cutting-permits-now-available/article_1a956570-9f1b-5beb-a509-515eeaf55d73.html">... Continue Reading ...</a>
+                    </p>
+                </div>
+            </div>
+            <div class="contact-information">
+                <div class="ci-text">
+                    <h3 class="ci-head">Contact Information</h3>
+                    <h4 class="ci-p" id="ci-p1"><i class="fa fa-envelope"></i><a href="mailto:email@weathersabench.com">contact@weathersabench.com</a></h4>
+                    <h4 class="ci-p"><i class="fa fa-phone"></i><a href="tel:+1(234)567-8910">+1(234)567-8910</a></h4>
+                    <h4 class="ci-p" id="ci-loc"><i class="fa fa-map-marker"></i><a href="https://www.google.com/maps/place/55+E+1st+S,+Preston,+ID+83263/@42.094727,-111.874838,15z/data=!4m5!3m4!1s0x8754f7ea26e3c6e7:0x61e0703e64fb92f4!8m2!3d42.0947268!4d-111.8748376?hl=en">55 E 1st S, Preston, ID, 83221</a></h4>
+                    <div class="social">
+                        <a href="http://www.facebook.com"><img src="https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=29&h=29" width="29" height="29" alt="facebook logo"></a>
+                        <a href="http://www.instagram.com"><img src="https://facebookbrand.com/wp-content/uploads/2021/03/glyph-logo_May2016.png?w=29" width="29" height="29" alt="instagram logo"></a>
+                        <a href="http://www.twitter.com"><img src="images/twitter.png" width="29" height="29" alt="twitter logo"></a>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <a href="https://www.google.com/maps/place/55+E+1st+S,+Preston,+ID+83263/@42.0931161,-111.87596,15.89z/data=!4m5!3m4!1s0x8754f7ea26e3c6e7:0x61e0703e64fb92f4!8m2!3d42.0947268!4d-111.8748376?hl=en"><img id="map" src="images/location.png" loading="lazy" alt="location" width=300 height=200></a>
+                </div>
+            </div>
+        </main>
+        <footer class="footer"> 
+            <p>&copy; <span id="year"></span> | Justin D. Bench | Idaho<br><a href="../index.html">Assignment Portal</a> | <a href="https://openweathermap.org/">Data From OpenWeather</a><br><span id="currentDate"></span> | <span id="lastVisit"></span></p>
+        </footer>
+        </div>
+        <script src="js/js.js"></script>
+        <script src="js/preston-weatherapi.js"></script>
+        <script src="js/banner.js"></script>
+        <script src="js/dropdown.js"></script>
+        <script src="js/lastVisit.js"></script>
+        <script src="js/lazy-load.js"></script>
+    </body>
+</html>
