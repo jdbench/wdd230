@@ -61,6 +61,7 @@ li{
 .content li a{
     text-decoration: none;
     box-shadow: 1px 1px 2px 1px#a6a6a6;
+    background-color:azure;
     color: darkblue;
     padding: 1px;
 }
