@@ -1,26 +1,21 @@
 @media screen and (min-width: 1025px){
+    body{
+        font-size: 24px;
+    }
     .content{
         margin: 0 auto;
         min-width: 1025px;
         max-width: 1200px;
-    }
-    .content p{
-        font-size: 24px;
     }
     .header-logo{
         z-index: 0;
         width: auto;
         max-width: none;
         top: 0px;
-        right: 580px;
-    }
-    .title{
-        font-size: 50px;
+        right: 380px;
     }
     .motto{
-        margin-top: -5px;
         width:100%;
-        font-size: 24px;
         text-align: left;
         opacity: 76%;
     }
@@ -46,22 +41,23 @@
         margin: 0;
         padding: 0;
     }
-    .nav-links a{
-        font-size:20px;
-    }
     a:hover{
         background-color:#2C2F2D;
     }
     .hero-text{
         float:left;
-        max-width: 350px;
+        width: fit-content;
         color: white;
         background-color: #05569d;
-        opacity: 75%;
+        opacity: 85%;
         box-shadow: 1px 2px 4px 1px white;
     }
+    .hero-text:hover{
+        box-shadow: 2px 3px 5px 1px white;
+        opacity: 100%;
+    }
     .hero-text h2{
-        margin-bottom: 8px;
+        margin: 0;
     }
     #for-smalls{
         display: none;
@@ -84,56 +80,21 @@
         color: red;
         margin-right: 25px;
         margin-top: 25px;
-        font-size: 45px;
-    }
-    .f-subhead{
-        text-align: left;
-    }
-    .five-day-forecast{
-        border: none;
-        width: 100%;
-        background-color: white;
-    }
-    .five-day-forecast h2{
-        text-align: center;
-    }
-    .f-forecast{
-        width: 100%;
-        margin-top: 10px;
-        display: flex;
-        border:2px outset gray;
-        text-align: left;
-        background-color: #518260;
-        padding: 15px;
-        justify-content: space-around;
-    }
-    .f-forecast img{
-        width:65px;
-    }
-    .f-forecast .day{
-        text-align: center;
-        display:flex;
-        align-items: center;
-        flex-direction: column;
-    }
-    .f-forecast .day span{
-        margin-top: 5px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 18px;
+        font-size: 2em;
     }
     .article-text{
         display: block;
-        margin-right: 50px;
         text-align: justify;
     }
-    .article h3{
-        font-size: 28px;
+    .map-container{
+        padding-left: 50px;
+        padding-top: 50px;
     }
     #article-img1{
         display: block;
         float: right;
-        margin-left:15px;
         width:25%;
+        height: 100%;
         max-width: 250px;
     }
     #article-img2{
@@ -157,21 +118,9 @@
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
-    .label{
-        font-size: 24px;
-    }
-    main h2{
-        font-size: 35px;
-    }
     /*Storm Center*/
-    label, input, select, #in-danger-div{
-        font-size: 24px;
-    }
     form{
         width: 100%;
-    }
-    legend{
-        font-size: 32px;
     }
     #submit-storm{
         width: 300px;
@@ -180,12 +129,6 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         padding: 15px;
-    }
-    .towns h3{
-        font-size: 18px;
-    }
-    .towns section p{
-        font-size: 24px;
     }
     .towns section:first-child{
         grid-column:1/1;
