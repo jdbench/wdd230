@@ -499,9 +499,6 @@ figure{
     box-shadow: 5px 5px 15px 1px gray;
     margin: 20px;
 }
-figure:hover{
-    box-shadow: 5px 5px 15px 1px #2C2F2D;
-}
 .label{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: .9em;
