@@ -34,9 +34,6 @@
 .header, .footer, a{
     color:black;
 }
-body{
-    background-color: gray;
-}
 .content{
     max-width: 600px;
     min-width: fit-content;
@@ -57,9 +54,9 @@ body{
     position: absolute;
     margin: 0 auto;
     top: 0px;
-    right: 300px;
+    right: 230px;
     left:0px;
-    width: 18%;
+    width: 12%;
     min-width: 60px;
     max-width: 80px;
 
@@ -179,25 +176,27 @@ a:hover{
 }
 /*body*/
 body{
-    font-size: 18px;
+    font-size: 14px;
+    background-color: gray;
 }
 h1{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width:100%;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 2em;
+    font-size: 1.5em;
     text-shadow: 3px 3px 7px #2C2F2D;
 }
 h2{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.8em;
+    font-size: 1.2em;
 }
 h3{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1em;
 }
 p {
@@ -418,6 +417,8 @@ p {
 .five-day-forecast{
     box-shadow: 0 1px 5px 1px #2C2F2D;
     text-align: left;
+    margin: 0 auto;
+    max-width: 800px;
     background-color: lightgray;
 }
 .five-day-forecast h2{
@@ -446,6 +447,8 @@ p {
 .article {
     box-shadow: 0 1px 5px 1px #2C2F2D;
     background-color: lightgray;
+    max-width: 1000px;
+    margin: 0 auto;
     margin-top: 45px;
     margin-bottom: 45px;
 }
