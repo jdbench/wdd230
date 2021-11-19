@@ -1,0 +1,65 @@
+*{
+    color: #1b295c;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    text-align: center;
+    background-color: #f0f3fb;
+}
+div.cards{
+    margin: 0 auto;
+    display: grid;
+    padding: 15px;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    background-color: #778dd7;
+    box-shadow: 0px 0px 40px #223983;
+    text-align: center;
+}
+section{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color:#e1e6f6;
+    border: 1px solid #223983;
+    width: 100%;
+    text-align: center;
+}
+h1{
+    color: #090e1f;
+}
+h2{
+    font-weight: 900;
+    font-size: 28px;
+    margin-bottom: -15px;
+}
+section p:first-of-type{
+    margin-bottom: -15px;
+}
+img{
+    min-width: 200px;
+    max-width: 250px;
+    width: 50%;
+    margin-bottom: 15px;
+    box-shadow: 1px 1px 15px #090e1f;
+}
+footer{
+    margin-top: 20px;
+}
+@media screen and (min-width: 570px) and (max-width: 1086px) {
+    div.cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (min-width: 1086px) and (max-width: 1430px){
+    div.cards{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media screen and (min-width: 1430px){
+    div.cards{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
