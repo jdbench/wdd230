@@ -48,10 +48,12 @@
         font-size: .6em;
         float:left;
         width: fit-content;
-        color: white;
         background-color: #05569d;
         opacity: 85%;
         box-shadow: 1px 2px 4px 1px white;
+    }
+    .hero-text h3{
+        color: white;
     }
     .hero-text:hover{
         box-shadow: 2px 3px 5px 1px white;
