@@ -158,7 +158,7 @@ a{
 }
 a:hover{
     background-color:#2C2F2D;
-    color: gray;
+    color: lightgray;
 }
 /*footer styles*/
 .footer {
