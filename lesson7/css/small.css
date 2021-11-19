@@ -1,0 +1,584 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+/*banner styles*/
+#banner{
+    display:none;
+    align-items: center;
+    flex: 0 auto;
+    padding: 20px;
+    z-index: 1;
+    position:fixed;
+    text-align: center;
+    color:#518260;
+    background-color: #2C2F2D;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+#banner h1{
+    margin: 0 auto;
+    text-shadow: none;
+}
+.close {
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #518260;
+    border-radius: 30px;
+}
+.close:hover{
+    cursor: pointer;
+}
+/*header Styles*/
+.header, .footer, a{
+    color:black;
+}
+.content{
+    max-width: 600px;
+    min-width: fit-content;
+    padding-top: 15px;
+    margin:0 auto;
+    text-align: center;
+    background-color: white;
+}
+.header{
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    min-width: fit-content;
+    background-color: lightgray;
+    padding: 15px;
+}
+.header-logo{
+    position: absolute;
+    margin: 0 auto;
+    top: 0px;
+    right: 230px;
+    left:0px;
+    width: 12%;
+    min-width: 60px;
+    max-width: 80px;
+
+}
+#title-box{
+    margin: 0 auto;
+    display:flex;
+    flex-direction: column;
+    margin-top: -13px;
+}
+.title{
+    text-shadow: none;
+    margin-bottom: -15px;
+    text-align: center;
+    margin-top: -5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+}
+.motto{
+    margin-top: 2px;
+    font-size: .9em;
+    font-style: italic;
+    text-align: center;
+    opacity: 76%;
+}
+/*nav styles*/
+nav{
+    padding:0;
+    margin: 0 auto;
+}
+.navbar{
+    display:none;
+}
+.burger{
+    position:absolute;
+    margin: 0 auto;
+    left: 240px;
+    right: 0;
+    cursor: pointer;
+    width: fit-content;
+}
+.burger:hover{
+    cursor: pointer;
+}
+.burger a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+}
+.burger a:hover{
+    color: black;
+    background-color: lightgray;
+}
+.dropdown{
+    display:flex;
+    padding:0;
+}
+#dropdown-links{
+    padding: 0;
+    margin:0;
+    display:none;
+    background-color: #518260;
+    flex-direction: column;
+    flex: auto;
+    align-items: stretch;
+    justify-content: space-between;
+    max-width: 100%;
+    transition:all .5s ease-in-out;
+}
+.nav-links{
+    display:none;
+}
+.nav-item{
+    padding:0;
+    margin:0;
+    display: flex;
+    flex: 1;
+    list-style-type: none;
+}
+.nav-item a{
+    flex: auto;
+    text-align: center;
+    padding: 20px;
+    font-size: 1em;
+    font-family: 'Noto Sans Display', sans-serif;
+    color: Black;
+}
+.nav-item a:hover{
+    background-color: #2C2F2D;
+    outline: #2C2F2D solid;
+}
+a{
+    text-decoration: none;
+}
+.active{
+    text-decoration: underline 10px;
+    text-underline-offset: .2em;
+    font-weight: bold;
+}
+a:hover{
+    background-color:#2C2F2D;
+    color: gray;
+}
+/*footer styles*/
+.footer {
+    width: 100%;
+    background-color: lightgray;
+    box-shadow: 0 2px 5px 1px #2C2F2D;
+    margin: auto;
+    text-align: center;
+    font-size: .9em;
+    padding:5px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.footer a:hover{
+    background-color: #2C2F2D;
+}
+/*body*/
+body{
+    font-size: 14px;
+    background-color: gray;
+}
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width:100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.5em;
+    text-shadow: 3px 3px 7px #2C2F2D;
+}
+h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+}
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1em;
+}
+h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+}
+p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+}
+.background-image:hover, .five-day-forecast:hover, .article:hover{
+    box-shadow: 1px 2px 5px 1px #2C2F2D;
+}
+/*contact information*/
+.social{
+    margin-top: 20px;
+    display:flex;
+    width: 250px;
+    justify-content: space-around;
+}
+.social img:hover{
+    box-shadow: 0 1px 3px #2C2F2D;
+}
+.fa{
+    font-size: .9em;
+    margin-right: 10px;
+}
+.contact-information{
+    display: grid;
+    text-align: left;
+    grid-template-columns: 1fr;
+    width:100%;
+    box-shadow: 0 2px 5px 2px #2C2F2D;
+    background-color: #518260;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.ci-text{
+    width: fit-content;
+    padding-left: 15px;
+}
+.ci-p{
+    margin-top: 5px;
+}
+#ci-p1{
+    margin-top:10px;
+}
+.map-container{
+    padding: 15px;
+    height: 100%;
+    width: 100%;
+    text-align: left;
+}
+#map{
+    width:80%;
+    height: 80%;
+    box-shadow: 0 1px 2px  #2C2F2D;
+    min-width:3px;
+    min-height: 1px;
+    max-width: 300px;
+    max-height: 200px;
+}
+#map:hover{
+    box-shadow: 0px 2px 5px #333;
+}
+/*Home page*/
+.towns{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+.towns section{
+    background-color: #518260;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    padding-bottom: 25px;
+    box-shadow: 3px 3px 4px #2C2F2D;
+}
+.towns section:first-child img{
+    margin:0;
+}
+.towns section:nth-child(odd) img, .towns section:nth-child(even) p, .towns section:nth-child(even) h2, .towns section:nth-child(even) h3{
+    grid-column: 2/2;
+}
+.towns section:nth-child(even) img, .towns section:nth-child(odd) p, .towns section:nth-child(odd) h2, .towns section:nth-child(odd) h3{
+    grid-column: 1/2;
+}
+.towns p, .towns h2, .towns h3{
+    width: fit-content;
+    margin: 0 auto;
+}
+.towns p{
+    margin-top: 40px;
+    line-height: 3em;
+}
+.towns h2{
+    padding-top: 15px;
+}
+.towns h3{
+    font-style:italic;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.towns section:nth-child(odd){
+    padding-right: 15px;
+}
+.towns section:nth-child(even){
+    padding-left: 15px;
+}
+.towns img{
+    grid-row: 2/5;
+    margin: 0 auto;
+    min-height: 3px;
+    height: 100%;
+    max-height: 300px;
+    min-width: 5px;
+    width: 100%;
+    max-width: 500px;
+}
+.towns section:last-child{
+    margin-bottom: 20px;
+}
+.towns section:hover{
+    box-shadow: 5px 5px 8px #2C2F2D;
+}
+.home-hero img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 14px;
+    object-position: center;
+}
+.home-hero img:hover{
+    box-shadow:0 2px 5px 3px#2C2F2D;
+}
+/*Wireframes*/
+.wireframes{
+    display: flex;
+    flex-direction: column;
+    row-gap:15px;
+    align-items: center;
+}
+.wireframe{
+    box-shadow: 0 2px 5px;
+}
+.wireframe:hover{
+    box-shadow: 0 2px 5px 2px;
+}
+.wireframe h2{
+    background-color: #518260;
+    padding: 15px;
+    margin-top: 0;
+}
+.wireframe img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.wireframe:nth-child(2){
+    max-width: 800px;
+    width: 100%;
+}
+.wireframe:nth-child(3){
+    max-width: 450px;
+    width: 100%;
+}
+/*weather summary styles*/
+.weather-summary{
+    padding:2px;
+}
+.hero-text{
+    box-shadow: 1px 1px 5px 1px #2C2F2D;
+    font-size: 1em;
+    background: lightgray;
+    color: black;
+}
+#medium-overlay, #large-overlay{
+    display: none;
+}
+#small-overlay{
+    color:red;
+    float:right;
+    margin-top:25px;
+    margin-right:25px;
+}
+#for-smalls{
+    min-height: 200px;
+    width: 100%;
+    background-image: url("../images/hero_image.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.background-image{
+    box-shadow: 0 2px 5px 1px #2C2F2D;
+}
+.hero-text h2{
+    text-align: left;
+    background-color: #518260;
+    padding: 15px;
+
+}
+#desc{
+    text-transform: capitalize;
+}
+.hero-text h3{
+    text-align: left;
+    font-size: 1em;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.text-box-small{
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+#hero-image img{
+    width:100%;
+}
+/*5 day forecast styles*/
+.five-day-forecast{
+    box-shadow: 0 1px 5px 1px #2C2F2D;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: lightgray;
+}
+.five-day-forecast h2{
+    font-size: 1.8em;
+}
+.five-day-forecast h2{
+    background-color: #518260;
+    padding: 15px;
+}
+.f-forecast{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1em;
+}
+.day{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.day span{
+    font-weight: 600;
+    font-size: 1em;
+}
+/*article styles*/
+.article {
+    box-shadow: 0 1px 5px 1px #2C2F2D;
+    background-color: lightgray;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+.article-text{
+    display:flex;
+    flex-direction:column-reverse;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+.article p, .article h3{
+    text-align: left;
+}
+.article h2{
+    text-align: left;
+    font-size: 1.8em;
+    background: #518260;
+    padding: 15px;
+}
+.article h3, .article h4{
+    padding-left: 15px;
+    width:fit-content;
+}
+.article a{
+    text-decoration: underline;
+}
+#article-img1{
+    display: none;
+}
+#article-img2{
+    float: left;
+    width: 80%;
+    height: 100%;
+    aspect-ratio: 5/3;
+    max-width: 350px;
+}
+/*Weather Gallery*/
+#weather-gallery{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+figure{
+    display:flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    box-shadow: 5px 5px 15px 1px gray;
+    margin: 20px;
+}
+.label{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: .9em;
+    margin: 15px 5px 0px 5px;
+}
+figure img{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+/*Storm Center*/
+label, input, select, #in-danger-div{
+    display:block;
+    padding: 15px;
+    width: 100%;
+    font-size: .9em;
+    font-weight: 500;
+}
+legend{
+    font-size: 1em;
+    font-weight: 700;
+}
+fieldset{
+    padding: 15px;
+    border: 3px solid #518260;
+}
+fieldset:first-child, fieldset:nth-child(2){
+    margin-bottom: 15px;
+}
+form{
+    margin: 0 auto;
+    width: 100%;
+    text-align: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: lightgray;
+    padding: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+textarea{
+    display: block;
+    width: 100%;
+    height: 150px;
+}
+.severity-div{
+    display: flex;
+    align-items: center;
+}
+#submit-storm{
+    margin-left: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+    width: 200px;
+}
+#in-danger-div label{
+    display:flex;
+    width: fit-content;
+    justify-content: space-between;
+}
+#in-danger-div label input{
+    width: fit-content;
+    margin-right: 4px;
+    margin-top: 2px;
+}
+input:hover, [list]:hover, select:hover, textarea:hover, textarea:focus, input:focus, select:focus{
+    outline:none;
+    border: 2px solid rgb(38, 117, 206);
+    box-shadow:1px 1px 5px rgb(38, 117, 206);
+}
+[type="range"]{
+    color: #518260;
+}
+[type="range"]:hover,[type="radio"]:hover,[type="radio"]:focus, [type="range"]:focus{
+    border: none;
+    box-shadow: none;
+}
+[type="radio"], [type="range"], [type="date"]:hover, select, #submit-storm:hover{
+    cursor: pointer;
+}
