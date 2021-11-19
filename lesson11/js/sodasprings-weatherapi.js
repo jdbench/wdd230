@@ -92,6 +92,7 @@ fetch(apiURL)
                 //Give each day correct forecast image
                 let imagesrc = `https://openweathermap.org/img/w/${jsObject.list[i].weather[0].icon}.png`;
                 fiveDayImage[j].setAttribute('src', imagesrc)
+                fiveDayImage[j].setAttribute('alt', `Image depicting weather on ${weekDay[i]}`)
 
                 j += 1;
             }
