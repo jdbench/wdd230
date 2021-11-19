@@ -88,6 +88,9 @@
     #small-overlay, #medium-overlay{
         display: none;
     }
+    figure:hover{
+        box-shadow: 5px 5px 15px 1px #2C2F2D;
+    }
     #large-overlay{
         display: block;
         float: right;
