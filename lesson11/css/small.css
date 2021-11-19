@@ -390,6 +390,9 @@ p {
     background-size:cover;
     background-position: center;
 }
+.background-image{
+    box-shadow: 0 2px 5px 1px #2C2F2D;
+}
 .hero-text h2{
     text-align: left;
     background-color: #518260;
