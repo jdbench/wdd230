@@ -2,7 +2,7 @@
 let banner = document.getElementById("banner");
 if (dow=="Friday" && 'https://jdbench.github.io/wdd230/lesson11/preston.html' == window.location.href){
   banner.style.display = "flex";
-}else if (dow=="Friday" && 'https://jdbench.github.io/wdd230/lesson11/sodasprings.html' == window.location.href){
+}else if (dow=="Saturday" && 'https://jdbench.github.io/wdd230/lesson11/sodasprings.html' == window.location.href){
   banner.style.display = "flex";
 }else if (dow=="Friday" && 'https://jdbench.github.io/wdd230/lesson11/fishhaven.html' == window.location.href){
   banner.style.display = "flex";
