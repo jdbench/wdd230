@@ -1,6 +1,6 @@
 @media screen and (min-width: 1025px){
     body{
-        font-size: 24px;
+        font-size: 20px;
     }
     .content{
         margin: 0 auto;
@@ -45,6 +45,7 @@
         background-color:#2C2F2D;
     }
     .hero-text{
+        font-size: .6em;
         float:left;
         width: fit-content;
         color: white;
@@ -62,14 +63,27 @@
     #for-smalls{
         display: none;
     }
+    .towns section:last-child{
+        margin-bottom: 0;
+    }
     .background-image{
-        background-image: url("../images/hero_image.jpg");
+        margin: 0 auto;
         background-repeat: no-repeat;
         background-size:cover;
         background-position: center;
         padding: 30px;
-        height: 600px;
+        max-width: 900px;
+        height: 300px;
         text-align: left;
+    }
+    .preston-background-image{
+        background-image: url("../images/preston-hero-image.jpg");
+    }
+    .sodasprings-background-image{
+        background-image: url("../images/sodasprings-hero-image.jpg");
+    }
+    .fishhaven-background-image{
+        background-image: url("../images/fishhaven-hero-image.jpg")
     }
     #small-overlay, #medium-overlay{
         display: none;
