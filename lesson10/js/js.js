@@ -8,7 +8,7 @@ let yearSpan = document.querySelector('#year');
 //place current year in span
 yearSpan.textContent = yyyy;
 //create week day array
-const weekDay = {
+const weekDays = {
 0: "Sunday",
 1: "Monday",
 2: "Tuesday",
@@ -33,7 +33,7 @@ const month = {
 11: "December"
 }
 //turn getday and currentMonth number into string
-let dow = weekDay[d.getDay()];
+let dow = weekDays[d.getDay()];
 let currentMonth = month[d.getMonth()];
 let dateString = `${dow}, ${dd} ${currentMonth} ${yyyy}`;
 //turn into string
