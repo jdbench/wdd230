@@ -61,6 +61,16 @@ fetch(apiURL)
             6: 'SAT',
         }
 
+        //Add 5 day forecast image
+        const fiveDayImages = document.querySelectorAll('.five-day-image');
+        //add forecast temp
+        const fiveDayTemp = document.querySelectorAll('.five-day-temp');
+        //create new initiator
+        let j = 0;
+        //create now, weekDay, and dT variable
+        let dT;
+        let now;
+
         days.forEach((day) => {
             Object.keys(abrevDays).forEach((day) => {
                 if (i > 6) {
@@ -74,30 +84,27 @@ fetch(apiURL)
             i += 1;
         })
 
-        //Add 5 day forecast image
-        const fiveDayImage = document.querySelectorAll('.five-day-image');
-        //add forecast temp
-        const fiveDayTemp = document.querySelectorAll('.five-day-temp');
-        //create new initiator
-        let j = 0;
-
         jsObject.list.forEach((item, i) => {
-            let itemDT = new Date(item.dt_txt);
-            let now = itemDT.getHours();
-
+            dT = new Date(item.dt_txt);
+            now = dT.getHours();
             if (now == 18) {
                 //Print weather for five day forecast
                 let fiveDayWeather = kToF(jsObject.list[i].main.temp);
                 fiveDayTemp[j].innerHTML = `${fiveDayWeather}&#8457;`;
                 //Give each day correct forecast image
                 let imagesrc = `https://openweathermap.org/img/w/${jsObject.list[i].weather[0].icon}.png`;
-                fiveDayImage[j].setAttribute('src', imagesrc)
-                fiveDayImage[j].setAttribute('alt', `Image depicting weather on ${weekDay[i]}`)
-
+                fiveDayImages[j].setAttribute('src', imagesrc)
                 j += 1;
             }
         })
+        for (i = today, j = 0; j < fiveDayImages.length; j++, i++){
+            if(i > 6){
+                i = 0;
+            }
+            fiveDayImages[j].setAttribute('alt', `An image depicting the weather of ${weekDays[i]}`)
+        }
 });
+
 
 
 

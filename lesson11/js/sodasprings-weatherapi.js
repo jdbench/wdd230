@@ -75,7 +75,7 @@ fetch(apiURL)
         })
 
         //Add 5 day forecast image
-        const fiveDayImage = document.querySelectorAll('.five-day-image');
+        const fiveDayImages = document.querySelectorAll('.five-day-image');
         //add forecast temp
         const fiveDayTemp = document.querySelectorAll('.five-day-temp');
         //create new initiator
@@ -91,12 +91,17 @@ fetch(apiURL)
                 fiveDayTemp[j].innerHTML = `${fiveDayWeather}&#8457;`;
                 //Give each day correct forecast image
                 let imagesrc = `https://openweathermap.org/img/w/${jsObject.list[i].weather[0].icon}.png`;
-                fiveDayImage[j].setAttribute('src', imagesrc)
-                fiveDayImage[j].setAttribute('alt', `Image depicting weather on ${weekDay[i]}`)
+                fiveDayImages[j].setAttribute('src', imagesrc)
 
                 j += 1;
             }
         })
+        for (i = today, j = 0; j < fiveDayImages.length; j++, i++){
+            if(i > 6){
+                i = 0;
+            }
+            fiveDayImages[j].setAttribute('alt', `An image depicting the weather of ${weekDays[i]}`)
+        }
 });
 
 
