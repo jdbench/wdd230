@@ -57,8 +57,8 @@
         display: none;
     }
     .map-container{
-        padding-left: 50px;
         padding-top: 50px;
+        padding-left: 25%;
     }
     .background-image{
         background-repeat: no-repeat;
