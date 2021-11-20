@@ -498,7 +498,7 @@ p {
     display:flex;
     flex-direction: column;
     align-items: center;
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 figure{
