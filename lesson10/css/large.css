@@ -55,7 +55,7 @@
     .hero-text h3{
         color: white;
     }
-    .hero-text:hover{
+    .hero-text:hover, .local-events:hover{
         box-shadow: 2px 3px 5px 1px white;
         opacity: 100%;
     }
@@ -91,7 +91,7 @@
         display: none;
     }
     figure:hover{
-        box-shadow: 5px 5px 15px 1px #2C2F2D;
+        box-shadow: 1px 2px 6px 1px #2C2F2D;
     }
     #large-overlay{
         display: block;
@@ -106,7 +106,7 @@
         text-align: left;
     }
     .map-container{
-        padding-left: 50px;
+        padding-left: 25%;
         padding-top: 50px;
     }
     #article-img1{
@@ -169,22 +169,41 @@
     .towns section:nth-child(odd){
         padding: 0;
     }
+    .towns img{
+        padding: 15px;
+    }
     .home-hero{
         background:url("../images/home-hero-image.jpeg") no-repeat;
         background-size: 100%;
         width: 97%;
-        height: 400px;
+        height: 300px;
         aspect-ratio: 500/333;
         background-size: cover;
         background-position: center;
         margin: 0 auto;
-        margin-top: -25px;
         box-shadow: 0 2px 5px #2C2F2D;
     }
     .home-hero:hover{
-        box-shadow:0 2px 5px 3px#2C2F2D;
+        box-shadow:1px 2px 5px 1px#2C2F2D;
     }
     .home-hero img{
         display: none;
+    }
+    .local-events{
+        font-size: 10px;
+        width: fit-content;
+        position: absolute;
+        background-color:#05569d;
+        box-shadow: 0 1px 4px 1px white;
+        opacity: 85%;
+        right: 0;
+        left: 664px;
+        top: 260px;
+    }
+    .local-events h2{
+        margin:0 auto;
+    }
+    .local-events h3{
+        color: white;
     }
 }
