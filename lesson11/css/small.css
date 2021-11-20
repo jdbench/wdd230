@@ -207,6 +207,13 @@ p {
 .background-image:hover, .five-day-forecast:hover, .article:hover{
     box-shadow: 1px 2px 5px 1px #2C2F2D;
 }
+.five-day-forecast h2,.hero-text h2, .local-events h2, .wireframe h2, .article h2{
+    background-color: #518260;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+    margin: 0 auto;
+    text-align: left;
+}
 /*contact information*/
 .social{
     margin-top: 20px;
@@ -274,9 +281,10 @@ p {
     column-gap: 10px;
     padding-bottom: 25px;
     box-shadow: 0 1px 4px  1px #2C2F2D;
+    border-radius: 10px;
 }
 .towns section:first-child img{
-    margin:0;
+    margin:0 auto;
 }
 .towns section:nth-child(odd) img, .towns section:nth-child(even) p, .towns section:nth-child(even) h2, .towns section:nth-child(even) h3{
     grid-column: 2/2;
@@ -319,6 +327,7 @@ p {
     width: 100%;
     max-width: 300px;
     object-fit: contain;
+    object-position: center;
 }
 .towns section:last-child{
     margin-bottom: 20px;
@@ -330,6 +339,7 @@ p {
     max-width: 900px;
     margin-top: 14px;
     margin-bottom: 14px;
+    border-radius: 10px;
 }
 .home-hero img{
     width: 100%;
@@ -338,6 +348,7 @@ p {
     object-position: center;
     object-fit: contain;
     box-shadow: 0 1px 4px 1px #2C2F2D;
+    border-radius: 10px;
 }
 .home-hero img:hover{
     box-shadow: 1px 2px 5px 1px #2C2F2D;
@@ -354,11 +365,6 @@ p {
 }
 .wireframe:hover{
     box-shadow: 0 2px 5px 2px;
-}
-.wireframe h2{
-    background-color: #518260;
-    padding: 15px;
-    margin-top: 0;
 }
 .wireframe img{
     width: 100%;
@@ -382,6 +388,7 @@ p {
     font-size: 1em;
     background: lightgray;
     color: black;
+    border-radius: 10px;
 }
 #medium-overlay, #large-overlay{
     display: none;
@@ -402,6 +409,8 @@ p {
 }
 .background-image{
     box-shadow: 0 2px 5px 1px #2C2F2D;
+    border-radius: 10px;
+    margin-bottom: 15px;
 }
 .hero-text h2{
     text-align: left;
@@ -428,15 +437,19 @@ p {
 }
 /*5 day forecast styles*/
 .five-day-forecast{
+    border-radius: 10px;
     box-shadow: 0 1px 5px 1px #2C2F2D;
     text-align: left;
     margin: 0 auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
     max-width: 800px;
     background-color: lightgray;
 }
 .five-day-forecast h2, .local-events h2{
     background-color: #518260;
     padding: 15px;
+    border-radius: 10px 10px 0 0;
 }
 .f-forecast{
     display: flex;
@@ -455,11 +468,12 @@ p {
 }
 /*article styles*/
 .article {
+    border-radius: 10px;
     box-shadow: 0 1px 5px 1px #2C2F2D;
     background-color: lightgray;
     max-width: 1000px;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 .article-text{
     display:flex;
@@ -470,11 +484,6 @@ p {
 }
 .article p, .article h3{
     text-align: left;
-}
-.article h2{
-    text-align: left;
-    background: #518260;
-    padding: 15px;
 }
 .article h3, .article h4{
     padding-left: 15px;
@@ -508,6 +517,7 @@ figure{
     margin-bottom: 15px;
     box-shadow: 0 1px 5px 1px #2C2F2D;
     margin: 20px;
+    border-radius: 10px;
 }
 .label{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -515,6 +525,7 @@ figure{
     margin: 15px 5px 0px 5px;
 }
 figure img{
+    border-radius: 10px 10px 0 0;
     margin: 0 auto;
     width: 100%;
     height: 100%;
@@ -599,6 +610,7 @@ input:hover, [list]:hover, select:hover, textarea:hover, textarea:focus, input:f
 }
 /*Local Events*/
 .local-events{
+    border-radius: 10px;
     margin: 0 auto;
     text-align: left;
     background-color: lightgray;

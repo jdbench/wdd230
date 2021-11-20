@@ -169,6 +169,9 @@
     .towns section:nth-child(odd){
         padding: 0;
     }
+    .towns img{
+        padding: 15px;
+    }
     .home-hero{
         background:url("../images/home-hero-image.jpeg") no-repeat;
         background-size: 100%;
