@@ -19,8 +19,8 @@ function getDays() {
     let present = localStorage.getItem('currentVisit');
 
     //log to console
-    console.log(past);
-    console.log(present);
+    //console.log(past);
+    //console.log(present);
 
     daysSince = Math.round((present - past) / (1000 * 3600 * 24));
     return daysSince;

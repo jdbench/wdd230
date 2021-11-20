@@ -1,10 +1,11 @@
 const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5585010&appid=eb89a2a288bf7798308b3106df4a6297";
 const forecastUrl = "https://api.openweathermap.org/data/2.5/forecast?id=5585010&appid=eb89a2a288bf7798308b3106df4a6297";
+const townsURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 //Preston
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
-        console.log(jsObject);
+        //console.log(jsObject);
         //declare variables
         let fTemp = kToF(jsObject.main.temp);
         let prestonTemp = document.getElementById('temp');
@@ -42,7 +43,7 @@ fetch(apiURL)
     fetch(forecastUrl)
     .then((response) => response.json())
     .then((jsObject) => {
-        console.log(jsObject);
+        //console.log(jsObject);
         //Add daily weather forecast
         const currentDate = new Date(jsObject.list[0].dt_txt)
         const today = currentDate.getDay();
@@ -103,6 +104,31 @@ fetch(apiURL)
             fiveDayImages[j].setAttribute('alt', `An image depicting the weather of ${weekDays[i]}`)
         }
 });
+//Town Events
+fetch(townsURL)
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (jsonObject) {
+        //console.table(jsonObject);
+        
+        const fishhaven = jsonObject.towns[2];
+        const localEvents = document.querySelector('.local-events');
+        let div = document.createElement('div');
+        let h2 = document.createElement('h2');
+        
+        h2.textContent = "Upcoming Events";
+        localEvents.appendChild(h2);
+        localEvents.appendChild(div);
+
+        fishhaven.events.forEach(event => {
+            let h3 = document.createElement('h3');
+            
+            h3.textContent = event;
+            div.appendChild(h3);
+        })
+    })
+
 
 
 
