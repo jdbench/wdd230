@@ -55,7 +55,7 @@
     .hero-text h3{
         color: white;
     }
-    .hero-text:hover{
+    .hero-text:hover, .local-events:hover{
         box-shadow: 2px 3px 5px 1px white;
         opacity: 100%;
     }
@@ -205,8 +205,5 @@
     }
     .local-events h3{
         color: white;
-    }
-    .local-events:hover{
-        box-shadow: 1px 2px 5px 1px white;
     }
 }
