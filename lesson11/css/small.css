@@ -281,7 +281,6 @@ p {
     flex-direction: column;
     min-width: fit-content;
     width: 100%;
-    max-width: 450px;
     padding-bottom: 25px;
     box-shadow: 0 1px 4px  1px #2C2F2D;
     border-radius: 10px;
@@ -311,7 +310,7 @@ p {
     max-height: 300px;
     min-width: 5px;
     width: 100%;
-    max-width: 300px;
+    max-width: 350px;
     object-fit: cover;
     object-position: center;
 }
