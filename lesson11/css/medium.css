@@ -139,4 +139,21 @@
     .local-events{
         font-size: 16px;
     }
+    .towns section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10px;
+    }
+    .towns section:nth-child(odd) img, .towns section:nth-child(even) p, .towns section:nth-child(even) h2, .towns section:nth-child(even) h3{
+        grid-column: 2/2;
+    }
+    .towns section:nth-child(even) img, .towns section:nth-child(odd) p, .towns section:nth-child(odd) h2, .towns section:nth-child(odd) h3{
+        grid-column: 1/2;
+    }
+    .towns section:nth-child(odd){
+        padding-right: 15px;
+    }
+    .towns section:nth-child(even){
+        padding-left: 15px;
+    }
 }
