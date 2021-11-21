@@ -168,7 +168,6 @@
         display: flex;
         flex-direction: column;
         padding: 0;
-        width: 100%;
     }
     .towns section:nth-child(even){
         padding: 0;

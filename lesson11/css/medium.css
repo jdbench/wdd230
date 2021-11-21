@@ -144,6 +144,7 @@
         grid-template-columns: 1fr 1fr;
         column-gap: 10px;
         width: 100%;
+        max-width: 975px;
     }
     .towns section:nth-child(odd) img, .towns section:nth-child(even) p, .towns section:nth-child(even) h2, .towns section:nth-child(even) h3{
         grid-column: 2/2;
