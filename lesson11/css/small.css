@@ -190,10 +190,12 @@ h1{
 h2{
     font-family:'Roboto';
     font-size: 1.3em;
+    font-weight: 700;
 }
 h3{
     font-family: 'Roboto';
     font-size: 1.2em;
+    font-weight: 700;
 }
 h4{
     font-family: 'Roboto';
