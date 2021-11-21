@@ -359,6 +359,7 @@ p {
     flex-direction: column;
     row-gap:15px;
     align-items: center;
+    border-radius: 10px;
 }
 .wireframe{
     box-shadow: 0 2px 5px;
