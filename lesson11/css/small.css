@@ -216,13 +216,12 @@ p {
 }
 /*contact information*/
 .social{
-    margin-top: 20px;
     display:flex;
-    width: 250px;
+    width: 75%;
     justify-content: space-around;
 }
 .social img:hover{
-    box-shadow: 0 1px 3px #2C2F2D;
+    box-shadow: 0 1px 4px 1px #2C2F2D;
 }
 i{
     width: 1.1em;
