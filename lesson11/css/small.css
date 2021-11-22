@@ -447,7 +447,7 @@ p {
 }
 .article-text{
     display:flex;
-    flex-direction:column-reverse;
+    flex-direction:column;
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 15px;
@@ -463,14 +463,14 @@ p {
     text-decoration: underline;
 }
 #article-img1{
-    display: none;
-}
-#article-img2{
-    float: left;
-    width: 80%;
+    display: block;
+    width:80%;
     height: 100%;
+    max-width: 250px;
     aspect-ratio: 5/3;
-    max-width: 350px;
+}
+.article h3{
+    font-style: italic;
 }
 /*Weather Gallery*/
 #weather-gallery{

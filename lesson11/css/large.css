@@ -106,23 +106,18 @@
         margin-top: 25px;
         font-size: 2em;
     }
-    .article-text{
-        display: block;
-        text-align: left;
-    }
     .map-container{
         padding-left: 25%;
         padding-top: 50px;
     }
-    #article-img1{
-        display: block;
-        float: right;
-        width:25%;
-        height: 100%;
-        max-width: 250px;
+    .article-text{
+        flex-direction: row;
     }
-    #article-img2{
-        display:none;
+    #article-img1{
+        padding-top: 20px;
+        padding-left: 5px;
+        width: 40%;
+        max-width: 350px;
     }
     .contact-information{
         grid-template-columns: 1fr 1fr;

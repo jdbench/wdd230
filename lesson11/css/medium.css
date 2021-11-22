@@ -25,6 +25,15 @@
         width: 100%;
         flex: auto;
     }
+    .article-text{
+        flex-direction: row;
+    }
+    #article-img1{
+        padding-top: 20px;
+        padding-left: 5px;
+        width: 40%;
+        max-width: 350px;
+    }
     .nav-links{
         flex-direction: row;
         display:flex;
