@@ -207,4 +207,19 @@
     .local-events h3{
         color: white;
     }
+    .wireframes{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .wireframe:first-child{
+        grid-row: 1/2;
+        grid-column: 1/2;
+    }
+    .wireframe:nth-child(2){
+        grid-row: 1/2;
+        grid-column: 2/3;
+    }
+    .wireframe:nth-child(3){
+        margin: 0 auto;
+        grid-column: 3/4;
+    }
 }
