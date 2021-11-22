@@ -224,9 +224,11 @@ p {
 .social img:hover{
     box-shadow: 0 1px 3px #2C2F2D;
 }
-.fa{
+i.fa{
+    display:inline-block;
     font-size: .9em;
     margin-right: 10px;
+    min-width: .9em;
 }
 .contact-information{
     display: grid;
