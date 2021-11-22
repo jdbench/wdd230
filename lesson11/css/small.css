@@ -340,6 +340,8 @@ i.fa{
     flex-direction: column;
     row-gap:15px;
     align-items: center;
+    padding: 15px;
+    padding-top: 0;
 }
 .wireframe{
     border-radius: 10px;
