@@ -164,6 +164,7 @@
         flex-direction: column;
         padding: 0;
         height: 470px;
+        min-width: 322px;
     }
     .towns section:nth-child(even){
         padding: 0;
