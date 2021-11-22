@@ -94,7 +94,7 @@ nav{
 .burger{
     position:absolute;
     margin: 0 auto;
-    left: 240px;
+    left: 190px;
     right: 0;
     cursor: pointer;
     width: fit-content;
@@ -340,9 +340,9 @@ i.fa{
     flex-direction: column;
     row-gap:15px;
     align-items: center;
-    border-radius: 10px;
 }
 .wireframe{
+    border-radius: 10px;
     box-shadow: 0 2px 5px;
 }
 .wireframe:hover{
