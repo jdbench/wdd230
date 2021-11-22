@@ -164,7 +164,8 @@
         flex-direction: column;
         padding: 0;
         height: 470px;
-        min-width: 322px;
+        min-width: 303px;
+        border-radius: 10px 10px 0 0;
     }
     .towns section:nth-child(even){
         padding: 0;
@@ -173,7 +174,7 @@
         padding: 0;
     }
     .towns img{
-        padding: 15px;
+        object-fit: cover;
     }
     .home-hero{
         background:url("../images/home-hero-image.jpeg") no-repeat;
