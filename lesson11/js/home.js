@@ -23,8 +23,7 @@ fetch(requestURL)
                 h3.textContent = `${town.motto}`
                 townInformation.innerHTML = `Year Founded: ${town.yearFounded}<br>Current Population: ${town.currentPopulation}<br>Average Rainfall: ${town.averageRainfall}`;
 
-                image.setAttribute('src', `..images/300x200.png`);
-                image.setAttribute('data-src', `..images/${town.photo}`)
+                image.setAttribute('src', `images/${town.photo}`);
                 image.setAttribute('width', '500');
                 image.setAttribute('height', '300');
                 image.setAttribute('alt', `${town.name}`);
