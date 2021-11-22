@@ -321,7 +321,7 @@ p {
     box-shadow: 1px 2px 5px 1px #2C2F2D;
 }
 .home-hero{
-    max-width: 798px;
+    max-width: 1070px;
     margin-top: 14px;
     margin-bottom: 14px;
     border-radius: 10px;
@@ -332,7 +332,7 @@ p {
     max-width: 600px;
     box-shadow: 0 1px 4px 1px #2C2F2D;
     border-radius: 10px;
-    aspect-ratio: 2/1;
+    aspect-ratio: 3/2;
 }
 .home-hero img:hover{
     box-shadow: 1px 2px 5px 1px #2C2F2D;
