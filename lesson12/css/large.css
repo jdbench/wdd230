@@ -1,0 +1,18 @@
+@media screen and (min-width:1025px){
+    /*body*/
+    /*header*/
+    .burger{
+        display: none;
+    }
+    /*nav*/
+    .main-nav{
+        display:flex;
+        flex-direction: row;
+        max-width: 900px;
+        padding: 10px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    /*main*/
+    /*footer*/
+}

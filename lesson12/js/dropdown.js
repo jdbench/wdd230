@@ -1,1 +1,8 @@
-function dropdownFunction(){let x=document.getElementById('dropdown-nav');if(x.style.display==="flex"){x.style.display="none"}else{x.style.display="flex"}}
+function dropdownFunction() {
+    let x = document.querySelector('.main-nav');
+    if (x.style.display === "flex") {
+        x.style.display = "none"
+    } else {
+        x.style.display = "flex"
+    }
+}

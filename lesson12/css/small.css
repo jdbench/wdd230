@@ -1,0 +1,36 @@
+/*body*/
+.content{
+    font-size: 16px;
+    font-family: 'Noto Sans Display';
+}
+.content h1{
+    font-size: 1.5em;
+}
+.content h2{
+    font-size: 1.3em;
+}
+.content h3{
+    font-size: 1.1em;
+}
+.content h4{
+    font-size: 1em;
+}
+.content li{
+    list-style: none;
+}
+.content p{
+    font-family:'Roboto';
+}
+.content a{
+    font-family:'Roboto';
+    text-decoration: none;
+}
+/*header*/
+/*nav*/
+.main-nav{
+    display:none;
+    flex-direction: column;
+    width: 50%;
+}
+/*main*/
+/*footer*/
