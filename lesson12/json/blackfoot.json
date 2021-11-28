@@ -1,0 +1,91 @@
+{
+    "businesses": [
+        {
+            "tilden co." : [{
+                "address": "1350 parkway drive #1-a",
+                "hours": [{
+                    "sunday": "closed",
+                    "monday": "closed",
+                    "tuesday": "10am-6pm",
+                    "wednesday": "10am-6pm",
+                    "thursday": "10am-6pm",
+                    "friday": "10am-6pm",
+                    "saturday": "10am-6pm"
+                    }],
+                "description": "Women's clothing store",
+                "phone": "na",
+                "website": "https://www.tildenco.com/",
+                "facebook":"https://www.facebook.com/TildenClothingCo/"
+            }],
+            "kesler's market" : [{
+                "address": "925 w bridge st",
+                "hours": [{
+                    "sunday": "closed",
+                    "monday": "7am-10pm",
+                    "tuesday": "7am-10pm",
+                    "wednesday": "7am-10pm",
+                    "thursday": "7am-10pm",
+                    "friday": "7am-10pm",
+                    "saturday": "7am-10pm"
+                }],
+                "description": "Grocery Store",
+                "phone": "2087850555",
+                "website": "https://www.keslersmarket.com/",
+                "facebook": "https://www.facebook.com/keslersmarket/"
+            }],
+            "kc's wash bucket" : [{
+                "address":"865 w bridge st",
+                "hours": [{
+                    "sunday":"open 24 hours",
+                    "monday":"open 24 hours",
+                    "tuesday":"open 24 hours",
+                    "wednesday":"open 24 hours",
+                    "thursday":"open 24 hours",
+                    "friday":"open 24 hours",
+                    "saturday":"open 24 hours"
+                }],
+                "description":"car wash",
+                "phone":"2086819145",
+                "website":"na",
+                "facebook":"https://www.facebook.com/KCsWashBucket/"
+            }],
+            "blackfoot movie mill":[{
+                "address":"369 w bridge st",
+                "hours": [{
+                    "sunday":"1-6:30pm",
+                    "monday":"2-10:30pm",
+                    "tuesday":"2-10:30pm",
+                    "wednesday":"2-10:30pm",
+                    "thursday":"2-10:30pm",
+                    "friday":"11am-10:30pm",
+                    "saturday":"11am-10:30pm"
+                }],
+                "description":"movie theater",
+                "phone":"2085231142",
+                "website":"na",
+                "facebook":"https://www.facebook.com/blackfootmoviemill/"
+            }],
+            "hawker funeral home":[{
+                "address":"132 s shilling ave",
+                "hours": [{
+                    "sunday":"8am-5pm",
+                    "monday":"8am-5pm",
+                    "tuesday":"8am-5pm",
+                    "wednesday":"8am-5pm",
+                    "thursday":"8am-5pm",
+                    "friday":"8am-5pm",
+                    "saturday":"8am-5pm"
+                }],
+                "description":"funeral home",
+                "phone":"2087851320",
+                "website":"https://www.hawkerfuneralhome.com/",
+                "facebook":"https://www.facebook.com/HawkerFuneral/"
+            }]
+        }
+    ],
+    "events": [{
+        "eastern idaho state fair":"septemer 2-10",
+        "bingham christmas tree fantasy":"december 1-4",
+        "blackfoot tater trot":"october 8"
+    }]
+}
