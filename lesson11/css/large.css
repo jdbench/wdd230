@@ -105,21 +105,8 @@
         background-image: url(../images/sodasprings-hero-image.jpg)
     }
 
-    #small-overlay,#medium-overlay {
-        display: none
-    }
-
     figure:hover {
         box-shadow: 1px 2px 6px 1px #2C2F2D
-    }
-
-    #large-overlay {
-        display: block;
-        float: right;
-        color: red;
-        margin-right: 25px;
-        margin-top: 25px;
-        font-size: 2em
     }
 
     .map-container {
