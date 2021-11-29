@@ -233,7 +233,7 @@ p {
     font-size: 1em
 }
 
-#hero-image img:hover,.five-day-forecast:hover,.article:hover {
+#hero-image img:hover, .hero-text:hover, .five-day-forecast:hover,.article:hover {
     box-shadow: 1px 2px 5px 1px #2C2F2D
 }
 
