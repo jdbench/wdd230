@@ -60,6 +60,7 @@
     opacity: 60%;
 }
 .burger{
+    cursor: pointer;
     margin: 0 auto;
     width: fit-content;
     position: absolute;
@@ -67,6 +68,7 @@
     right: 0px;
     top: 23px;
     font-size: 2em;
+    color: #282d77;
 }
 /*nav*/
 .main-nav{
