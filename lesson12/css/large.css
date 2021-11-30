@@ -3,6 +3,10 @@
     .content{
         font-size: 28px;
     }
+    .fa {
+        width: 25px;
+        height: 20px;
+    }
     /*header*/
     .burger{
         display: none;
