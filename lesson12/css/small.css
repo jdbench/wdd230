@@ -74,7 +74,7 @@
     display:none;
     position: absolute;
     margin: 0 auto;
-    left:300px;
+    left:280px;
     right:0;
     flex-direction: column;
     width: 100px;
@@ -117,12 +117,15 @@
     color: white;
     padding: 5px;
     text-decoration: none;
+    margin-bottom: 15px;
 }
 .footer-map{
     grid-column: 1/2;
     border: none;
     box-shadow: 0 1px 2px 0 black;
     margin: 0 auto;
+    width: 100%;
+    height: 100%;
 }
 .contact-item{
     color: black;
@@ -131,6 +134,7 @@
     background-color: #ccd863;
     color: black;
     text-decoration: underline 1px;
+    box-shadow: 0 1px 4px 1px black;
 }
 .our-contact-info{
     background-color: lightgray;
@@ -148,7 +152,8 @@
 }
 .social-links{
     justify-content: space-around;
-    width: 50px;
+    gap: 10px;
+    width: fit-content;
     display: flex;
 }
 .social-link{
