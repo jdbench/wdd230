@@ -26,6 +26,9 @@
 }
 .fa{
     font-size:.8em;
+    width: 15px;
+    height: 10px;
+    text-align: center;
 }
 /*header*/
 .header{
