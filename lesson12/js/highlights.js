@@ -1,19 +1,33 @@
 const blackfootApi = ("./json/blackfoot.json");
-events = document.querySelector('.events');
-highlights = document.querySelector('.highlights');
+let eventsDiv = document.querySelector('.events');
+let highlightsDiv = document.querySelector('.highlights');
 
 fetch(blackfootApi)
     .then((response) => response.json())
     .then((blackfoot) => {
-        console.log(blackfoot);
-        let businesses = blackfoot['businesses']
-        let events = blackfoot['events'][0]
-        events = events
-        console.log(events)
-        console.log(blackfoot)
+        let businesses = blackfoot['businesses'];
 
-        events.forEach((value, i) => {
-            console.log(value)
-            console.log(i)
+        businesses.forEach((business, i) => {
+            if (i >= 0 && i < 3){
+                b = `<div="business">
+                        <h3 class="business-head">${business.name}</h3>
+                        <img class="business-logo" src="./images/${business.logo}" alt="business logo for ${business}>
+                        <p class="business-desc">${business.description}</p>
+                        <a href="tel:${business.phone} class="business-phone">${business.phone}</p>
+                        <a href="${business.website} class="business-site">${business.website}</a>
+                        <a href="${business.facebook} class="business-facebook"><i class="fa fa-facebook"></i> ${business.facebook_username}</a>
+                     </div>`
+                business.hours.forEach((hour) => {
+                    h = `<p class="business-hours">$`
+                })
+                highlightsDiv.insertAdjacentHTML('beforeend', b);
+                
+                
+            }
+        })
+
+        blackfoot.events.forEach((event) => {
+            e = `<p class="event">${event}</p>`;
+            eventsDiv.insertAdjacentHTML('beforeend', e);
         })
     });
