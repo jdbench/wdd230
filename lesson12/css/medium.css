@@ -36,7 +36,11 @@
     /*main*/
     /*footer*/
     .footer-map{
-        width: 300px;
+        grid-column: 1/2;
+        max-width: 300px;
         height: 200px;
+    }
+    .footer-links{
+        grid-column: 2/3;
     }
 }

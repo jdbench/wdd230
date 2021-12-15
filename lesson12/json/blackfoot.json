@@ -1,6 +1,5 @@
 {
-    "businesses": [
-        {
+    "businesses": [{
             "tilden co." : [{
                 "address": "1350 parkway drive #1-a",
                 "hours": [{
@@ -13,6 +12,7 @@
                     "saturday": "10am-6pm"
                     }],
                 "description": "Women's clothing store",
+                "logo": "tildenco.png",
                 "phone": "na",
                 "website": "https://www.tildenco.com/",
                 "facebook":"https://www.facebook.com/TildenClothingCo/"
@@ -29,6 +29,7 @@
                     "saturday": "7am-10pm"
                 }],
                 "description": "Grocery Store",
+                "logo": "keslers.png",
                 "phone": "2087850555",
                 "website": "https://www.keslersmarket.com/",
                 "facebook": "https://www.facebook.com/keslersmarket/"
@@ -45,6 +46,7 @@
                     "saturday":"open 24 hours"
                 }],
                 "description":"car wash",
+                "logo": "KCsWashBucket.jpg",
                 "phone":"2086819145",
                 "website":"na",
                 "facebook":"https://www.facebook.com/KCsWashBucket/"
@@ -61,6 +63,7 @@
                     "saturday":"11am-10:30pm"
                 }],
                 "description":"movie theater",
+                "logo": "blackfootmoviemill.jpg",
                 "phone":"2085231142",
                 "website":"na",
                 "facebook":"https://www.facebook.com/blackfootmoviemill/"
@@ -77,12 +80,46 @@
                     "saturday":"8am-5pm"
                 }],
                 "description":"funeral home",
+                "logo": "hawkerfuneralhome.png",
                 "phone":"2087851320",
                 "website":"https://www.hawkerfuneralhome.com/",
                 "facebook":"https://www.facebook.com/HawkerFuneral/"
-            }]
-        }
-    ],
+            }],
+            "rupe's burgers":[{
+                "address":"302 ne main st",
+                "hours": [{
+                    "sunday":"closed",
+                    "monday":"10am - 10pm",
+                    "tuesday":"10am - 10pm",
+                    "wednesday":"10am - 10pm",
+                    "thursday":"10am - 10pm",
+                    "friday":"10am - 10pm",
+                    "saturday":"10am - 10pm"
+                }],
+                "description:":"hamburger restaurant",
+                "logo": "rupes.png",
+                "phone":"2087855710",
+                "website":"https://rupesburgers.com",
+                "facebook":"https://www.facebook.com/rupesburgers/"
+            }],
+            "idaho potato museum & potato station cafe":[{
+                "address":"130 nw main st",
+                "hours": [{
+                    "sunday":"closed",
+                    "monday":"9:30am - 5pm",
+                    "tuesday":"9:30am - 5pm",
+                    "wednesday":"9:30am - 5pm",
+                    "thursday":"9:30am - 5pm",
+                    "friday":"9:30am - 5pm",
+                    "saturday":"9:30am - 5pm"
+                }],
+                "description:":"museum",
+                "logo": "idahopotatomuseum.png",
+                "phone":"2087852517",
+                "website":"https://idahopotatomuseum.com/",
+                "facebook":"https://www.facebook.com/idahopotatomuseum/"
+        }]
+    }],
     "events": [{
         "eastern idaho state fair":"septemer 2-10",
         "bingham christmas tree fantasy":"december 1-4",
