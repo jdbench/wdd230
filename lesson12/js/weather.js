@@ -2,12 +2,11 @@ const apiUrl = "https://api.openweathermap.org/data/2.5/onecall?lat=43.1905&lon=
 
 let weatherDiv = document.querySelector(".weather");
 let forecastDiv = document.querySelector(".three-day-forecast");
-let alert = document.querySelector(".alert");
+let alertDiv = document.querySelector(".alert");
 //current weather
 fetch(apiUrl)
     .then((response) => response.json())
     .then((weather) => {
-        let alerts = weather['alerts'][0]['event'];
         let current = weather['current'];
         let temp = `${Math.round(current['temp'])}<sup>\u00B0F</sup>`;
         let humidity = `${current['humidity']}%`;
@@ -15,15 +14,21 @@ fetch(apiUrl)
         let icon = current_weather['icon'];
         let desc = current_weather['description'];
 
-        display_alerts = `<h1 class="alert-text">Alert: ${alerts}</h1>`;
-        display_weather = `<h3 class="current-weather-header">Current Weather</h3>
+        
+        display_weather = `<h3 class="weather-header">Current Weather</h3>
                            <img src="http://openweathermap.org/img/wn/${icon}.png" class="current-weather-icon" alt="current weather icon for ${desc}">
                            <p class="current-desc">${desc}</p>
                            <p class="current-temp">${temp}</p>
                            <p class="current-humidity">${humidity}</p>`;
-
-        alert.innerHTML = display_alerts;
         weatherDiv.innerHTML = display_weather;
+        if (weather['alerts']) {
+            let alerts = weather['alerts'][0]['event'];
+            display_alerts = `<div class="alert">
+                                <h1 class="alert-text">Alert: ${alerts}</h1><div><a href="javascript:void(0);" class="close" onclick="exitAlert()">❌</a></div>
+                              </div>`;
+            alertDiv.innerHTML = display_alerts;
+        }
+        
 });
 //forecasted weather
 fetch(apiUrl)
@@ -46,3 +51,7 @@ fetch(apiUrl)
             };
         })
     })
+
+function exitAlert(){
+    if(alertDiv.style.display==="flex"){
+        alertDiv.style.display="none"}}

@@ -14,7 +14,7 @@
                     ],
                 "description": "Women's clothing store",
                 "logo": "tildenco.png",
-                "phone": "na",
+                "phone": "not available",
                 "website": "https://www.tildenco.com/",
                 "facebook":"https://www.facebook.com/TildenClothingCo/",
                 "facebook_username":"TildenClothingCo"
@@ -32,8 +32,8 @@
                     "saturday : 7am-10pm"
                 ],
                 "description": "Grocery Store",
-                "logo": "keslers.png",
-                "phone": "2087850555",
+                "logo": "keslers.jpg",
+                "phone": "(208)785-0555",
                 "website": "https://www.keslersmarket.com/",
                 "facebook": "https://www.facebook.com/keslersmarket/",
                 "facebook_username":"keslersmarket"
@@ -52,8 +52,8 @@
                 ],
                 "description":"car wash",
                 "logo": "KCsWashBucket.jpg",
-                "phone":"2086819145",
-                "website":"na",
+                "phone":"(208)681-9145",
+                "website":"not available",
                 "facebook":"https://www.facebook.com/KCsWashBucket/",
                 "facebook_username":"KCsWashBucket"
             },
@@ -71,8 +71,8 @@
                 ],
                 "description":"movie theater",
                 "logo": "blackfootmoviemill.jpg",
-                "phone":"2085231142",
-                "website":"na",
+                "phone":"(208)523-1142",
+                "website":"not available",
                 "facebook":"https://www.facebook.com/blackfootmoviemill/",
                 "facebook_username":"blackfootmoviemill"
             },
@@ -89,8 +89,8 @@
                     "saturday : 8am-5pm"
                 ],
                 "description":"funeral home",
-                "logo": "hawkerfuneralhome.png",
-                "phone":"2087851320",
+                "logo": "hawkerfuneralhome.jpg",
+                "phone":"(208)785-1320",
                 "website":"https://www.hawkerfuneralhome.com/",
                 "facebook":"https://www.facebook.com/HawkerFuneral/",
                 "facebook_username":"HawkerFuneral"
@@ -108,8 +108,8 @@
                     "saturday : 10am - 10pm"
                 ],
                 "description:":"hamburger restaurant",
-                "logo": "rupes.png",
-                "phone":"2087855710",
+                "logo": "rupes.jpg",
+                "phone":"(208)785-5710",
                 "website":"https://rupesburgers.com",
                 "facebook":"https://www.facebook.com/rupesburgers/",
                 "facebook_username":"rupesburgers"
@@ -127,8 +127,8 @@
                     "saturday : 9:30am - 5pm"
                 ],
                 "description:":"museum",
-                "logo": "idahopotatomuseum.png",
-                "phone":"2087852517",
+                "logo": "idahopotatomuseum.jpg",
+                "phone":"(208)785-2517",
                 "website":"https://idahopotatomuseum.com/",
                 "facebook":"https://www.facebook.com/idahopotatomuseum/",
                 "facebook_username":"idahopotatomuseum"
