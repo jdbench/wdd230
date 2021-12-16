@@ -32,8 +32,16 @@
             </ul>
         </nav>
         <main class="main">
-            <form class="join-form">
-
+            <form class="join-form" action="thanks.html" method="get">
+                <fieldset class="personal">
+                    <legend>Personal Information</legend>
+                    <label for="user-name">Full Name *<input id="user-name" type="text" name="name" pattern="[A-Za-z].{5,}" placeholder="John Doe" required></label>
+                    <label for="user-email">Email *<input id="user-email" type="email" name="email" placeholder="Johndoe@email.com" required></label>
+                    <label for="username">Username *<input id="username" type="varchar" name="username" placeholder="Username" required></label>
+                    <label for="phone-number">Phone Number *<input id="phone-number" type="tel" name="phone" placeholder="12345678910" required></label>
+                    <label for="business-name">Business<input id="business" type="text" name="business" placeholder="Chamber of Commerce"></label>
+                </fieldset>
+                <input id="register" type="submit" value="Submit">
             </form>
         </main>
         <footer class="footer">
