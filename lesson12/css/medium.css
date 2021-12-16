@@ -119,6 +119,17 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    .demographics{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 5px;
+    }
+    .population-div{
+        grid-column: 1/2;
+    }
+    .history-div{
+        grid-column: 2/3;
+    }
     /*footer*/
     .footer-map{
         grid-column: 1/2;

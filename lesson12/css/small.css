@@ -416,6 +416,85 @@
     width: 210px;
     height: 50px;
 }
+.blackfoot{
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    margin: 0 0 20px;
+}
+.city-description{
+    text-align: center;
+}
+.blackfoot-river{
+    max-width: 300px;
+    box-shadow: 0 1px 4px 1px black;
+}
+.blackfoot-river:hover{
+    box-shadow: 1px 2px 5px 1px black;
+}
+.demographics{
+    margin: 20px 0 0 0;
+}
+.population-div{
+    background-color:lightgray;
+    box-shadow: 0 1px 4px 1px black;
+}
+.population-div:hover{
+    box-shadow: 1px 2px 5px 1px black;
+}
+.population{
+    background-color:#282d77;
+    color: #ccd863;
+    padding: 10px;
+}
+.population-text{
+    margin: 15px;
+}
+.other-text{ 
+    margin:15px;
+}
+.potato{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    box-shadow: 0 1px 4px 1px black;
+}
+.potato:hover{
+    box-shadow: 1px 2px 5px 1px black;
+}
+.mountain{
+    object-position: center;
+    object-fit:cover;
+    width: 100%;
+    box-shadow: 0 1px 4px 1px black;
+}
+.mountain:hover{
+    box-shadow: 1px 2px 5px 1px black;
+}
+.history-div{
+    background-color: lightgray;
+    box-shadow: 0 1px 4px 1px black;
+}
+.history-div:hover{
+    box-shadow: 1px 2px 5px 1px black;
+}
+.history{
+    background-color: #282d77;
+    color: #ccd863;
+    padding: 10px;
+}
+.history-text{
+    margin: 15px;
+}
+.bc{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    box-shadow: 0 1px 4px 1px black;
+}
+.bc:hover{
+    box-shadow: 1px 2px 5px 1px black;
+}
 /*footer*/
 .footer{
     margin: 0 auto;
