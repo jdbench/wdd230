@@ -19,7 +19,7 @@ fetch(apiUrl)
                            <img src="http://openweathermap.org/img/wn/${icon}.png" class="current-weather-icon" alt="current weather icon for ${desc}">
                            <p class="current-desc">${desc}</p>
                            <p class="current-temp">${temp}</p>
-                           <p class="current-humidity">${humidity}</p>`;
+                           <p class="current-humidity">${humidity} Humidity</p>`;
         weatherDiv.innerHTML = display_weather;
         if (weather['alerts']) {
             let alerts = weather['alerts'][0]['event'];
@@ -38,7 +38,7 @@ fetch(apiUrl)
         forecast.daily.forEach((value, i) => {
             if (i > 0 && i < 4) {
                 let day = new Date(value.dt * 1000).toLocaleDateString("en", {
-                    weekday: "long"
+                    weekday: "short"
                 });
                 let icon = `http://openweathermap.org/img/wn/${value.weather[0].icon}.png`;
                 let temp = value.temp.day.toFixed(0);

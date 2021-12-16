@@ -126,7 +126,7 @@
     object-position: center;
     width: 100%;
     height: 100%;
-    max-height: 300px;
+    max-height: 400px;
     box-shadow: 0 1px 4px 1px #2C2F2D;
     border-radius: 10px;
 }
@@ -141,6 +141,13 @@
     padding: 5px;
     width: 100px;
     text-decoration: none;
+}
+.member-btn:hover{
+    background-color: black;
+    color: white;
+}
+.weather-summary{
+    margin: 0 0 20px 0;
 }
 .weather{
     background-color:lightgray;
@@ -160,11 +167,13 @@
 .weather-img{
     object-fit: contain;
 }
+.current-desc{
+    text-transform: capitalize;
+}
 .three-day-forecast{
     display:flex;
     background-color: #282d77;
     justify-content: space-between;
-    margin: 0 0 20px;
     padding: 15px;
 }
 .forecast-day{
@@ -243,9 +252,15 @@
     max-height: 150px;
     width: 100%;
 }
+.highlights{
+    margin: 0 0 20px 0;
+}
 .business{
     margin: 0 auto;
+    padding: 0 0 10px 0;
     background-color:lightgray;
+    max-width: 350px;
+    max-height: 318px;
     display: flex;
     row-gap: 5px;
     align-items: center;
@@ -257,6 +272,7 @@
 .business-logo{
     object-fit: cover;
     object-position: center;
+    max-height: 175px;
 }
 .business:hover{
     box-shadow: 1px 2px 5px 1px black;
@@ -382,4 +398,12 @@
     width: 100%;
     background-color: #282d77;
     color: white;
+}
+.page-licensing a{
+    color: white;
+    text-decoration: none;
+}
+.page-licensing a:hover{
+    color: black;
+    background-color:#ccd863;
 }
