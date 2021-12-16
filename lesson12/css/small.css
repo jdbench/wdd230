@@ -136,6 +136,7 @@
     height: fit-content;
 }
 .member-btn{
+    border-radius: 10px;
     color:#ccd863;
     background-color:#282d77;
     padding: 5px;
@@ -207,11 +208,15 @@
     align-items: center;
 }
 .chamber-description{
-    background-color: lightgray;
     margin: 0 0 20px 0;
 }
 .purpose{
+    background-color: lightgray;
     margin: 0 0 20px 0;
+    box-shadow: 0 1px 4px 1px black;
+}
+.purpose:hover{
+    box-shadow: 1px 2px 5px 1px black;
 }
 .purpose-header{
     margin: 0 auto;
@@ -223,12 +228,12 @@
 .purpose-text{
     margin: 10px;
 }
-.purpose-img{
-    margin:0 auto;
-    object-fit: cover;
-    object-position: center;
-    max-height: 150px;
-    width: 100%;
+.goals{
+    background-color: lightgray;
+    box-shadow: 0 1px 4px 1px black;
+}
+.goals:hover{
+    box-shadow: 1px 2px 5px 1px black;
 }
 .goals-header{
     margin: 0 auto;
@@ -251,6 +256,10 @@
     object-position: center;
     max-height: 150px;
     width: 100%;
+    box-shadow: 0 1px 4px 1px black;
+}
+.goals-img:hover{
+    box-shadow: 1px 2px 5px 1px black;
 }
 .highlights{
     margin: 0 0 20px 0;
@@ -312,6 +321,10 @@
     background-color:lightgray;
     padding: 0 0 5px 0;
     margin: 20px 0 20px 0;
+    box-shadow: 0 1px 4px 1px;
+}
+.events:hover{
+    box-shadow: 1px 2px 5px 1px black;
 }
 .events-header{
     background-color:#282d77;
@@ -327,7 +340,11 @@
     margin: 0 auto;
     object-fit:cover;
     object-position: top;
-    max-width: 300px
+    max-width: 300px;
+    box-shadow: 0 1px 4px 1px black;
+}
+.events-img:hover{
+    box-shadow: 1px 2px 5px 1px black;
 }
 .event{
     text-transform: capitalize;
