@@ -107,7 +107,7 @@
                     "friday : 10am - 10pm",
                     "saturday : 10am - 10pm"
                 ],
-                "description:":"hamburger restaurant",
+                "description":"Restaurant",
                 "logo": "rupes.jpg",
                 "phone":"(208)785-5710",
                 "website":"https://rupesburgers.com",
@@ -126,7 +126,7 @@
                     "friday : 9:30am - 5pm",
                     "saturday : 9:30am - 5pm"
                 ],
-                "description:":"museum",
+                "description":"museum",
                 "logo": "idahopotatomuseum.jpg",
                 "phone":"(208)785-2517",
                 "website":"https://idahopotatomuseum.com/",

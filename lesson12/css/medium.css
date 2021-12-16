@@ -99,9 +99,8 @@
         font-size: 16px;
     }
     .business{
-        width: 275px;
-        height: 315px;
-        padding: 0 0 10px 0;
+        max-height: 450px;
+        max-width: 400px;
     }
     .business:nth-child(3){
         grid-column: 1/3;
@@ -115,6 +114,10 @@
     }
     #contact-personal textarea{
         width: 260px;
+    }
+    .businesses{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
     /*footer*/
     .footer-map{

@@ -8,9 +8,11 @@
 }
 .content h1{
     font-size: 1.5em;
+    text-align: center;
 }
 .content h2{
     font-size: 1.3em;
+    text-align: center;
 }
 .content h3{
     font-size: 1.1em;
@@ -269,7 +271,8 @@
     padding: 0 0 10px 0;
     background-color:lightgray;
     max-width: 350px;
-    max-height: 318px;
+    min-height: fit-content;
+    max-height: 400px;
     display: flex;
     row-gap: 5px;
     align-items: center;
@@ -312,10 +315,20 @@
 .business-phone{
     margin: 0 auto;
 }
+.business-address{
+    margin: 0 auto;
+    text-transform: capitalize;
+}
 .business-logo{
     object-position: center;
     object-fit: contain;
     width: 100%;
+}
+.businesses{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin: 0 0 20px 0;
 }
 .events{
     background-color:lightgray;
