@@ -1,1 +1,0 @@
-let date = new Date().getFullYear();document.getElementById("lastEdit").innerHTML = `Last Updated: ${dateString}`;
