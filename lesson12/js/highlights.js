@@ -1,5 +1,5 @@
 const blackfootApi = ("./json/blackfoot.json");
-let eventsDiv = document.querySelector('.events');
+let eventsDiv = document.querySelector('.event-text');
 let highlightsDiv = document.querySelector('.highlights');
 
 fetch(blackfootApi)
@@ -11,7 +11,7 @@ fetch(blackfootApi)
             if (i >= 0 && i < 3){
                 b = `<div class="business">
                         <h3 class="business-head">${business.name}</h3>
-                        <img class="business-logo" src="./images/${business.logo}" alt="business logo for ${business}>
+                        <img class="business-logo" src="./images/${business.logo}" alt="business logo for ${business}">
                         <p class="business-desc">${business.description}</p>
                         <a href="tel:${business.phone} class="business-phone"><i class="fa fa-phone"></i>${business.phone}</p>
                         <a href="${business.website} class="business-site"><i class="fa fa-globe"></i>${business.website}</a>
