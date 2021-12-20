@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home | Blackfoot Chamber of Commerce</title>
-        <meta name="description" content="Blackfoot Chamber of Commerce home page">
+        <title>Join | Blackfoot Chamber of Commerce</title>
+        <meta name="description" content="Blackfoot Chamber of Commerce Join page">
         <script src="js/fontawesome.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,20 +34,35 @@
         <main class="main">
             <h1>Join us!</h1>
             <form class="join-form" action="thanks.html" method="get">
-                <fieldset id="join-personal">
+                <fieldset class="fieldset" id="join-personal">
                     <legend>Personal Information</legend>
-                    <label for="user-name">Full Name *<input id="user-name" type="text" name="name" pattern="[A-Za-z].{5,}" placeholder="John Doe" required></label>
+                    <label for="user-first">First Name*<input id="user-first" type="text" name="name" pattern="[A-Za-z].{5,}" placeholder="John" required></label>
+                    <label for="user-last">Last Name*<input id="user-last" type="text" name="name" pattern="[A-Za-z].{5,}" placeholder="Doe" required></label>
                     <label for="user-email">Email *<input id="user-email" type="email" name="email" placeholder="Johndoe@email.com" required></label>
-                    <label for="username">Username *<input id="username" type="varchar" name="username" placeholder="Username" required></label>
-                    <label for="phone-number">Phone Number *<input id="phone-number" type="tel" name="phone" placeholder="12345678910" required></label>
-                    <label for="business-name">Business<input id="business-name" type="text" name="business" placeholder="Chamber of Commerce"></label>
+                    <label for="user-title">Title<input id="user-title" type="text" name="title" placeholder="Owner"></label>
+                    <label for="username">Username *<input id="username" type="text" name="username" required></label>
+                    <label for="phone-number">Phone Number<input id="phone-number" type="tel" name="phone" placeholder="12345678910"></label>
+                </fieldset>
+                <fieldset class="fieldset" id = "join-business">
+                    <legend>Business</legend>
+                    <label for="business-name">Business Name *<input id="business-name" type="text" name="business" placeholder="Chamber of Commerce" required></label>
+                    <label for="business-address">Business Address<input id="business-address" type="text" name="address" placeholder="1234 S St."></label>
+                    <label for="business-website">Business Website<input id="business-website" type="text" name="website" placeholder="somethine.com"></label>
+                    <label for="business-description">Description<input id="business-description" type="text" name="description"></label>
+                </fieldset>
+                <fieldset id = "join-level">
+                    <legend>Membership Level</legend>
+                    <label for="non-profit"><input id="non-profit" class="membership-radio" type="radio" value="non-profit"> Non-Profit ($100)</label>
+                    <label for="bronze"><input id="bronze" class="membership-radio" type="radio" value="bronze"> Bronze ($200)</label>
+                    <label for="silver"><input id="silver" class="membership-radio" type="radio" value="silver"> Silver ($400)</label>
+                    <label for="gold"><input id="gold" class="membership-radio" type="radio" value="gold"> Gold ($1000)</label>
                 </fieldset>
                 <input class="register" type="submit" value="Submit">
             </form>
         </main>
         <footer class="footer">
             <div class="our-contact-info">
-                <iframe class="map footer-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2909.01534905483!2d-112.34898618451722!3d43.188188779140035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53551a9d853e383d%3A0xfbbc1e0e235a6460!2sGreater%20Blackfoot%20Area%20Chamber%20of%20Commerce!5e0!3m2!1sen!2sus!4v1638228546728!5m2!1sen!2sus" title="70 West Judicial Street Blackfoot, ID 83221" scrolling="no" width="150" height="100"  allowfullscreen="" loading="lazy"></iframe>
+                <iframe class="map footer-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2909.01534905483!2d-112.34898618451722!3d43.188188779140035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53551a9d853e383d%3A0xfbbc1e0e235a6460!2sGreater%20Blackfoot%20Area%20Chamber%20of%20Commerce!5e0!3m2!1sen!2sus!4v1638228546728!5m2!1sen!2sus" title="70 West Judicial Street Blackfoot, ID 83221" width="150" height="100"  allowfullscreen="" loading="lazy"></iframe>
                 <section class="footer-links">
                     <a class="footer-link contact-item" href="tel:2087850510"><i class="fa fa-phone"></i> (208)785-0510</a>
                     <a class="footer-link contact-item" href="mailto:chamber@blackfootchamber.org"><i class="fa fa-envelope"></i> chamber@blackfootchamber.org</a>

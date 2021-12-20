@@ -371,7 +371,7 @@
     flex-direction: column;
     row-gap: 20px;
 }
-#join-personal label{
+.fieldset label{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -380,7 +380,7 @@
     line-height: 26px;
     margin: 20px 0 20px 0;
 }
-#join-personal input{
+.fieldset input{
     height: 20px;
     flex: 0 0 200px;
     margin-left: 10px;
@@ -389,6 +389,11 @@
     padding: 15px;
     background-color: #282d77;
     color: #ccd863;
+}
+#join-level{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
 }
 .contact-form{
     max-width: 1024px;
@@ -415,6 +420,15 @@
 #contact-personal textarea{
     width: 210px;
     height: 50px;
+}
+.board-of-directors{
+    text-align: center;
+}
+.bod-title{
+    list-style: none;
+}
+.director{
+    list-style: none;
 }
 .blackfoot{
     align-items: center;
