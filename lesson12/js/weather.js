@@ -23,10 +23,13 @@ fetch(apiUrl)
         weatherDiv.innerHTML = display_weather;
         if (weather['alerts']) {
             let alerts = weather['alerts'][0]['event'];
-            display_alerts = `<div class="alert">
-                                <h1 class="alert-text">Alert: ${alerts}</h1><div><a href="javascript:void(0);" class="close" onclick="exitAlert()">❌</a></div>
-                              </div>`;
-            alertDiv.innerHTML = display_alerts;
+            alerts.forEach((alert) => {
+                display_alerts = `<div class="alert">
+                                    <h1 class="alert-text">Alert: ${alert}</h1><div><a href="javascript:void(0);" class="close" onclick="exitAlert()">❌</a></div>
+                                  </div>`;
+                alertDiv.insertAdjacentHTML('beforeend', display_alerts);
+            });
+            
         }
         
 });
