@@ -48,6 +48,7 @@
         top: 150px;
         left: 25px;
         width: 325px;
+        min-height: 455.3px;
     }
     .weather-summary:hover{
         opacity: 100%;

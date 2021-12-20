@@ -47,6 +47,7 @@
         opacity: 80%;
         box-shadow: 0 1px 4px 1px black;
         width: 325px;
+        min-height: 561.53px;
     }
     .weather-summary:hover{
         box-shadow: 1px 2px 5px 1px black;

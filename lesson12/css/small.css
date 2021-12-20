@@ -151,6 +151,7 @@
 }
 .weather-summary{
     margin: 0 0 20px 0;
+    min-height: 402px;
 }
 .weather{
     background-color:lightgray;
