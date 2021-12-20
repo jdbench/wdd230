@@ -337,14 +337,18 @@
 }
 .events{
     background-color:lightgray;
-    padding: 0 0 5px 0;
+    padding: 0 0 20px 0;
     margin: 20px 0 20px 0;
     box-shadow: 0 1px 4px 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .events:hover{
     box-shadow: 1px 2px 5px 1px black;
 }
 .events-header{
+    width: 100%;
     background-color:#282d77;
     color:#ccd863;
     margin: 0 auto;
@@ -356,8 +360,9 @@
 }
 .events-img{
     margin: 0 auto;
-    object-fit:cover;
+    object-fit:contain;
     object-position: top;
+    width: 100%;
     max-width: 300px;
     box-shadow: 0 1px 4px 1px black;
 }
@@ -455,35 +460,43 @@
     margin: 20px 0 0 0;
 }
 .population-div{
+    padding: 0 0 20px;
     background-color:lightgray;
     box-shadow: 0 1px 4px 1px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
 }
 .population-div:hover{
     box-shadow: 1px 2px 5px 1px black;
 }
 .population{
+    width: 100%;
     background-color:#282d77;
     color: #ccd863;
-    padding: 10px;
+    padding: 10px 0 10px;
 }
 .population-text{
-    margin: 15px;
+    margin: 15px auto;
 }
 .other-text{ 
     margin:15px;
 }
 .potato{
-    object-fit: cover;
+    object-fit: contain;
     object-position: center;
-    width: 100%;
     box-shadow: 0 1px 4px 1px black;
+    width: 100%;
+    max-width: 300px;
 }
 .potato:hover{
     box-shadow: 1px 2px 5px 1px black;
 }
 .mountain{
     object-position: center;
-    object-fit:cover;
+    object-fit:contain;
+    max-width: 300px;
     width: 100%;
     box-shadow: 0 1px 4px 1px black;
 }
@@ -493,22 +506,29 @@
 .history-div{
     background-color: lightgray;
     box-shadow: 0 1px 4px 1px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 20px;
 }
 .history-div:hover{
     box-shadow: 1px 2px 5px 1px black;
 }
 .history{
+    width: 100%;
+    padding: 10px 0 10px;
     background-color: #282d77;
     color: #ccd863;
-    padding: 10px;
 }
 .history-text{
     margin: 15px;
 }
 .bc{
-    object-fit: cover;
+    object-fit: contain;
     object-position: center;
     width: 100%;
+    max-width: 300px;
     box-shadow: 0 1px 4px 1px black;
 }
 .bc:hover{
