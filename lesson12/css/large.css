@@ -57,6 +57,7 @@
     }
     .three-day-forecast{
         margin: auto;
+        min-height: 150px;
     }
     .big-home-content{
         margin: 40px 0 20px 0;

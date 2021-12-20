@@ -179,6 +179,7 @@
     background-color: #282d77;
     justify-content: space-between;
     padding: 15px;
+    min-height: 120px;
 }
 .forecast-day{
     box-shadow: 0 1px 4px 1px black inset;

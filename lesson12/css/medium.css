@@ -59,6 +59,7 @@
     }
     .three-day-forecast{
         margin: auto;
+        min-height: 50px;
     }
     .chamber-description{
         display: grid;
