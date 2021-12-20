@@ -98,6 +98,9 @@
         grid-template-columns: 1fr 1fr;
         font-size: 16px;
     }
+    .switch-buttons{
+        display: block;
+    }
     .business{
         max-height: 450px;
         max-width: 400px;
@@ -115,7 +118,7 @@
     #contact-personal textarea{
         width: 260px;
     }
-    .businesses{
+    .grid{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }

@@ -266,12 +266,18 @@
 .highlights{
     margin: 0 0 20px 0;
 }
+.switch-buttons{
+    display: none;
+    text-align: right;
+    margin: 0 0 20px;
+}
 .business{
     margin: 0 auto;
     padding: 0 0 10px 0;
     background-color:lightgray;
     max-width: 350px;
     min-height: fit-content;
+    min-width: fit-content;
     max-height: 400px;
     display: flex;
     row-gap: 5px;

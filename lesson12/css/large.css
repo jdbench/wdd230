@@ -104,6 +104,9 @@
         font-size: 18px;
         column-gap: 10px;
     }
+    .switch-buttons{
+        display: block;
+    }
     .business{
         max-width: 400px;
     }
@@ -122,8 +125,11 @@
     }
     .businesses{
         font-size: 16px;
-        display: grid;
         column-gap: 10px;
+    }
+    .grid{
+        
+        display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
     .businesses .business:first-child{
