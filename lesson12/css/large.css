@@ -66,17 +66,14 @@
         column-gap: 10px;
     }
     .chamber-description{
-        display: grid;
+        display: flex;
+        justify-content: space-between;
         flex-direction: column;
         height: 100%;
     }
-    .purpose{
-        grid-column: 1/2;
-        grid-row: 1/2;
-    }
     .goals{
-        grid-column: 1/2;
-        grid-row: 2/3;
+        padding: 0 0 10px;
+        margin: 0 0 -10px;
     }
     .goals-img{
         max-height: unset;
@@ -84,6 +81,7 @@
         object-position: center;
     }
     .events{
+        padding: 0;
         margin: 0 auto;
     }
     .event-text{
